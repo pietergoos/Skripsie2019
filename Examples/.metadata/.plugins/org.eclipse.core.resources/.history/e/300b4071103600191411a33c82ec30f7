@@ -115,8 +115,6 @@ extern MSC_ApplicationTypeDef AppliState;
 void WavePlayBack(uint32_t AudioFreq)
 { 
   UINT bytesread = 0;
-  int i = 0;
-  int j = 0;
   
   /* Start playing */
   AudioPlayStart = 1;
@@ -135,15 +133,13 @@ void WavePlayBack(uint32_t AudioFreq)
   AudioRemSize = WaveDataLength - bytesread;
   */
 
-  for(i = 0; i < sizeof(files); i++){
+  for(int i = 0; i < sizeof(files); i++){
 	  f_lseek(&Files[i], 0);
 	  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE, &bytesread);
   }
   AudioRemSize = WaveDataLength - bytesread;
 
-  for(j = 0; j < AUDIO_BUFFER_SIZE; j++){
-	  Audio_Buffer[j] = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
-  }
+
 
 
   
@@ -180,39 +176,20 @@ void WavePlayBack(uint32_t AudioFreq)
       
       if(BufferOffset == BUFFER_OFFSET_HALF)
       {
-    	  for(i = 0; i < sizeof(files); i++){
-    		  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE/2, (void *)&bytesread);
-    	  }
-
-    	  for(j = 0; j < AUDIO_BUFFER_SIZE / 2; j++){
-    		  Audio_Buffer[j] = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
-    	  }
-
-    	/*
         f_read(&FileRead, 
                &Audio_Buffer[0], 
                AUDIO_BUFFER_SIZE/2, 
                (void *)&bytesread); 
-        */
+        
         BufferOffset = BUFFER_OFFSET_NONE;
       }
       
       if(BufferOffset == BUFFER_OFFSET_FULL)
       {
-    	  /*
         f_read(&FileRead, 
                &Audio_Buffer[AUDIO_BUFFER_SIZE/2], 
                AUDIO_BUFFER_SIZE/2, 
                (void *)&bytesread); 
-               */
-
-    	  for(i = 0; i < sizeof(files); i++){
-			  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE/2, (void *)&bytesread);
-		  }
-
-		  for(j = 0; j < AUDIO_BUFFER_SIZE / 2; j++){
-			  Audio_Buffer[j + (AUDIO_BUFFER_SIZE / 2)] = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
-		  }
         
         BufferOffset = BUFFER_OFFSET_NONE;
       } 

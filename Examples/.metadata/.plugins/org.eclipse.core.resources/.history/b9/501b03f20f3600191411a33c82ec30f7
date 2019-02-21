@@ -91,10 +91,6 @@ extern __IO uint32_t CmdIndex;
 FIL FileRead;
 DIR Directory;
 
-/* PIETER */
-FIL Files[5];
-uint8_t audioPart[5][AUDIO_BUFFER_SIZE];
-
 /* Variable used to switch play from audio sample available on USB to recorded file. */
 /* Defined in waverecorder.c */
 extern uint32_t WaveRecStatus;
@@ -115,8 +111,6 @@ extern MSC_ApplicationTypeDef AppliState;
 void WavePlayBack(uint32_t AudioFreq)
 { 
   UINT bytesread = 0;
-  int i = 0;
-  int j = 0;
   
   /* Start playing */
   AudioPlayStart = 1;
@@ -129,23 +123,9 @@ void WavePlayBack(uint32_t AudioFreq)
   }
   
   /* Get Data from USB Flash Disk */
-  /*
   f_lseek(&FileRead, 0);
   f_read (&FileRead, &Audio_Buffer[0], AUDIO_BUFFER_SIZE, &bytesread);
   AudioRemSize = WaveDataLength - bytesread;
-  */
-
-  for(i = 0; i < sizeof(files); i++){
-	  f_lseek(&Files[i], 0);
-	  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE, &bytesread);
-  }
-  AudioRemSize = WaveDataLength - bytesread;
-
-  for(j = 0; j < AUDIO_BUFFER_SIZE; j++){
-	  Audio_Buffer[j] = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
-  }
-
-
   
   /* Start playing Wave */
   BSP_AUDIO_OUT_Play((uint16_t*)&Audio_Buffer[0], AUDIO_BUFFER_SIZE);
@@ -180,39 +160,20 @@ void WavePlayBack(uint32_t AudioFreq)
       
       if(BufferOffset == BUFFER_OFFSET_HALF)
       {
-    	  for(i = 0; i < sizeof(files); i++){
-    		  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE/2, (void *)&bytesread);
-    	  }
-
-    	  for(j = 0; j < AUDIO_BUFFER_SIZE / 2; j++){
-    		  Audio_Buffer[j] = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
-    	  }
-
-    	/*
         f_read(&FileRead, 
                &Audio_Buffer[0], 
                AUDIO_BUFFER_SIZE/2, 
                (void *)&bytesread); 
-        */
+        
         BufferOffset = BUFFER_OFFSET_NONE;
       }
       
       if(BufferOffset == BUFFER_OFFSET_FULL)
       {
-    	  /*
         f_read(&FileRead, 
                &Audio_Buffer[AUDIO_BUFFER_SIZE/2], 
                AUDIO_BUFFER_SIZE/2, 
                (void *)&bytesread); 
-               */
-
-    	  for(i = 0; i < sizeof(files); i++){
-			  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE/2, (void *)&bytesread);
-		  }
-
-		  for(j = 0; j < AUDIO_BUFFER_SIZE / 2; j++){
-			  Audio_Buffer[j + (AUDIO_BUFFER_SIZE / 2)] = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
-		  }
         
         BufferOffset = BUFFER_OFFSET_NONE;
       } 
@@ -363,12 +324,7 @@ void WavePlayerStart(void)
       wavefilename = WAVE_NAME; 
     }
     /* Open the Wave file to be played */
-    //if(f_open(&FileRead, wavefilename , FA_READ) != FR_OK)
-    if(f_open(&Files[0], wavefilename, FA_READ) != FR_OK &&
-    		f_open(&Files[1], wavefilename, FA_READ) != FR_OK &&
-			f_open(&Files[2], wavefilename, FA_READ) != FR_OK &&
-			f_open(&Files[3], wavefilename, FA_READ) != FR_OK &&
-			f_open(&Files[4], wavefilename, FA_READ) != FR_OK )
+    if(f_open(&FileRead, wavefilename , FA_READ) != FR_OK)
     {
       BSP_LED_On(LED5);
       CmdIndex = CMD_RECORD;
@@ -376,9 +332,8 @@ void WavePlayerStart(void)
     else
     {    
       /* Read sizeof(WaveFormat) from the selected file */
-      //f_read (&FileRead, &waveformat, sizeof(waveformat), &bytesread);
-      f_read (&Files[0], &waveformat, sizeof(waveformat), &bytesread);
-
+      f_read (&FileRead, &waveformat, sizeof(waveformat), &bytesread);
+      
       /* Set WaveDataLenght to the Speech Wave length */
       WaveDataLength = waveformat.FileSize;
     
