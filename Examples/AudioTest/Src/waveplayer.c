@@ -135,7 +135,7 @@ void WavePlayBack(uint32_t AudioFreq)
   AudioRemSize = WaveDataLength - bytesread;
   */
 
-  for(i = 0; i < sizeof(files); i++){
+  for(i = 0; i < sizeof(Files); i++){
 	  f_lseek(&Files[i], 0);
 	  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE, &bytesread);
   }
@@ -180,7 +180,7 @@ void WavePlayBack(uint32_t AudioFreq)
       
       if(BufferOffset == BUFFER_OFFSET_HALF)
       {
-    	  for(i = 0; i < sizeof(files); i++){
+    	  for(i = 0; i < sizeof(Files); i++){
     		  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE/2, (void *)&bytesread);
     	  }
 
@@ -206,7 +206,7 @@ void WavePlayBack(uint32_t AudioFreq)
                (void *)&bytesread); 
                */
 
-    	  for(i = 0; i < sizeof(files); i++){
+    	  for(i = 0; i < sizeof(Files); i++){
 			  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE/2, (void *)&bytesread);
 		  }
 
