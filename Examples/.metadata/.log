@@ -108,3 +108,32 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-02-21 20:59:54.541
 !MESSAGE Indexed 'AudioTest' (47 sources, 131 headers) in 3,91 sec: 13 389 declarations; 69 063 references; 0 unresolved inclusions; 154 syntax errors; 54 unresolved names (0,065%)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-21 21:56:29.516
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY com.atollic.truestudio.debug 4 0 2019-02-21 23:28:24.623
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 15 (contextManager row 121)
+
+!ENTRY com.atollic.truestudio.debug 4 0 2019-02-21 23:28:24.626
+!MESSAGE Existing sessions are:
+
+!ENTRY com.atollic.truestudio.debug 4 0 2019-02-21 23:28:24.779
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 15 (contextManager row 121)
+
+!ENTRY com.atollic.truestudio.debug 4 0 2019-02-21 23:28:24.781
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-02-21 23:40:09.138
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@209a3e): Status ERROR: org.eclipse.cdt.dsf code=10001 Sequence "" failed while rolling back. null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-02-21 23:40:09.138
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-02-21 23:40:09.138
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-02-22 00:01:17.982
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@19fd60): Status ERROR: org.eclipse.cdt.dsf code=10001 Sequence "" failed while rolling back. null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-02-22 00:01:17.982
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-02-22 00:01:17.982
+!MESSAGE Connection is shut down
