@@ -21,23 +21,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
   8 .ARM.attributes 0000002e  00000000  00000000  0002041c  2**0
                   CONTENTS, READONLY
-  9 .debug_info   0003fcf9  00000000  00000000  0002044a  2**0
+  9 .debug_info   0003fcda  00000000  00000000  0002044a  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_abbrev 000077ef  00000000  00000000  00060143  2**0
+ 10 .debug_abbrev 000077d9  00000000  00000000  00060124  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    00015fc4  00000000  00000000  00067932  2**0
+ 11 .debug_loc    00015f90  00000000  00000000  000678fd  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_aranges 00001630  00000000  00000000  0007d8f8  2**3
+ 12 .debug_aranges 00001630  00000000  00000000  0007d890  2**3
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_ranges 00002098  00000000  00000000  0007ef28  2**3
+ 13 .debug_ranges 00002098  00000000  00000000  0007eec0  2**3
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_line   0000f8de  00000000  00000000  00080fc0  2**0
+ 14 .debug_line   0000f8de  00000000  00000000  00080f58  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_str    00007f7a  00000000  00000000  0009089e  2**0
+ 15 .debug_str    00007f6d  00000000  00000000  00090836  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .comment      000000fe  00000000  00000000  00098818  2**0
+ 16 .comment      000000fe  00000000  00000000  000987a3  2**0
                   CONTENTS, READONLY
- 17 .debug_frame  00004858  00000000  00000000  00098918  2**2
+ 17 .debug_frame  00004858  00000000  00000000  000988a4  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -22524,7 +22524,7 @@ int WavePlayerInit(uint32_t AudioFreq)
  8008a0a:	4403      	add	r3, r0
  8008a0c:	440b      	add	r3, r1
  8008a0e:	fb93 f3f4 	sdiv	r3, r3, r4
-    		  	  Audio_Buffer[j] = (uint8_t) tempInt;
+    		  Audio_Buffer[j] = (uint8_t) tempInt;
  8008a12:	f80a 3002 	strb.w	r3, [sl, r2]
     	  for(j = 0; j < AUDIO_BUFFER_SIZE / 2; j++){
  8008a16:	3201      	adds	r2, #1
@@ -22748,7 +22748,7 @@ void WavePlayerStart(void)
   char path[] = "0:/";
  8008b92:	4b2a      	ldr	r3, [pc, #168]	; (8008c3c <WavePlayerStart+0xb4>)
  8008b94:	f841 3d30 	str.w	r3, [r1, #-48]!
-  char* wavefilename = NULL;
+  //char* wavefilename = NULL;
   WAVE_FormatTypeDef waveformat;
   
   /* Get the read out protection status */
@@ -22756,9 +22756,9 @@ void WavePlayerStart(void)
  8008b98:	4829      	ldr	r0, [pc, #164]	; (8008c40 <WavePlayerStart+0xb8>)
  8008b9a:	f7fd fb62 	bl	8006262 <f_opendir>
  8008b9e:	bb18      	cbnz	r0, 8008be8 <WavePlayerStart+0x60>
-    {
       wavefilename = WAVE_NAME; 
     }
+    */
     /* Open the Wave file to be played */
     //if(f_open(&FileRead, wavefilename , FA_READ) != FR_OK)
     if(f_open(&Files[0], "0:wave0.wav", FA_READ) != FR_OK && f_open(&Files[1], "0:wave1.wav", FA_READ) != FR_OK && f_open(&Files[2], "0:wave2.wav", FA_READ) != FR_OK && f_open(&Files[3], "0:wave3.wav", FA_READ) != FR_OK && f_open(&Files[4], "0:wave4.wav", FA_READ) != FR_OK )

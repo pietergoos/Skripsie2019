@@ -3059,7 +3059,7 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.2.0/armtools/bin/../l
                 0x00000f24       0x22 c:/program files (x86)/atollic/truestudio for stm32 9.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtn.o
 OUTPUT(AudioTest.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x3fcf9
+.debug_info     0x00000000    0x3fcda
  .debug_info    0x00000000     0x1364 Components\cs43l22\cs43l22.o
  .debug_info    0x00001364      0xaf3 Components\lsm303dlhc\lsm303dlhc.o
  .debug_info    0x00001e57     0x111a Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o
@@ -3096,11 +3096,11 @@ OUTPUT(AudioTest.elf elf32-littlearm)
  .debug_info    0x00036c57     0x2197 Src\stm32f4xx_it.o
  .debug_info    0x00038dee      0xd46 Src\system_stm32f4xx.o
  .debug_info    0x00039b34     0x21fe Src\usbh_conf.o
- .debug_info    0x0003bd32     0x2134 Src\waveplayer.o
- .debug_info    0x0003de66     0x1df1 Src\waverecorder.o
- .debug_info    0x0003fc57       0xa2 startup\startup_stm32f411xe.o
+ .debug_info    0x0003bd32     0x2115 Src\waveplayer.o
+ .debug_info    0x0003de47     0x1df1 Src\waverecorder.o
+ .debug_info    0x0003fc38       0xa2 startup\startup_stm32f411xe.o
 
-.debug_abbrev   0x00000000     0x77ef
+.debug_abbrev   0x00000000     0x77d9
  .debug_abbrev  0x00000000      0x305 Components\cs43l22\cs43l22.o
  .debug_abbrev  0x00000305      0x1e3 Components\lsm303dlhc\lsm303dlhc.o
  .debug_abbrev  0x000004e8      0x324 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o
@@ -3137,11 +3137,11 @@ OUTPUT(AudioTest.elf elf32-littlearm)
  .debug_abbrev  0x00006891      0x2e0 Src\stm32f4xx_it.o
  .debug_abbrev  0x00006b71      0x1ca Src\system_stm32f4xx.o
  .debug_abbrev  0x00006d3b      0x383 Src\usbh_conf.o
- .debug_abbrev  0x000070be      0x395 Src\waveplayer.o
- .debug_abbrev  0x00007453      0x38a Src\waverecorder.o
- .debug_abbrev  0x000077dd       0x12 startup\startup_stm32f411xe.o
+ .debug_abbrev  0x000070be      0x37f Src\waveplayer.o
+ .debug_abbrev  0x0000743d      0x38a Src\waverecorder.o
+ .debug_abbrev  0x000077c7       0x12 startup\startup_stm32f411xe.o
 
-.debug_loc      0x00000000    0x15fc4
+.debug_loc      0x00000000    0x15f90
  .debug_loc     0x00000000      0xdfd Components\cs43l22\cs43l22.o
  .debug_loc     0x00000dfd      0x64b Components\lsm303dlhc\lsm303dlhc.o
  .debug_loc     0x00001448       0x91 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o
@@ -3176,8 +3176,8 @@ OUTPUT(AudioTest.elf elf32-littlearm)
  .debug_loc     0x00015098      0x748 Src\stm32f411e_discovery_audio.o
  .debug_loc     0x000157e0      0x11c Src\system_stm32f4xx.o
  .debug_loc     0x000158fc      0x48e Src\usbh_conf.o
- .debug_loc     0x00015d8a      0x16a Src\waveplayer.o
- .debug_loc     0x00015ef4       0xd0 Src\waverecorder.o
+ .debug_loc     0x00015d8a      0x136 Src\waveplayer.o
+ .debug_loc     0x00015ec0       0xd0 Src\waverecorder.o
 
 .debug_aranges  0x00000000     0x1630
  .debug_aranges
@@ -3341,7 +3341,7 @@ OUTPUT(AudioTest.elf elf32-littlearm)
  .debug_line    0x0000f10c      0x753 Src\waverecorder.o
  .debug_line    0x0000f85f       0x7f startup\startup_stm32f411xe.o
 
-.debug_str      0x00000000     0x7f7a
+.debug_str      0x00000000     0x7f6d
  .debug_str     0x00000000      0x332 Components\cs43l22\cs43l22.o
                                 0x415 (size before relaxing)
  .debug_str     0x00000332      0x39d Components\lsm303dlhc\lsm303dlhc.o
@@ -3414,9 +3414,9 @@ OUTPUT(AudioTest.elf elf32-littlearm)
                                 0x807 (size before relaxing)
  .debug_str     0x00007c1f       0x34 Src\usbh_conf.o
                                0x1b37 (size before relaxing)
- .debug_str     0x00007c53      0x1ea Src\waveplayer.o
-                               0x15c1 (size before relaxing)
- .debug_str     0x00007e3d      0x13d Src\waverecorder.o
+ .debug_str     0x00007c53      0x1dd Src\waveplayer.o
+                               0x15b4 (size before relaxing)
+ .debug_str     0x00007e30      0x13d Src\waverecorder.o
                                0x154a (size before relaxing)
 
 .comment        0x00000000       0xfe

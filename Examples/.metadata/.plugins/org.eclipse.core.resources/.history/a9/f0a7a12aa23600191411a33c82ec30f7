@@ -189,7 +189,7 @@ void WavePlayBack(uint32_t AudioFreq)
     	  for(j = 0; j < AUDIO_BUFFER_SIZE / 2; j++){
     		  tempInt = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
     		  //tempInt = audioPart[0][j];
-    		  Audio_Buffer[j] = (uint8_t) tempInt;
+    		  	  Audio_Buffer[j] = (uint8_t) tempInt;
     	}
 
     	/*
@@ -367,13 +367,12 @@ void WavePlayerStart(void)
 {
   UINT bytesread = 0;
   char path[] = "0:/";
-  //char* wavefilename = NULL;
+  char* wavefilename = NULL;
   WAVE_FormatTypeDef waveformat;
   
   /* Get the read out protection status */
   if(f_opendir(&Directory, path) == FR_OK)
   {
-	  /*
     if(WaveRecStatus == 1)
     {
       wavefilename = REC_WAVE_NAME;
@@ -382,7 +381,6 @@ void WavePlayerStart(void)
     {
       wavefilename = WAVE_NAME; 
     }
-    */
     /* Open the Wave file to be played */
     //if(f_open(&FileRead, wavefilename , FA_READ) != FR_OK)
     if(f_open(&Files[0], "0:wave0.wav", FA_READ) != FR_OK && f_open(&Files[1], "0:wave1.wav", FA_READ) != FR_OK && f_open(&Files[2], "0:wave2.wav", FA_READ) != FR_OK && f_open(&Files[3], "0:wave3.wav", FA_READ) != FR_OK && f_open(&Files[4], "0:wave4.wav", FA_READ) != FR_OK )
