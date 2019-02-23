@@ -137,3 +137,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE Connection is shut down
 !SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-02-22 00:01:17.982
 !MESSAGE Connection is shut down
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-02-22 16:41:20.535
+!MESSAGE Unloading product manager
