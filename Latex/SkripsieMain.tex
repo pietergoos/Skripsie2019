@@ -1,0 +1,162 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{geometry} % To set page size and margins accurately
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+%\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{paralist} % For compactitem lists
+\usepackage{color} % Color management options
+\usepackage{listings} % To typeset source code
+\usepackage{pdflscape} % Landscape pages
+\usepackage{acro} %To create acronyms lists
+\usepackage{pgfplots}
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage[strings]{underscore}
+\usepackage{pdfpages}
+
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+\setlength\parindent{0.5cm} % Set indentation for paragraphs
+% To make floats, on float only pages, placed at top.
+\makeatletter
+	\setlength{\@fptop}{0pt}
+	\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+%	ACRONYMS AND SYMBOLS
+%----------------------------------------------------------------------------------------
+% class `abbrev': abbreviations:
+\DeclareAcronym{opamp}{
+	short = Op-Amp ,
+	long  = Operational Amplifier ,
+	short-plural = s ,
+	long-plural = s ,
+	class = abbrev
+}
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION AND TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{Sequential Drum Machine \\using an ARM M4 CPU} % Title
+
+\author{Pieter \textsc{Goos}} % Author name
+
+\date{\today} % Date for the report
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{0.5 cm}
+    \includegraphics[scale = 2]{EELogo.png}\\[1.0 cm]   % University Logo
+    \textsc{\LARGE Project (E) 448 \\ Technical Report}\\[0.5 cm]               % Course Name
+    \rule{\linewidth}{0.2 mm} \\[0.4 cm]
+    { \huge \bfseries \thetitle }\\[0.4 cm]
+    \rule{\linewidth}{0.2 mm} \\[1.5 cm]
+    
+	\begin{minipage}{6.5cm}
+		\begin{flushleft} \large
+			\emph{Author:}\\
+			\theauthor
+		\end{flushleft}
+	\end{minipage}~
+	\begin{minipage}{6.5cm}
+		\begin{flushright} \large
+			\emph{Student Number:} \\
+			19231466
+		\end{flushright}
+	\end{minipage}\\[2 cm]
+    
+    {\large \thedate}\\[2 cm]
+    \vfill
+    \includegraphics[width=7cm]{SUNLogo.jpg}\\[1.0 cm]
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION
+%----------------------------------------------------------------------------------------
+{\Large \bf Plagiarism Declaration}
+\begin{enumerate}
+\item Plagiarism is the use of ideas, material and other intellectual property of another's work and to present is as my own.
+\item I agree that plagiarism is a punishable offence because it constitutes theft.
+\item I also understand that direct translations are plagiarism.
+\item Accordingly all quotations and contributions from any source whatsoever (including the internet) have been cited fully. I understand that the reproduction of text without quotation marks (even when the source is cited) is plagiarism.
+\item I declare that the work contained in this assignment, except where otherwise stated, is my original work and that I have not previously (in its entirety or in part) submitted it for grading in this module/assignment or another module/assignment.
+\end{enumerate}
+\vspace{1cm}
+\begin{table}[ht]
+	\begin{center}
+		\begin{tabular*}{15.5cm}{@{\extracolsep{\fill}}lll}
+%		\begin{tabular}{l l l}
+			\makebox[8cm]{\hrulefill} & & \makebox[6cm]{\hrulefill}\\
+			Signature & & Student number\\[1cm]
+			\makebox[8cm]{\hrulefill} & & \makebox[6cm]{\hrulefill}\\ 
+			Initials and surname & & Date \\
+		\end{tabular*}
+	\end{center}
+\end{table}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+\begin{abstract}
+
+\end{abstract}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	TOC, Lists (Figures, Tables etc)
+%----------------------------------------------------------------------------------------
+\tableofcontents
+\listoffigures
+\listoftables
+%Acronym lists
+\printacronyms[include-classes=abbrev,name={List of Abbreviations}]
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+\section{Introduction}
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+\section{System description}
+
+\clearpage 
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,references}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	APPENDIX
+%----------------------------------------------------------------------------------------
+
+\newpage
+\end{document}
