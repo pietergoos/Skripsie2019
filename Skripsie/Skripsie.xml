@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Skripsie\Skripsie.sch</source>
+    <date>26 Feb 2019 12:56:28 PM</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Skripsie.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>TPIC6C596</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <libsource lib="Pieter" part="TPIC6C596" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C750BEF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SN74HC595</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <libsource lib="Pieter" part="SN74HC595" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C750FAA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7510BF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C751FF0</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C75208A</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C75213C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7521E6</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C752288</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C752362</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C752434</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DECC</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DEEF</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DF12</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DF35</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DF58</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DF7B</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DF9E</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DEA9</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SN74HC595</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <libsource lib="Pieter" part="SN74HC595" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9E80A1</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA24B4C</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA24CD3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA24D97</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA24E63</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA24F27</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA24FED</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA250B3</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA2517D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA351A4</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA351AB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA351B2</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA351B9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA351C0</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA351C7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA351CE</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA351D5</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Jack</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1D9CA0</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D220B49</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D220C15</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D220E52</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D23EC11</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D25C9D3</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D27A79C</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D298568</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2B6335</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2D4103</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2F1ED0</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D30FCAC</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D32DA73</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D34B841</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D36960C</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3873E2</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3A51BD</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3C3F28</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3D88F8</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3ED2D1</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D401CAF</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D416696</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D42B076</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D43FA5D</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D45443F</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D468E26</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D47D7FE</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4921DF</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4A6BC9</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4BB5A6</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4D03A9</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4E6D90</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4FD786</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D514171</tstamp>
+    </comp>
+    <comp ref="D70">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52AB5B</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D541542</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D557F2E</tstamp>
+    </comp>
+    <comp ref="D71">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D56E91B</tstamp>
+    </comp>
+    <comp ref="D72">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D585309</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D59BCF2</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5B26E2</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5C90D5</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5DFACB</tstamp>
+    </comp>
+    <comp ref="D73">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5F64D5</tstamp>
+    </comp>
+    <comp ref="D74">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D623907</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D63A2F6</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D650CF8</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6676FF</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D67E0F9</tstamp>
+    </comp>
+    <comp ref="D75">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D694AF8</tstamp>
+    </comp>
+    <comp ref="D76">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6AB4F2</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6C1EF3</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6D88F9</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6EF302</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D705CFC</tstamp>
+    </comp>
+    <comp ref="D77">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71C6FD</tstamp>
+    </comp>
+    <comp ref="D78">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7330FD</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D749B02</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D760506</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D776F01</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D78D903</tstamp>
+    </comp>
+    <comp ref="D79">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7A4308</tstamp>
+    </comp>
+    <comp ref="D80">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7BAD12</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7D1715</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="LED generic, alternativ symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7E8125</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ALT">
+      <description>LED generic, alternativ symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pieter" part="SN74HC595">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="output"/>
+        <pin num="2" name="QC" type="output"/>
+        <pin num="3" name="QD" type="output"/>
+        <pin num="4" name="QE" type="output"/>
+        <pin num="5" name="QF" type="output"/>
+        <pin num="6" name="QG" type="output"/>
+        <pin num="7" name="QH" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pieter" part="TPIC6C596">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPIC6C596</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="SER_IN" type="input"/>
+        <pin num="3" name="DRAIN0" type="output"/>
+        <pin num="4" name="DRAIN1" type="output"/>
+        <pin num="5" name="DRAIN2" type="output"/>
+        <pin num="6" name="DRAIN3" type="output"/>
+        <pin num="7" name="~CLR" type="input"/>
+        <pin num="8" name="~G" type="input"/>
+        <pin num="9" name="SER_OUT" type="output"/>
+        <pin num="10" name="RCK" type="input"/>
+        <pin num="11" name="DRAIN4" type="output"/>
+        <pin num="12" name="DRAIN5" type="output"/>
+        <pin num="13" name="DRAIN6" type="output"/>
+        <pin num="14" name="DRAIN7" type="output"/>
+        <pin num="15" name="SRCLK" type="input"/>
+        <pin num="16" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Pieter">
+      <uri>C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Skripsie\Pieter.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="SHIFT_REG_CLK">
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="2" name="c6">
+      <node ref="D39" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D71" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="4" name="c10">
+      <node ref="D59" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D75" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D43" pin="1"/>
+    </net>
+    <net code="5" name="c12">
+      <node ref="R7" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D77" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R15-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="7" name="c14">
+      <node ref="D79" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="9" name="SERIAL">
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="10" name="REGISTERCLOCK">
+      <node ref="U3" pin="10"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="11" name="Net-(R9-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="12" name="c2">
+      <node ref="D19" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D67" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="13" name="c4">
+      <node ref="D21" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R6-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="16" name="Net-(R7-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R8-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="18" name="c0">
+      <node ref="D17" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D65" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D33" pin="1"/>
+    </net>
+    <net code="19" name="c8">
+      <node ref="R5" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D73" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="21" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="15"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="23" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="24" name="Net-(R11-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="26" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="28" name="r2">
+      <node ref="D36" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D44" pin="2"/>
+      <node ref="D45" pin="2"/>
+      <node ref="D46" pin="2"/>
+      <node ref="D47" pin="2"/>
+      <node ref="D40" pin="2"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D43" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="D39" pin="2"/>
+      <node ref="D48" pin="2"/>
+    </net>
+    <net code="29" name="+3V3">
+      <node ref="U2" pin="16"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="31" name="r0">
+      <node ref="D16" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="32" name="r1">
+      <node ref="D25" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="D21" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="33" name="r3">
+      <node ref="D54" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="D55" pin="2"/>
+      <node ref="D51" pin="2"/>
+      <node ref="D52" pin="2"/>
+      <node ref="D64" pin="2"/>
+      <node ref="D58" pin="2"/>
+      <node ref="D63" pin="2"/>
+      <node ref="D62" pin="2"/>
+      <node ref="D50" pin="2"/>
+      <node ref="D61" pin="2"/>
+      <node ref="D56" pin="2"/>
+      <node ref="D60" pin="2"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D59" pin="2"/>
+      <node ref="D49" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="34" name="r4">
+      <node ref="D65" pin="2"/>
+      <node ref="D79" pin="2"/>
+      <node ref="D80" pin="2"/>
+      <node ref="D73" pin="2"/>
+      <node ref="U3" pin="11"/>
+      <node ref="D75" pin="2"/>
+      <node ref="D76" pin="2"/>
+      <node ref="D68" pin="2"/>
+      <node ref="D67" pin="2"/>
+      <node ref="D77" pin="2"/>
+      <node ref="D78" pin="2"/>
+      <node ref="D70" pin="2"/>
+      <node ref="D69" pin="2"/>
+      <node ref="D71" pin="2"/>
+      <node ref="D72" pin="2"/>
+      <node ref="D66" pin="2"/>
+      <node ref="D74" pin="2"/>
+    </net>
+    <net code="35" name="c7">
+      <node ref="D8" pin="1"/>
+      <node ref="D72" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad9)">
+      <node ref="U2" pin="14"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="38" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="40" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="41" name="c1">
+      <node ref="D2" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D66" pin="1"/>
+    </net>
+    <net code="42" name="c11">
+      <node ref="D60" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D76" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="43" name="c13">
+      <node ref="R15" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D78" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D46" pin="1"/>
+    </net>
+    <net code="44" name="c15">
+      <node ref="D32" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D80" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="45" name="c3">
+      <node ref="R10" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D52" pin="1"/>
+    </net>
+    <net code="46" name="c5">
+      <node ref="D70" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="47" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="48" name="c9">
+      <node ref="R13" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D74" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D42" pin="1"/>
+    </net>
+  </nets>
+</export>
