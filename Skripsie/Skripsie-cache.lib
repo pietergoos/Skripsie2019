@@ -1,6 +1,57 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector:USB_B
+#
+DEF Connector:USB_B J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "Connector:USB_B" -200 350 50 H V L CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -150 220 -100 180 0 1 0 F
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 2 0 1 10 -75 85 25 85 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 7 0 1 0 -160 170 -90 170 -90 225 -105 240 -145 240 -160 225 -160 170 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X GND 4 0 -400 100 U 50 50 1 1 w
+X Shield 5 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device:C
+#
+DEF Device:C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device:C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device:LED_ALT
 #
 DEF Device:LED_ALT D 0 40 N N 1 F N
@@ -38,6 +89,34 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Pieter:PC1601A
+#
+DEF Pieter:PC1601A LCD 0 40 Y Y 1 F N
+F0 "LCD" -50 150 50 H V C CNN
+F1 "Pieter:PC1601A" 0 50 50 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -250 0 250 -900 0 1 0 f
+X Vss 1 -350 -50 100 R 50 50 1 1 W
+X DB3 10 350 -400 100 L 50 50 1 1 B
+X DB4 11 350 -500 100 L 50 50 1 1 B
+X DB5 12 350 -600 100 L 50 50 1 1 B
+X DB6 13 350 -700 100 L 50 50 1 1 B
+X DB7 14 350 -800 100 L 50 50 1 1 B
+X A 15 -350 -750 100 R 50 50 1 1 W
+X K 16 -350 -850 100 R 50 50 1 1 W
+X Vdd 2 -350 -150 100 R 50 50 1 1 W
+X Vo 3 -350 -250 100 R 50 50 1 1 I
+X RS 4 -350 -350 100 R 50 50 1 1 I
+X R/~W 5 -350 -450 100 R 50 50 1 1 I
+X E 6 -350 -550 100 R 50 50 1 1 I
+X DB0 7 350 -100 100 L 50 50 1 1 B
+X DB1 8 350 -200 100 L 50 50 1 1 B
+X DB2 9 350 -300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -210,6 +289,43 @@ X SER_OUT 9 350 -900 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# dk_Interface-Controllers:FT230XS-U
+#
+DEF dk_Interface-Controllers:FT230XS-U U 0 40 Y Y 1 F N
+F0 "U" -250 350 60 H V C CNN
+F1 "dk_Interface-Controllers:FT230XS-U" 100 -600 60 V V L CNN
+F2 "digikey-footprints:SSOP-16_W3.90mm" 200 200 60 H I L CNN
+F3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" 200 300 60 H I L CNN
+F4 "768-1154-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "FT230XS-U" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Interface - Controllers" 200 700 60 H I L CNN "Family"
+F8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XS-U/768-1154-5-ND/3749469" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC USB SERIAL BASIC UART 16SSOP" 200 1000 60 H I L CNN "Description"
+F11 "FTDI, Future Technology Devices International Ltd" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -300 300 500 -700 0 1 0 f
+X TXD 1 600 -100 100 L 50 50 1 1 O
+X 3V3OUT 10 600 0 100 L 50 50 1 1 P
+X RESET 11 -400 0 100 R 50 50 1 1 I
+X VCC 12 300 400 100 D 50 50 1 1 W
+X GND 13 300 -800 100 U 50 50 1 1 W
+X CBUS1 14 -400 -400 100 R 50 50 1 1 B
+X CBUS0 15 -400 -300 100 R 50 50 1 1 B
+X CBUS3 16 -400 -600 100 R 50 50 1 1 B
+X RTS 2 600 -200 100 L 50 50 1 1 O
+X VCCIO 3 200 400 100 D 50 50 1 1 W
+X RXD 4 -400 -100 100 R 50 50 1 1 I
+X GND 5 200 -800 100 U 50 50 1 1 W
+X CTS 6 -400 -200 100 R 50 50 1 1 I
+X CBUS2 7 -400 -500 100 R 50 50 1 1 B
+X USBDP 8 -400 100 100 R 50 50 1 1 I
+X USBDM 9 -400 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # dk_Pushbutton-Switches:GPTS203211B
 #
 DEF dk_Pushbutton-Switches:GPTS203211B S 0 40 Y Y 1 F N
@@ -239,11 +355,52 @@ X ~ 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# dk_Trimmer-Potentiometers:TC33X-2-103E
+#
+DEF dk_Trimmer-Potentiometers:TC33X-2-103E POT 0 0 Y Y 1 F N
+F0 "POT" -210 170 60 H V C CNN
+F1 "dk_Trimmer-Potentiometers:TC33X-2-103E" 10 -110 60 H V C CNN
+F2 "digikey-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" 200 200 60 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" 200 300 60 H I L CNN
+F4 "TC33X-103ETR-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "TC33X-2-103E" 200 500 60 H I L CNN "MPN"
+F6 "Potentiometers, Variable Resistors" 200 600 60 H I L CNN "Category"
+F7 "Trimmer Potentiometers" 200 700 60 H I L CNN "Family"
+F8 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ETR-ND/612858" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRIMMER 10K OHM 0.1W J LEAD TOP" 200 1000 60 H I L CNN "Description"
+F11 "Bourns Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 0 200 0 125 N
+P 4 0 1 0 -25 125 25 125 0 75 -25 125 F
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X CCW 1 -200 0 100 R 50 40 1 1 P
+X Wiper 2 0 300 100 D 50 40 1 1 P
+X CW 3 200 0 100 L 50 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power:+3.3V
 #
 DEF power:+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
 F1 "power:+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:+3V3
+#
+DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
