@@ -4838,7 +4838,7 @@ F 1 "+3.3V" V 7915 1778 50  0000 L CNN
 F 2 "" H 7900 1650 50  0001 C CNN
 F 3 "" H 7900 1650 50  0001 C CNN
 	1    7900 1650
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR011
@@ -5324,7 +5324,7 @@ BTN_R2
 Text GLabel 4800 9500 2    50   Input ~ 0
 BTN_R3
 Text GLabel 4050 9600 0    50   Input ~ 0
-BTN_RCLK
+BTN_RESET
 Text GLabel 4800 9600 2    50   Input ~ 0
 BTN_SRCLK
 Text GLabel 4800 9700 2    50   Input ~ 0
@@ -6050,8 +6050,8 @@ $Comp
 L 4xxx:4017 U2
 U 1 1 5F25C8C3
 P 7900 2450
-F 0 "U2" H 7900 3428 50  0000 C CNN
-F 1 "4017" H 7900 3337 50  0000 C CNN
+F 0 "U2" H 7650 3100 50  0000 C CNN
+F 1 "4017" H 8100 3100 50  0000 C CNN
 F 2 "" H 7900 2450 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 7900 2450 50  0001 C CNN
 	1    7900 2450
@@ -6061,8 +6061,8 @@ $Comp
 L 4xxx:4017 U5
 U 1 1 5F25D6DC
 P 7950 4500
-F 0 "U5" H 7950 5478 50  0000 C CNN
-F 1 "4017" H 7950 5387 50  0000 C CNN
+F 0 "U5" H 7700 5150 50  0000 C CNN
+F 1 "4017" H 8150 5150 50  0000 C CNN
 F 2 "" H 7950 4500 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 7950 4500 50  0001 C CNN
 	1    7950 4500
@@ -6088,7 +6088,7 @@ F 1 "+3.3V" V 7965 3828 50  0000 L CNN
 F 2 "" H 7950 3700 50  0001 C CNN
 F 3 "" H 7950 3700 50  0001 C CNN
 	1    7950 3700
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Logic-Gates-and-Inverters:SN74HC08N U3
@@ -6140,8 +6140,6 @@ Wire Wire Line
 	7250 2050 7400 2050
 Wire Wire Line
 	7450 4100 7300 4100
-Wire Wire Line
-	7150 4100 7150 2250
 Wire Wire Line
 	7150 2250 7400 2250
 Wire Wire Line
@@ -6204,4 +6202,28 @@ F 3 "" H 6450 4750 50  0001 C CNN
 	1    6450 4750
 	1    0    0    -1  
 $EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 5C85A292
+P 7150 3700
+F 0 "D?" V 7196 3572 50  0000 R CNN
+F 1 "DIODE" V 7105 3572 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7150 3700 50  0001 C CNN
+F 3 "" H 7150 3700 50  0001 C CNN
+	1    7150 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 4100 7150 3900
+Wire Wire Line
+	7150 3500 7150 2250
+Wire Wire Line
+	7150 2250 6200 2250
+Wire Wire Line
+	6200 2250 6200 1850
+Wire Wire Line
+	6200 1850 5950 1850
+Connection ~ 7150 2250
+Text GLabel 5950 1850 0    50   Input ~ 0
+BTN_RESET
 $EndSCHEMATC
