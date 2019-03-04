@@ -1694,7 +1694,7 @@ F 1 "DIODE" V 11105 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 9050 50  0001 C CNN
 F 3 "" H 11150 9050 50  0001 C CNN
 	1    11150 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S1
@@ -1725,7 +1725,7 @@ F 1 "DIODE" V 11755 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11800 9050 50  0001 C CNN
 F 3 "" H 11800 9050 50  0001 C CNN
 	1    11800 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S2
@@ -1756,7 +1756,7 @@ F 1 "DIODE" V 12405 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12450 9050 50  0001 C CNN
 F 3 "" H 12450 9050 50  0001 C CNN
 	1    12450 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S3
@@ -1787,7 +1787,7 @@ F 1 "DIODE" V 13055 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13100 9050 50  0001 C CNN
 F 3 "" H 13100 9050 50  0001 C CNN
 	1    13100 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S4
@@ -1818,7 +1818,7 @@ F 1 "DIODE" V 13705 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 9050 50  0001 C CNN
 F 3 "" H 13750 9050 50  0001 C CNN
 	1    13750 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S5
@@ -1849,7 +1849,7 @@ F 1 "DIODE" V 14355 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14400 9050 50  0001 C CNN
 F 3 "" H 14400 9050 50  0001 C CNN
 	1    14400 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S6
@@ -1880,7 +1880,7 @@ F 1 "DIODE" V 15005 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15050 9050 50  0001 C CNN
 F 3 "" H 15050 9050 50  0001 C CNN
 	1    15050 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S7
@@ -1911,7 +1911,7 @@ F 1 "DIODE" V 15655 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15700 9050 50  0001 C CNN
 F 3 "" H 15700 9050 50  0001 C CNN
 	1    15700 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S8
@@ -1942,7 +1942,7 @@ F 1 "DIODE" V 16305 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 16350 9050 50  0001 C CNN
 F 3 "" H 16350 9050 50  0001 C CNN
 	1    16350 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S9
@@ -1973,7 +1973,7 @@ F 1 "DIODE" V 16955 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17000 9050 50  0001 C CNN
 F 3 "" H 17000 9050 50  0001 C CNN
 	1    17000 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S10
@@ -2004,7 +2004,7 @@ F 1 "DIODE" V 17605 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17650 9050 50  0001 C CNN
 F 3 "" H 17650 9050 50  0001 C CNN
 	1    17650 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S11
@@ -2035,7 +2035,7 @@ F 1 "DIODE" V 18255 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18300 9050 50  0001 C CNN
 F 3 "" H 18300 9050 50  0001 C CNN
 	1    18300 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S12
@@ -2159,7 +2159,7 @@ F 1 "DIODE" V 20855 8922 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20900 9050 50  0001 C CNN
 F 3 "" H 20900 9050 50  0001 C CNN
 	1    20900 9050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S16
@@ -2182,43 +2182,7 @@ F 12 "Active" H 21100 9850 60  0001 L CNN "Status"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10600 9250 11150 9250
-Wire Wire Line
-	11150 9250 11800 9250
-Connection ~ 11150 9250
-Wire Wire Line
-	11800 9250 12450 9250
-Connection ~ 11800 9250
-Wire Wire Line
-	12450 9250 13100 9250
-Connection ~ 12450 9250
-Wire Wire Line
-	13100 9250 13750 9250
-Connection ~ 13100 9250
-Wire Wire Line
-	13750 9250 14400 9250
-Connection ~ 13750 9250
-Wire Wire Line
-	14400 9250 15050 9250
-Connection ~ 14400 9250
-Connection ~ 15050 9250
-Wire Wire Line
-	15050 9250 15700 9250
-Wire Wire Line
-	15700 9250 16350 9250
-Connection ~ 15700 9250
-Wire Wire Line
-	16350 9250 17000 9250
-Connection ~ 16350 9250
-Wire Wire Line
-	17000 9250 17650 9250
-Connection ~ 17000 9250
-Wire Wire Line
-	17650 9250 18300 9250
-Connection ~ 17650 9250
-Wire Wire Line
-	18300 9250 18950 9250
-Connection ~ 18300 9250
+	10600 9250 10750 9250
 Wire Wire Line
 	18950 9250 19600 9250
 Connection ~ 18950 9250
@@ -2237,7 +2201,7 @@ F 1 "DIODE" V 11105 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 10150 50  0001 C CNN
 F 3 "" H 11150 10150 50  0001 C CNN
 	1    11150 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S17
@@ -2268,7 +2232,7 @@ F 1 "DIODE" V 11755 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11800 10150 50  0001 C CNN
 F 3 "" H 11800 10150 50  0001 C CNN
 	1    11800 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S18
@@ -2299,7 +2263,7 @@ F 1 "DIODE" V 12405 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12450 10150 50  0001 C CNN
 F 3 "" H 12450 10150 50  0001 C CNN
 	1    12450 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S19
@@ -2330,7 +2294,7 @@ F 1 "DIODE" V 13055 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13100 10150 50  0001 C CNN
 F 3 "" H 13100 10150 50  0001 C CNN
 	1    13100 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S20
@@ -2361,7 +2325,7 @@ F 1 "DIODE" V 13705 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 10150 50  0001 C CNN
 F 3 "" H 13750 10150 50  0001 C CNN
 	1    13750 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S21
@@ -2392,7 +2356,7 @@ F 1 "DIODE" V 14355 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14400 10150 50  0001 C CNN
 F 3 "" H 14400 10150 50  0001 C CNN
 	1    14400 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S22
@@ -2423,7 +2387,7 @@ F 1 "DIODE" V 15005 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15050 10150 50  0001 C CNN
 F 3 "" H 15050 10150 50  0001 C CNN
 	1    15050 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S23
@@ -2454,7 +2418,7 @@ F 1 "DIODE" V 15655 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15700 10150 50  0001 C CNN
 F 3 "" H 15700 10150 50  0001 C CNN
 	1    15700 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S24
@@ -2485,7 +2449,7 @@ F 1 "DIODE" V 16305 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 16350 10150 50  0001 C CNN
 F 3 "" H 16350 10150 50  0001 C CNN
 	1    16350 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S25
@@ -2516,7 +2480,7 @@ F 1 "DIODE" V 16955 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17000 10150 50  0001 C CNN
 F 3 "" H 17000 10150 50  0001 C CNN
 	1    17000 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S26
@@ -2547,7 +2511,7 @@ F 1 "DIODE" V 17605 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17650 10150 50  0001 C CNN
 F 3 "" H 17650 10150 50  0001 C CNN
 	1    17650 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S27
@@ -2578,7 +2542,7 @@ F 1 "DIODE" V 18255 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18300 10150 50  0001 C CNN
 F 3 "" H 18300 10150 50  0001 C CNN
 	1    18300 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S28
@@ -2609,7 +2573,7 @@ F 1 "DIODE" V 18905 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18950 10150 50  0001 C CNN
 F 3 "" H 18950 10150 50  0001 C CNN
 	1    18950 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S29
@@ -2640,7 +2604,7 @@ F 1 "DIODE" V 19555 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 19600 10150 50  0001 C CNN
 F 3 "" H 19600 10150 50  0001 C CNN
 	1    19600 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S30
@@ -2671,7 +2635,7 @@ F 1 "DIODE" V 20205 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20250 10150 50  0001 C CNN
 F 3 "" H 20250 10150 50  0001 C CNN
 	1    20250 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S31
@@ -2702,7 +2666,7 @@ F 1 "DIODE" V 20855 10022 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20900 10150 50  0001 C CNN
 F 3 "" H 20900 10150 50  0001 C CNN
 	1    20900 10150
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S32
@@ -2725,52 +2689,7 @@ F 12 "Active" H 21100 10950 60  0001 L CNN "Status"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10600 10350 11150 10350
-Wire Wire Line
-	11150 10350 11800 10350
-Connection ~ 11150 10350
-Wire Wire Line
-	11800 10350 12450 10350
-Connection ~ 11800 10350
-Wire Wire Line
-	12450 10350 13100 10350
-Connection ~ 12450 10350
-Wire Wire Line
-	13100 10350 13750 10350
-Connection ~ 13100 10350
-Wire Wire Line
-	13750 10350 14400 10350
-Connection ~ 13750 10350
-Wire Wire Line
-	14400 10350 15050 10350
-Connection ~ 14400 10350
-Connection ~ 15050 10350
-Wire Wire Line
-	15050 10350 15700 10350
-Wire Wire Line
-	15700 10350 16350 10350
-Connection ~ 15700 10350
-Wire Wire Line
-	16350 10350 17000 10350
-Connection ~ 16350 10350
-Wire Wire Line
-	17000 10350 17650 10350
-Connection ~ 17000 10350
-Wire Wire Line
-	17650 10350 18300 10350
-Connection ~ 17650 10350
-Wire Wire Line
-	18300 10350 18950 10350
-Connection ~ 18300 10350
-Wire Wire Line
-	18950 10350 19600 10350
-Connection ~ 18950 10350
-Wire Wire Line
-	19600 10350 20250 10350
-Connection ~ 19600 10350
-Wire Wire Line
-	20250 10350 20900 10350
-Connection ~ 20250 10350
+	10600 10350 10750 10350
 $Comp
 L pspice:DIODE D113
 U 1 1 5DB855C5
@@ -2780,7 +2699,7 @@ F 1 "DIODE" V 11105 11172 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 11300 50  0001 C CNN
 F 3 "" H 11150 11300 50  0001 C CNN
 	1    11150 11300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S33
@@ -2811,7 +2730,7 @@ F 1 "DIODE" V 11755 11172 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11800 11300 50  0001 C CNN
 F 3 "" H 11800 11300 50  0001 C CNN
 	1    11800 11300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S34
@@ -2842,7 +2761,7 @@ F 1 "DIODE" V 12405 11172 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12450 11300 50  0001 C CNN
 F 3 "" H 12450 11300 50  0001 C CNN
 	1    12450 11300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S35
@@ -2873,7 +2792,7 @@ F 1 "DIODE" V 13055 11172 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13100 11300 50  0001 C CNN
 F 3 "" H 13100 11300 50  0001 C CNN
 	1    13100 11300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S36
@@ -2904,7 +2823,7 @@ F 1 "DIODE" V 13705 11172 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 11300 50  0001 C CNN
 F 3 "" H 13750 11300 50  0001 C CNN
 	1    13750 11300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S37
@@ -2935,7 +2854,7 @@ F 1 "DIODE" V 14355 11172 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14400 11300 50  0001 C CNN
 F 3 "" H 14400 11300 50  0001 C CNN
 	1    14400 11300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S38
@@ -2966,7 +2885,7 @@ F 1 "DIODE" V 15005 11172 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15050 11300 50  0001 C CNN
 F 3 "" H 15050 11300 50  0001 C CNN
 	1    15050 11300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S39
@@ -2997,7 +2916,7 @@ F 1 "DIODE" V 15655 11172 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15700 11300 50  0001 C CNN
 F 3 "" H 15700 11300 50  0001 C CNN
 	1    15700 11300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S40
@@ -3028,7 +2947,7 @@ F 1 "DIODE" V 16305 11172 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 16350 11300 50  0001 C CNN
 F 3 "" H 16350 11300 50  0001 C CNN
 	1    16350 11300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S41
@@ -3268,34 +3187,7 @@ F 12 "Active" H 21100 12100 60  0001 L CNN "Status"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10600 11500 11150 11500
-Wire Wire Line
-	11150 11500 11800 11500
-Connection ~ 11150 11500
-Wire Wire Line
-	11800 11500 12450 11500
-Connection ~ 11800 11500
-Wire Wire Line
-	12450 11500 13100 11500
-Connection ~ 12450 11500
-Wire Wire Line
-	13100 11500 13750 11500
-Connection ~ 13100 11500
-Wire Wire Line
-	13750 11500 14400 11500
-Connection ~ 13750 11500
-Wire Wire Line
-	14400 11500 15050 11500
-Connection ~ 14400 11500
-Connection ~ 15050 11500
-Wire Wire Line
-	15050 11500 15700 11500
-Wire Wire Line
-	15700 11500 16350 11500
-Connection ~ 15700 11500
-Wire Wire Line
-	16350 11500 17000 11500
-Connection ~ 16350 11500
+	10600 11500 10750 11500
 Wire Wire Line
 	17000 11500 17650 11500
 Connection ~ 17000 11500
@@ -3323,7 +3215,7 @@ F 1 "DIODE" V 11105 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 12400 50  0001 C CNN
 F 3 "" H 11150 12400 50  0001 C CNN
 	1    11150 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S49
@@ -3354,7 +3246,7 @@ F 1 "DIODE" V 11755 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11800 12400 50  0001 C CNN
 F 3 "" H 11800 12400 50  0001 C CNN
 	1    11800 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S50
@@ -3385,7 +3277,7 @@ F 1 "DIODE" V 12405 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12450 12400 50  0001 C CNN
 F 3 "" H 12450 12400 50  0001 C CNN
 	1    12450 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S51
@@ -3416,7 +3308,7 @@ F 1 "DIODE" V 13055 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13100 12400 50  0001 C CNN
 F 3 "" H 13100 12400 50  0001 C CNN
 	1    13100 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S52
@@ -3447,7 +3339,7 @@ F 1 "DIODE" V 13705 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 12400 50  0001 C CNN
 F 3 "" H 13750 12400 50  0001 C CNN
 	1    13750 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S53
@@ -3478,7 +3370,7 @@ F 1 "DIODE" V 14355 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14400 12400 50  0001 C CNN
 F 3 "" H 14400 12400 50  0001 C CNN
 	1    14400 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S54
@@ -3509,7 +3401,7 @@ F 1 "DIODE" V 15005 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15050 12400 50  0001 C CNN
 F 3 "" H 15050 12400 50  0001 C CNN
 	1    15050 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S55
@@ -3540,7 +3432,7 @@ F 1 "DIODE" V 15655 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15700 12400 50  0001 C CNN
 F 3 "" H 15700 12400 50  0001 C CNN
 	1    15700 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S56
@@ -3571,7 +3463,7 @@ F 1 "DIODE" V 16305 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 16350 12400 50  0001 C CNN
 F 3 "" H 16350 12400 50  0001 C CNN
 	1    16350 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S57
@@ -3602,7 +3494,7 @@ F 1 "DIODE" V 16955 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17000 12400 50  0001 C CNN
 F 3 "" H 17000 12400 50  0001 C CNN
 	1    17000 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S58
@@ -3633,7 +3525,7 @@ F 1 "DIODE" V 17605 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17650 12400 50  0001 C CNN
 F 3 "" H 17650 12400 50  0001 C CNN
 	1    17650 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S59
@@ -3664,7 +3556,7 @@ F 1 "DIODE" V 18255 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18300 12400 50  0001 C CNN
 F 3 "" H 18300 12400 50  0001 C CNN
 	1    18300 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S60
@@ -3695,7 +3587,7 @@ F 1 "DIODE" V 18905 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18950 12400 50  0001 C CNN
 F 3 "" H 18950 12400 50  0001 C CNN
 	1    18950 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S61
@@ -3726,7 +3618,7 @@ F 1 "DIODE" V 19555 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 19600 12400 50  0001 C CNN
 F 3 "" H 19600 12400 50  0001 C CNN
 	1    19600 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S62
@@ -3757,7 +3649,7 @@ F 1 "DIODE" V 20205 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20250 12400 50  0001 C CNN
 F 3 "" H 20250 12400 50  0001 C CNN
 	1    20250 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S63
@@ -3788,7 +3680,7 @@ F 1 "DIODE" V 20855 12272 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20900 12400 50  0001 C CNN
 F 3 "" H 20900 12400 50  0001 C CNN
 	1    20900 12400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S64
@@ -3811,52 +3703,7 @@ F 12 "Active" H 21100 13200 60  0001 L CNN "Status"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10600 12600 11150 12600
-Wire Wire Line
-	11150 12600 11800 12600
-Connection ~ 11150 12600
-Wire Wire Line
-	11800 12600 12450 12600
-Connection ~ 11800 12600
-Wire Wire Line
-	12450 12600 13100 12600
-Connection ~ 12450 12600
-Wire Wire Line
-	13100 12600 13750 12600
-Connection ~ 13100 12600
-Wire Wire Line
-	13750 12600 14400 12600
-Connection ~ 13750 12600
-Wire Wire Line
-	14400 12600 15050 12600
-Connection ~ 14400 12600
-Connection ~ 15050 12600
-Wire Wire Line
-	15050 12600 15700 12600
-Wire Wire Line
-	15700 12600 16350 12600
-Connection ~ 15700 12600
-Wire Wire Line
-	16350 12600 17000 12600
-Connection ~ 16350 12600
-Wire Wire Line
-	17000 12600 17650 12600
-Connection ~ 17000 12600
-Wire Wire Line
-	17650 12600 18300 12600
-Connection ~ 17650 12600
-Wire Wire Line
-	18300 12600 18950 12600
-Connection ~ 18300 12600
-Wire Wire Line
-	18950 12600 19600 12600
-Connection ~ 18950 12600
-Wire Wire Line
-	19600 12600 20250 12600
-Connection ~ 19600 12600
-Wire Wire Line
-	20250 12600 20900 12600
-Connection ~ 20250 12600
+	10600 12600 10750 12600
 $Comp
 L pspice:DIODE D145
 U 1 1 5DBB0F6B
@@ -3866,7 +3713,7 @@ F 1 "DIODE" V 11105 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 13500 50  0001 C CNN
 F 3 "" H 11150 13500 50  0001 C CNN
 	1    11150 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S65
@@ -3897,7 +3744,7 @@ F 1 "DIODE" V 11755 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11800 13500 50  0001 C CNN
 F 3 "" H 11800 13500 50  0001 C CNN
 	1    11800 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S66
@@ -3928,7 +3775,7 @@ F 1 "DIODE" V 12405 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12450 13500 50  0001 C CNN
 F 3 "" H 12450 13500 50  0001 C CNN
 	1    12450 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S67
@@ -3959,7 +3806,7 @@ F 1 "DIODE" V 13055 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13100 13500 50  0001 C CNN
 F 3 "" H 13100 13500 50  0001 C CNN
 	1    13100 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S68
@@ -3990,7 +3837,7 @@ F 1 "DIODE" V 13705 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 13500 50  0001 C CNN
 F 3 "" H 13750 13500 50  0001 C CNN
 	1    13750 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S69
@@ -4021,7 +3868,7 @@ F 1 "DIODE" V 14355 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14400 13500 50  0001 C CNN
 F 3 "" H 14400 13500 50  0001 C CNN
 	1    14400 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S70
@@ -4052,7 +3899,7 @@ F 1 "DIODE" V 15005 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15050 13500 50  0001 C CNN
 F 3 "" H 15050 13500 50  0001 C CNN
 	1    15050 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S71
@@ -4083,7 +3930,7 @@ F 1 "DIODE" V 15655 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15700 13500 50  0001 C CNN
 F 3 "" H 15700 13500 50  0001 C CNN
 	1    15700 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S72
@@ -4114,7 +3961,7 @@ F 1 "DIODE" V 16305 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 16350 13500 50  0001 C CNN
 F 3 "" H 16350 13500 50  0001 C CNN
 	1    16350 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S73
@@ -4145,7 +3992,7 @@ F 1 "DIODE" V 16955 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17000 13500 50  0001 C CNN
 F 3 "" H 17000 13500 50  0001 C CNN
 	1    17000 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S74
@@ -4176,7 +4023,7 @@ F 1 "DIODE" V 17605 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17650 13500 50  0001 C CNN
 F 3 "" H 17650 13500 50  0001 C CNN
 	1    17650 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S75
@@ -4207,7 +4054,7 @@ F 1 "DIODE" V 18255 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18300 13500 50  0001 C CNN
 F 3 "" H 18300 13500 50  0001 C CNN
 	1    18300 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S76
@@ -4238,7 +4085,7 @@ F 1 "DIODE" V 18905 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18950 13500 50  0001 C CNN
 F 3 "" H 18950 13500 50  0001 C CNN
 	1    18950 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S77
@@ -4269,7 +4116,7 @@ F 1 "DIODE" V 19555 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 19600 13500 50  0001 C CNN
 F 3 "" H 19600 13500 50  0001 C CNN
 	1    19600 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S78
@@ -4300,7 +4147,7 @@ F 1 "DIODE" V 20205 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20250 13500 50  0001 C CNN
 F 3 "" H 20250 13500 50  0001 C CNN
 	1    20250 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S79
@@ -4331,7 +4178,7 @@ F 1 "DIODE" V 20855 13372 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20900 13500 50  0001 C CNN
 F 3 "" H 20900 13500 50  0001 C CNN
 	1    20900 13500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S80
@@ -4354,71 +4201,18 @@ F 12 "Active" H 21100 14300 60  0001 L CNN "Status"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10600 13700 11150 13700
-Wire Wire Line
-	11150 13700 11800 13700
-Connection ~ 11150 13700
-Wire Wire Line
-	11800 13700 12450 13700
-Connection ~ 11800 13700
-Wire Wire Line
-	12450 13700 13100 13700
-Connection ~ 12450 13700
-Wire Wire Line
-	13100 13700 13750 13700
-Connection ~ 13100 13700
-Wire Wire Line
-	13750 13700 14400 13700
-Connection ~ 13750 13700
-Wire Wire Line
-	14400 13700 15050 13700
-Connection ~ 14400 13700
-Connection ~ 15050 13700
-Wire Wire Line
-	15050 13700 15700 13700
-Wire Wire Line
-	15700 13700 16350 13700
-Connection ~ 15700 13700
-Wire Wire Line
-	16350 13700 17000 13700
-Connection ~ 16350 13700
-Wire Wire Line
-	17000 13700 17650 13700
-Connection ~ 17000 13700
-Wire Wire Line
-	17650 13700 18300 13700
-Connection ~ 17650 13700
-Wire Wire Line
-	18300 13700 18950 13700
-Connection ~ 18300 13700
-Wire Wire Line
-	18950 13700 19600 13700
-Connection ~ 18950 13700
-Wire Wire Line
-	19600 13700 20250 13700
-Connection ~ 19600 13700
-Wire Wire Line
-	20250 13700 20900 13700
-Connection ~ 20250 13700
+	10600 13700 10750 13700
 Wire Wire Line
 	11150 12900 11600 12900
-Wire Wire Line
-	11600 12900 11600 11800
 Wire Wire Line
 	11150 11800 11600 11800
 Connection ~ 11600 11800
 Wire Wire Line
-	11600 11800 11600 10700
-Wire Wire Line
 	11150 10700 11600 10700
 Connection ~ 11600 10700
 Wire Wire Line
-	11600 10700 11600 9550
-Wire Wire Line
 	11150 9550 11600 9550
 Connection ~ 11600 9550
-Wire Wire Line
-	11600 9550 11600 8450
 Wire Wire Line
 	11150 8450 11600 8450
 Connection ~ 11600 8450
@@ -4427,22 +4221,14 @@ Wire Wire Line
 Wire Wire Line
 	11800 12900 12250 12900
 Wire Wire Line
-	12250 12900 12250 11800
-Wire Wire Line
 	11800 11800 12250 11800
 Connection ~ 12250 11800
-Wire Wire Line
-	12250 11800 12250 10700
 Wire Wire Line
 	11800 10700 12250 10700
 Connection ~ 12250 10700
 Wire Wire Line
-	12250 10700 12250 9550
-Wire Wire Line
 	11800 9550 12250 9550
 Connection ~ 12250 9550
-Wire Wire Line
-	12250 9550 12250 8450
 Wire Wire Line
 	11800 8450 12250 8450
 Connection ~ 12250 8450
@@ -4451,51 +4237,29 @@ Wire Wire Line
 Wire Wire Line
 	12450 12900 12900 12900
 Wire Wire Line
-	12900 12900 12900 11800
-Wire Wire Line
 	13100 12900 13550 12900
-Wire Wire Line
-	13550 12900 13550 11800
 Wire Wire Line
 	13750 12900 14200 12900
 Wire Wire Line
-	14200 12900 14200 11800
-Wire Wire Line
 	14400 12900 14850 12900
-Wire Wire Line
-	14850 12900 14850 11800
 Wire Wire Line
 	15050 12900 15500 12900
 Wire Wire Line
 	15700 12900 16150 12900
 Wire Wire Line
-	16150 12900 16150 11800
-Wire Wire Line
 	16350 12900 16800 12900
-Wire Wire Line
-	16800 12900 16800 11800
 Wire Wire Line
 	17000 12900 17450 12900
 Wire Wire Line
-	17450 12900 17450 11800
-Wire Wire Line
 	17650 12900 18100 12900
-Wire Wire Line
-	18100 12900 18100 11800
 Wire Wire Line
 	18300 12900 18750 12900
 Wire Wire Line
-	18750 12900 18750 11800
-Wire Wire Line
 	18950 12900 19400 12900
-Wire Wire Line
-	19400 12900 19400 11800
 Wire Wire Line
 	19600 12900 20050 12900
 Wire Wire Line
 	20250 12900 20700 12900
-Wire Wire Line
-	20700 12900 20700 11800
 Wire Wire Line
 	20900 12900 21350 12900
 Wire Wire Line
@@ -4509,17 +4273,11 @@ Wire Wire Line
 	12900 8100 12900 8450
 Connection ~ 12900 10700
 Wire Wire Line
-	12900 10700 12900 11800
-Wire Wire Line
 	12450 9550 12900 9550
 Connection ~ 12900 9550
 Wire Wire Line
-	12900 9550 12900 10700
-Wire Wire Line
 	12450 8450 12900 8450
 Connection ~ 12900 8450
-Wire Wire Line
-	12900 8450 12900 9550
 Wire Wire Line
 	13100 8450 13550 8450
 Connection ~ 13550 8450
@@ -4529,22 +4287,14 @@ Wire Wire Line
 	13100 9550 13550 9550
 Connection ~ 13550 9550
 Wire Wire Line
-	13550 9550 13550 8450
-Wire Wire Line
 	13100 10700 13550 10700
 Connection ~ 13550 10700
-Wire Wire Line
-	13550 10700 13550 9550
 Wire Wire Line
 	13100 11800 13550 11800
 Connection ~ 13550 11800
 Wire Wire Line
-	13550 11800 13550 10700
-Wire Wire Line
 	13750 11800 14200 11800
 Connection ~ 14200 11800
-Wire Wire Line
-	14200 11800 14200 10700
 Wire Wire Line
 	13750 10700 14200 10700
 Connection ~ 14200 10700
@@ -4554,27 +4304,17 @@ Wire Wire Line
 	14200 8100 14200 8450
 Connection ~ 14200 9550
 Wire Wire Line
-	14200 9550 14200 10700
-Wire Wire Line
 	13750 8450 14200 8450
 Connection ~ 14200 8450
-Wire Wire Line
-	14200 8450 14200 9550
 Wire Wire Line
 	14400 11800 14850 11800
 Connection ~ 14850 11800
 Wire Wire Line
-	14850 11800 14850 10700
-Wire Wire Line
 	14400 10700 14850 10700
 Connection ~ 14850 10700
 Wire Wire Line
-	14850 10700 14850 9550
-Wire Wire Line
 	14400 9550 14850 9550
 Connection ~ 14850 9550
-Wire Wire Line
-	14850 9550 14850 8450
 Wire Wire Line
 	14400 8450 14850 8450
 Connection ~ 14850 8450
@@ -4586,22 +4326,14 @@ Wire Wire Line
 	15500 8100 15500 8450
 Connection ~ 15500 8450
 Wire Wire Line
-	15500 8450 15500 9550
-Wire Wire Line
 	15050 9550 15500 9550
 Connection ~ 15500 9550
-Wire Wire Line
-	15500 9550 15500 10700
 Wire Wire Line
 	15050 10700 15500 10700
 Connection ~ 15500 10700
 Wire Wire Line
-	15500 10700 15500 11800
-Wire Wire Line
 	15050 11800 15500 11800
 Connection ~ 15500 11800
-Wire Wire Line
-	15500 11800 15500 12900
 Wire Wire Line
 	15700 11800 16150 11800
 Connection ~ 16150 11800
@@ -4609,19 +4341,13 @@ Wire Wire Line
 	15700 10700 16150 10700
 Connection ~ 16150 10700
 Wire Wire Line
-	16150 10700 16150 11800
-Wire Wire Line
 	15700 9550 16150 9550
 Connection ~ 16150 9550
-Wire Wire Line
-	16150 9550 16150 10700
 Wire Wire Line
 	15700 8450 16150 8450
 Wire Wire Line
 	16150 8100 16150 8450
 Connection ~ 16150 8450
-Wire Wire Line
-	16150 8450 16150 9550
 Wire Wire Line
 	16350 8450 16800 8450
 Connection ~ 16800 8450
@@ -4631,12 +4357,8 @@ Wire Wire Line
 	16350 9550 16800 9550
 Connection ~ 16800 9550
 Wire Wire Line
-	16800 9550 16800 8450
-Wire Wire Line
 	16350 10700 16800 10700
 Connection ~ 16800 10700
-Wire Wire Line
-	16800 10700 16800 9550
 Wire Wire Line
 	16350 11800 16800 11800
 Connection ~ 16800 11800
@@ -4651,12 +4373,8 @@ Wire Wire Line
 	17000 10700 17450 10700
 Connection ~ 17450 10700
 Wire Wire Line
-	17450 10700 17450 9550
-Wire Wire Line
 	17000 9550 17450 9550
 Connection ~ 17450 9550
-Wire Wire Line
-	17450 9550 17450 8450
 Wire Wire Line
 	17000 8450 17450 8450
 Connection ~ 17450 8450
@@ -4671,12 +4389,8 @@ Wire Wire Line
 	17650 10700 18100 10700
 Connection ~ 18100 10700
 Wire Wire Line
-	18100 10700 18100 9550
-Wire Wire Line
 	17650 9550 18100 9550
 Connection ~ 18100 9550
-Wire Wire Line
-	18100 9550 18100 8450
 Wire Wire Line
 	17650 8450 18100 8450
 Connection ~ 18100 8450
@@ -4696,8 +4410,6 @@ Wire Wire Line
 	18300 10700 18750 10700
 Connection ~ 18750 10700
 Wire Wire Line
-	18750 10700 18750 9550
-Wire Wire Line
 	18300 11800 18750 11800
 Connection ~ 18750 11800
 Wire Wire Line
@@ -4710,8 +4422,6 @@ Wire Wire Line
 Wire Wire Line
 	18950 10700 19400 10700
 Connection ~ 19400 10700
-Wire Wire Line
-	19400 10700 19400 9550
 Wire Wire Line
 	18950 9550 19400 9550
 Connection ~ 19400 9550
@@ -4733,8 +4443,6 @@ Wire Wire Line
 	20050 8450 20050 9550
 Connection ~ 20050 9550
 Wire Wire Line
-	20050 9550 20050 10700
-Wire Wire Line
 	19600 10700 20050 10700
 Connection ~ 20050 10700
 Wire Wire Line
@@ -4742,8 +4450,6 @@ Wire Wire Line
 Wire Wire Line
 	19600 11800 20050 11800
 Connection ~ 20050 11800
-Wire Wire Line
-	20050 11800 20050 12900
 Wire Wire Line
 	20250 11800 20700 11800
 Connection ~ 20700 11800
@@ -4753,12 +4459,8 @@ Wire Wire Line
 	20250 10700 20700 10700
 Connection ~ 20700 10700
 Wire Wire Line
-	20700 10700 20700 9550
-Wire Wire Line
 	20250 9550 20700 9550
 Connection ~ 20700 9550
-Wire Wire Line
-	20700 9550 20700 8450
 Wire Wire Line
 	20250 8450 20700 8450
 Connection ~ 20700 8450
@@ -4849,7 +4551,7 @@ F 1 "GND" V 7905 3222 50  0000 R CNN
 F 2 "" H 7900 3350 50  0001 C CNN
 F 3 "" H 7900 3350 50  0001 C CNN
 	1    7900 3350
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 Text GLabel 8400 1950 2    50   Input ~ 0
 bc0
@@ -4869,19 +4571,19 @@ Text GLabel 8400 2650 2    50   Input ~ 0
 bc7
 Text GLabel 8400 2750 2    50   Input ~ 0
 bc8
-Text GLabel 8450 4100 2    50   Input ~ 0
+Text GLabel 8550 4100 2    50   Input ~ 0
 bc9
-Text GLabel 8450 4200 2    50   Input ~ 0
+Text GLabel 8550 4200 2    50   Input ~ 0
 bc10
-Text GLabel 8450 4300 2    50   Input ~ 0
+Text GLabel 8550 4300 2    50   Input ~ 0
 bc11
-Text GLabel 8450 4400 2    50   Input ~ 0
+Text GLabel 8550 4400 2    50   Input ~ 0
 bc12
-Text GLabel 8450 4500 2    50   Input ~ 0
+Text GLabel 8550 4500 2    50   Input ~ 0
 bc13
-Text GLabel 8450 4600 2    50   Input ~ 0
+Text GLabel 8550 4600 2    50   Input ~ 0
 bc14
-Text GLabel 8450 4700 2    50   Input ~ 0
+Text GLabel 8550 4700 2    50   Input ~ 0
 bc15
 $Comp
 L Pieter:STM32F4_Discovery J1
@@ -6060,64 +5762,40 @@ $EndComp
 $Comp
 L 4xxx:4017 U5
 U 1 1 5F25D6DC
-P 7950 4500
-F 0 "U5" H 7700 5150 50  0000 C CNN
-F 1 "4017" H 8150 5150 50  0000 C CNN
-F 2 "" H 7950 4500 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 7950 4500 50  0001 C CNN
-	1    7950 4500
+P 8050 4500
+F 0 "U5" H 7800 5150 50  0000 C CNN
+F 1 "4017" H 8250 5150 50  0000 C CNN
+F 2 "" H 8050 4500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 8050 4500 50  0001 C CNN
+	1    8050 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR024
 U 1 1 5F76B9E5
-P 7950 5400
-F 0 "#PWR024" H 7950 5150 50  0001 C CNN
-F 1 "GND" V 7955 5272 50  0000 R CNN
-F 2 "" H 7950 5400 50  0001 C CNN
-F 3 "" H 7950 5400 50  0001 C CNN
-	1    7950 5400
+P 8050 5400
+F 0 "#PWR024" H 8050 5150 50  0001 C CNN
+F 1 "GND" V 8055 5272 50  0000 R CNN
+F 2 "" H 8050 5400 50  0001 C CNN
+F 3 "" H 8050 5400 50  0001 C CNN
+	1    8050 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR013
 U 1 1 5F76CDFA
-P 7950 3700
-F 0 "#PWR013" H 7950 3550 50  0001 C CNN
-F 1 "+3.3V" V 7965 3828 50  0000 L CNN
-F 2 "" H 7950 3700 50  0001 C CNN
-F 3 "" H 7950 3700 50  0001 C CNN
-	1    7950 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L dk_Logic-Gates-and-Inverters:SN74HC08N U3
-U 1 1 5F76DB8C
-P 6450 3150
-F 0 "U3" H 6450 3750 60  0000 C CNN
-F 1 "SN74HC08N" H 6450 3644 60  0000 C CNN
-F 2 "digikey-footprints:DIP-14_W3mm" H 6650 3350 60  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc08.pdf" H 6650 3450 60  0001 L CNN
-F 4 "296-1570-5-ND" H 6650 3550 60  0001 L CNN "Digi-Key_PN"
-F 5 "SN74HC08N" H 6650 3650 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 6650 3750 60  0001 L CNN "Category"
-F 7 "Logic - Gates and Inverters" H 6650 3850 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/lit/ds/symlink/sn74hc08.pdf" H 6650 3950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/SN74HC08N/296-1570-5-ND/277216" H 6650 4050 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC GATE AND 4CH 2-INP 14DIP" H 6650 4150 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 6650 4250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6650 4350 60  0001 L CNN "Status"
-	1    6450 3150
+P 8050 3700
+F 0 "#PWR013" H 8050 3550 50  0001 C CNN
+F 1 "+3.3V" V 8065 3828 50  0000 L CNN
+F 2 "" H 8050 3700 50  0001 C CNN
+F 3 "" H 8050 3700 50  0001 C CNN
+	1    8050 3700
 	1    0    0    -1  
 $EndComp
 Text GLabel 5950 1950 0    50   Input ~ 0
 BTN_SRCLK
 Wire Wire Line
-	6150 3050 6100 3050
-Wire Wire Line
-	5950 2050 5950 3250
-Wire Wire Line
-	6100 3050 6100 1950
+	5950 2050 5950 3200
 Wire Wire Line
 	5950 1950 6100 1950
 Connection ~ 6100 1950
@@ -6126,104 +5804,533 @@ Wire Wire Line
 Wire Wire Line
 	5950 2050 7250 2050
 Wire Wire Line
-	5950 3250 6150 3250
-Wire Wire Line
 	8400 2850 8650 2850
-Wire Wire Line
-	8650 2850 8650 3450
-Wire Wire Line
-	8650 3450 7250 3450
-Wire Wire Line
-	7250 3450 7250 2050
 Connection ~ 7250 2050
 Wire Wire Line
 	7250 2050 7400 2050
-Wire Wire Line
-	7450 4100 7300 4100
-Wire Wire Line
-	7150 2250 7400 2250
 Wire Wire Line
 	6750 3150 7050 3150
 Wire Wire Line
 	7050 3150 7050 4000
 Wire Wire Line
-	7050 4000 7450 4000
+	8400 1250 6950 1250
 Wire Wire Line
-	8400 1950 8400 1350
+	8550 4800 8800 4800
 Wire Wire Line
-	8400 1350 6950 1350
-Wire Wire Line
-	6950 1350 6950 4300
-Wire Wire Line
-	6950 4300 7450 4300
-Wire Wire Line
-	8450 4800 8700 4800
-Wire Wire Line
-	8700 4800 8700 5750
-Wire Wire Line
-	8700 5750 7300 5750
+	8800 4800 8800 5750
 Wire Wire Line
 	7300 5750 7300 4100
 Connection ~ 7300 4100
 Wire Wire Line
-	7300 4100 7150 4100
+	7300 4100 7200 4100
 NoConn ~ 8400 3050
-NoConn ~ 8450 4000
-NoConn ~ 8450 4900
-NoConn ~ 8450 5100
-NoConn ~ 6150 3450
-NoConn ~ 6150 3650
-NoConn ~ 6150 3850
-NoConn ~ 6150 4050
-NoConn ~ 6150 4250
-NoConn ~ 6150 4450
-NoConn ~ 6750 4350
-NoConn ~ 6750 3950
-NoConn ~ 6750 3550
+NoConn ~ 8550 4000
+NoConn ~ 8550 4900
+NoConn ~ 8550 5100
 $Comp
 L power:+3.3V #PWR05
 U 1 1 610550A7
-P 6450 2750
-F 0 "#PWR05" H 6450 2600 50  0001 C CNN
-F 1 "+3.3V" V 6465 2878 50  0000 L CNN
-F 2 "" H 6450 2750 50  0001 C CNN
-F 3 "" H 6450 2750 50  0001 C CNN
-	1    6450 2750
-	0    -1   -1   0   
+P 6400 3400
+F 0 "#PWR05" H 6400 3250 50  0001 C CNN
+F 1 "+3.3V" V 6415 3528 50  0000 L CNN
+F 2 "" H 6400 3400 50  0001 C CNN
+F 3 "" H 6400 3400 50  0001 C CNN
+	1    6400 3400
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 610554FC
-P 6450 4750
-F 0 "#PWR018" H 6450 4500 50  0001 C CNN
-F 1 "GND" V 6455 4622 50  0000 R CNN
-F 2 "" H 6450 4750 50  0001 C CNN
-F 3 "" H 6450 4750 50  0001 C CNN
-	1    6450 4750
+P 6500 3400
+F 0 "#PWR018" H 6500 3150 50  0001 C CNN
+F 1 "GND" V 6505 3272 50  0000 R CNN
+F 2 "" H 6500 3400 50  0001 C CNN
+F 3 "" H 6500 3400 50  0001 C CNN
+	1    6500 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L pspice:DIODE D?
 U 1 1 5C85A292
-P 7150 3700
-F 0 "D?" V 7196 3572 50  0000 R CNN
-F 1 "DIODE" V 7105 3572 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7150 3700 50  0001 C CNN
-F 3 "" H 7150 3700 50  0001 C CNN
-	1    7150 3700
+P 7200 3700
+F 0 "D?" V 7246 3572 50  0000 R CNN
+F 1 "DIODE" V 7155 3572 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 3700 50  0001 C CNN
+F 3 "" H 7200 3700 50  0001 C CNN
+	1    7200 3700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7150 4100 7150 3900
+	7200 4100 7200 3900
 Wire Wire Line
-	7150 3500 7150 2250
-Wire Wire Line
-	7150 2250 6200 2250
+	7200 3500 7200 2250
 Wire Wire Line
 	6200 2250 6200 1850
 Wire Wire Line
 	6200 1850 5950 1850
-Connection ~ 7150 2250
 Text GLabel 5950 1850 0    50   Input ~ 0
 BTN_RESET
+$Comp
+L Device:R R?
+U 1 1 5CFD36BC
+P 10750 9400
+F 0 "R?" V 10543 9400 50  0000 C CNN
+F 1 "R" V 10634 9400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10680 9400 50  0001 C CNN
+F 3 "~" H 10750 9400 50  0001 C CNN
+	1    10750 9400
+	-1   0    0    1   
+$EndComp
+Connection ~ 10750 9250
+$Comp
+L Device:R R?
+U 1 1 5CFD3A4D
+P 10750 10500
+F 0 "R?" V 10543 10500 50  0000 C CNN
+F 1 "R" V 10634 10500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10680 10500 50  0001 C CNN
+F 3 "~" H 10750 10500 50  0001 C CNN
+	1    10750 10500
+	-1   0    0    1   
+$EndComp
+Connection ~ 10750 10350
+$Comp
+L Device:R R?
+U 1 1 5CFD3CD5
+P 10750 11650
+F 0 "R?" V 10543 11650 50  0000 C CNN
+F 1 "R" V 10634 11650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10680 11650 50  0001 C CNN
+F 3 "~" H 10750 11650 50  0001 C CNN
+	1    10750 11650
+	-1   0    0    1   
+$EndComp
+Connection ~ 10750 11500
+$Comp
+L Device:R R?
+U 1 1 5CFD3F9B
+P 10750 12750
+F 0 "R?" V 10543 12750 50  0000 C CNN
+F 1 "R" V 10634 12750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10680 12750 50  0001 C CNN
+F 3 "~" H 10750 12750 50  0001 C CNN
+	1    10750 12750
+	-1   0    0    1   
+$EndComp
+Connection ~ 10750 12600
+$Comp
+L Device:R R?
+U 1 1 5CFD421F
+P 10750 13850
+F 0 "R?" V 10543 13850 50  0000 C CNN
+F 1 "R" V 10634 13850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10680 13850 50  0001 C CNN
+F 3 "~" H 10750 13850 50  0001 C CNN
+	1    10750 13850
+	-1   0    0    1   
+$EndComp
+Connection ~ 10750 13700
+$Comp
+L power:GND #PWR?
+U 1 1 5CFD585B
+P 10750 9550
+F 0 "#PWR?" H 10750 9300 50  0001 C CNN
+F 1 "GND" H 10755 9377 50  0000 C CNN
+F 2 "" H 10750 9550 50  0001 C CNN
+F 3 "" H 10750 9550 50  0001 C CNN
+	1    10750 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CFD5AA7
+P 10750 10650
+F 0 "#PWR?" H 10750 10400 50  0001 C CNN
+F 1 "GND" H 10755 10477 50  0000 C CNN
+F 2 "" H 10750 10650 50  0001 C CNN
+F 3 "" H 10750 10650 50  0001 C CNN
+	1    10750 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CFD602C
+P 10750 11800
+F 0 "#PWR?" H 10750 11550 50  0001 C CNN
+F 1 "GND" H 10755 11627 50  0000 C CNN
+F 2 "" H 10750 11800 50  0001 C CNN
+F 3 "" H 10750 11800 50  0001 C CNN
+	1    10750 11800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CFD6261
+P 10750 12900
+F 0 "#PWR?" H 10750 12650 50  0001 C CNN
+F 1 "GND" H 10755 12727 50  0000 C CNN
+F 2 "" H 10750 12900 50  0001 C CNN
+F 3 "" H 10750 12900 50  0001 C CNN
+	1    10750 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CFD6496
+P 10750 14000
+F 0 "#PWR?" H 10750 13750 50  0001 C CNN
+F 1 "GND" H 10755 13827 50  0000 C CNN
+F 2 "" H 10750 14000 50  0001 C CNN
+F 3 "" H 10750 14000 50  0001 C CNN
+	1    10750 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pieter:SN74LVC1G08 U?
+U 1 1 5D20637C
+P 6450 2900
+F 0 "U?" H 6300 2950 50  0000 C CNN
+F 1 "SN74LVC1G08" H 6450 2850 50  0000 C CNN
+F 2 "" H 6450 2900 50  0001 C CNN
+F 3 "" H 6450 2900 50  0001 C CNN
+	1    6450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3200 5950 3200
+Wire Wire Line
+	6150 3100 6100 3100
+Wire Wire Line
+	6100 1950 6100 3100
+Wire Wire Line
+	8400 1250 8400 1950
+Wire Wire Line
+	6950 1250 6950 4300
+Wire Wire Line
+	8650 2850 8650 1150
+Wire Wire Line
+	8650 1150 7250 1150
+Wire Wire Line
+	7250 1150 7250 2050
+Wire Wire Line
+	7300 5750 8800 5750
+Wire Wire Line
+	6950 4300 7550 4300
+Wire Wire Line
+	7300 4100 7550 4100
+Connection ~ 7200 2250
+Wire Wire Line
+	7200 2250 7400 2250
+Wire Wire Line
+	6200 2250 7200 2250
+Wire Wire Line
+	7050 4000 7550 4000
+Wire Wire Line
+	10750 9250 11150 9250
+Connection ~ 11150 9250
+Wire Wire Line
+	11150 9250 11800 9250
+Connection ~ 11800 9250
+Wire Wire Line
+	11600 8450 11600 9550
+Wire Wire Line
+	11800 9250 12450 9250
+Connection ~ 12450 9250
+Wire Wire Line
+	12250 8450 12250 9550
+Wire Wire Line
+	12450 9250 13100 9250
+Connection ~ 13100 9250
+Wire Wire Line
+	12900 8450 12900 9550
+Wire Wire Line
+	13100 9250 13750 9250
+Connection ~ 13750 9250
+Wire Wire Line
+	13550 8450 13550 9550
+Wire Wire Line
+	13750 9250 14400 9250
+Connection ~ 14400 9250
+Wire Wire Line
+	14200 8450 14200 9550
+Wire Wire Line
+	14400 9250 15050 9250
+Connection ~ 15050 9250
+Wire Wire Line
+	14850 8450 14850 9550
+Wire Wire Line
+	15050 9250 15700 9250
+Connection ~ 15700 9250
+Wire Wire Line
+	15500 8450 15500 9550
+Wire Wire Line
+	15700 9250 16350 9250
+Connection ~ 16350 9250
+Wire Wire Line
+	16150 8450 16150 9550
+Wire Wire Line
+	16350 9250 17000 9250
+Connection ~ 17000 9250
+Wire Wire Line
+	16800 8450 16800 9550
+Wire Wire Line
+	17000 9250 17650 9250
+Connection ~ 17650 9250
+Wire Wire Line
+	17450 8450 17450 9550
+Wire Wire Line
+	17650 9250 18300 9250
+Connection ~ 18300 9250
+Wire Wire Line
+	18300 9250 18950 9250
+Wire Wire Line
+	18100 8450 18100 9550
+Wire Wire Line
+	20700 8450 20700 9550
+Wire Wire Line
+	20700 9550 20700 10700
+Connection ~ 20250 10350
+Wire Wire Line
+	20250 10350 20900 10350
+Wire Wire Line
+	20050 9550 20050 10700
+Connection ~ 19600 10350
+Wire Wire Line
+	19600 10350 20250 10350
+Wire Wire Line
+	19400 9550 19400 10700
+Connection ~ 18950 10350
+Wire Wire Line
+	18950 10350 19600 10350
+Wire Wire Line
+	18750 9550 18750 10700
+Connection ~ 18300 10350
+Wire Wire Line
+	18300 10350 18950 10350
+Wire Wire Line
+	18100 9550 18100 10700
+Connection ~ 17650 10350
+Wire Wire Line
+	17650 10350 18300 10350
+Wire Wire Line
+	17450 9550 17450 10700
+Connection ~ 17000 10350
+Wire Wire Line
+	17000 10350 17650 10350
+Wire Wire Line
+	16800 9550 16800 10700
+Connection ~ 16350 10350
+Wire Wire Line
+	16350 10350 17000 10350
+Wire Wire Line
+	16150 9550 16150 10700
+Connection ~ 15700 10350
+Wire Wire Line
+	15700 10350 16350 10350
+Wire Wire Line
+	15500 9550 15500 10700
+Connection ~ 15050 10350
+Wire Wire Line
+	15050 10350 15700 10350
+Wire Wire Line
+	14850 9550 14850 10700
+Connection ~ 14400 10350
+Wire Wire Line
+	14400 10350 15050 10350
+Wire Wire Line
+	14200 9550 14200 10700
+Connection ~ 13750 10350
+Wire Wire Line
+	13750 10350 14400 10350
+Wire Wire Line
+	13550 9550 13550 10700
+Connection ~ 13100 10350
+Wire Wire Line
+	13100 10350 13750 10350
+Wire Wire Line
+	12900 9550 12900 10700
+Connection ~ 12450 10350
+Wire Wire Line
+	12450 10350 13100 10350
+Wire Wire Line
+	12250 9550 12250 10700
+Connection ~ 11800 10350
+Wire Wire Line
+	11800 10350 12450 10350
+Wire Wire Line
+	11600 9550 11600 10700
+Wire Wire Line
+	10750 10350 11150 10350
+Connection ~ 11150 10350
+Wire Wire Line
+	11150 10350 11800 10350
+Wire Wire Line
+	10750 11500 11150 11500
+Connection ~ 11150 11500
+Wire Wire Line
+	11150 11500 11800 11500
+Connection ~ 11800 11500
+Wire Wire Line
+	11600 10700 11600 11800
+Wire Wire Line
+	11800 11500 12450 11500
+Connection ~ 12450 11500
+Wire Wire Line
+	12250 10700 12250 11800
+Wire Wire Line
+	12450 11500 13100 11500
+Connection ~ 13100 11500
+Wire Wire Line
+	12900 10700 12900 11800
+Wire Wire Line
+	13100 11500 13750 11500
+Connection ~ 13750 11500
+Wire Wire Line
+	13550 10700 13550 11800
+Wire Wire Line
+	13750 11500 14400 11500
+Connection ~ 14400 11500
+Wire Wire Line
+	14200 10700 14200 11800
+Wire Wire Line
+	14400 11500 15050 11500
+Connection ~ 15050 11500
+Wire Wire Line
+	14850 10700 14850 11800
+Wire Wire Line
+	15050 11500 15700 11500
+Connection ~ 15700 11500
+Wire Wire Line
+	15500 10700 15500 11800
+Wire Wire Line
+	15700 11500 16350 11500
+Connection ~ 16350 11500
+Wire Wire Line
+	16350 11500 17000 11500
+Wire Wire Line
+	16150 10700 16150 11800
+Connection ~ 16350 12600
+Wire Wire Line
+	16150 11800 16150 12900
+Connection ~ 15700 12600
+Wire Wire Line
+	15700 12600 16350 12600
+Wire Wire Line
+	15500 11800 15500 12900
+Connection ~ 15050 12600
+Wire Wire Line
+	15050 12600 15700 12600
+Wire Wire Line
+	14850 11800 14850 12900
+Connection ~ 14400 12600
+Wire Wire Line
+	14400 12600 15050 12600
+Wire Wire Line
+	14200 11800 14200 12900
+Connection ~ 13750 12600
+Wire Wire Line
+	13750 12600 14400 12600
+Wire Wire Line
+	13550 11800 13550 12900
+Connection ~ 13100 12600
+Wire Wire Line
+	13100 12600 13750 12600
+Wire Wire Line
+	12900 11800 12900 12900
+Connection ~ 12450 12600
+Wire Wire Line
+	12450 12600 13100 12600
+Wire Wire Line
+	12250 11800 12250 12900
+Connection ~ 11800 12600
+Wire Wire Line
+	11800 12600 12450 12600
+Wire Wire Line
+	11600 11800 11600 12900
+Wire Wire Line
+	10750 12600 11150 12600
+Connection ~ 11150 12600
+Wire Wire Line
+	11150 12600 11800 12600
+Wire Wire Line
+	10750 13700 11150 13700
+Connection ~ 11150 13700
+Wire Wire Line
+	11150 13700 11800 13700
+Connection ~ 11800 13700
+Wire Wire Line
+	11800 13700 12450 13700
+Connection ~ 12450 13700
+Wire Wire Line
+	12450 13700 13100 13700
+Connection ~ 13100 13700
+Wire Wire Line
+	13100 13700 13750 13700
+Connection ~ 13750 13700
+Wire Wire Line
+	13750 13700 14400 13700
+Connection ~ 14400 13700
+Wire Wire Line
+	14400 13700 15050 13700
+Connection ~ 15050 13700
+Wire Wire Line
+	15050 13700 15700 13700
+Connection ~ 15700 13700
+Wire Wire Line
+	15700 13700 16350 13700
+Connection ~ 16350 13700
+Wire Wire Line
+	16350 12600 17000 12600
+Connection ~ 17000 12600
+Wire Wire Line
+	16800 11800 16800 12900
+Wire Wire Line
+	16350 13700 17000 13700
+Connection ~ 17000 13700
+Wire Wire Line
+	17000 13700 17650 13700
+Connection ~ 17650 13700
+Wire Wire Line
+	17000 12600 17650 12600
+Connection ~ 17650 12600
+Wire Wire Line
+	17450 11800 17450 12900
+Wire Wire Line
+	17650 12600 18300 12600
+Connection ~ 18300 12600
+Wire Wire Line
+	18100 11800 18100 12900
+Wire Wire Line
+	18300 12600 18950 12600
+Connection ~ 18950 12600
+Wire Wire Line
+	18750 11800 18750 12900
+Wire Wire Line
+	18950 12600 19600 12600
+Connection ~ 19600 12600
+Wire Wire Line
+	19400 11800 19400 12900
+Wire Wire Line
+	19600 12600 20250 12600
+Connection ~ 20250 12600
+Wire Wire Line
+	20250 12600 20900 12600
+Wire Wire Line
+	20050 11800 20050 12900
+Wire Wire Line
+	20700 11800 20700 12900
+Connection ~ 20250 13700
+Wire Wire Line
+	20250 13700 20900 13700
+Connection ~ 19600 13700
+Wire Wire Line
+	19600 13700 20250 13700
+Connection ~ 18950 13700
+Wire Wire Line
+	18950 13700 19600 13700
+Wire Wire Line
+	17650 13700 18300 13700
+Connection ~ 18300 13700
+Wire Wire Line
+	18300 13700 18950 13700
 $EndSCHEMATC
