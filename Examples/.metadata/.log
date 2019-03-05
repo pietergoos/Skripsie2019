@@ -245,3 +245,6 @@ java.lang.Exception
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-03-04 14:08:11.815
 !MESSAGE Indexed 'test' (33 sources, 55 headers) in 3,34 sec: 8 209 declarations; 37 833 references; 14 unresolved inclusions; 215 syntax errors; 5 874 unresolved names (11%)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-03-04 15:14:55.089
+!MESSAGE Unloading product manager
