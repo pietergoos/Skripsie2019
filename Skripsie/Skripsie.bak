@@ -4457,7 +4457,7 @@ bc5
 Text GLabel 16300 8100 1    50   Input ~ 0
 bc6
 Text GLabel 16950 8100 1    50   Input ~ 0
-bv7
+bc7
 Text GLabel 17600 8100 1    50   Input ~ 0
 bc8
 Text GLabel 18250 8100 1    50   Input ~ 0
@@ -4715,7 +4715,7 @@ U 1 1 5C7B7F37
 P 12100 3100
 F 0 "POT2" V 12047 3012 60  0000 R CNN
 F 1 "10KE" V 12153 3012 60  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 12300 3300 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12300 3300 60  0001 L CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 12300 3400 60  0001 L CNN
 F 4 "TC33X-103ETR-ND" H 12300 3500 60  0001 L CNN "Digi-Key_PN"
 F 5 "TC33X-2-103E" H 12300 3600 60  0001 L CNN "MPN"
@@ -4735,7 +4735,7 @@ U 1 1 5C7B81A5
 P 10700 3100
 F 0 "POT1" V 10647 3012 60  0000 R CNN
 F 1 "10KE" V 10753 3012 60  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 10900 3300 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10900 3300 60  0001 L CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 10900 3400 60  0001 L CNN
 F 4 "TC33X-103ETR-ND" H 10900 3500 60  0001 L CNN "Digi-Key_PN"
 F 5 "TC33X-2-103E" H 10900 3600 60  0001 L CNN "MPN"
@@ -4969,7 +4969,7 @@ U 1 1 5D0FD17B
 P 7900 12800
 F 0 "U7" H 8250 12850 60  0000 C CNN
 F 1 "FT230XS-U" H 7700 12850 60  0000 C CNN
-F 2 "digikey-footprints:SSOP-16_W3.90mm" H 8100 13000 60  0001 L CNN
+F 2 "pieter:FT230XS-HEADER" H 8100 13000 60  0001 L CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 8100 13100 60  0001 L CNN
 F 4 "768-1154-5-ND" H 8100 13200 60  0001 L CNN "Digi-Key_PN"
 F 5 "FT230XS-U" H 8100 13300 60  0001 L CNN "MPN"
