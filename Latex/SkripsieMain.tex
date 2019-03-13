@@ -1,12 +1,11 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt,a4paper]{report}
 
 \usepackage{geometry} % To set page size and margins accurately
 \usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
 \usepackage{graphicx} % Required for the inclusion of images
-%\usepackage{natbib} % Required to change bibliography style to APA
 \usepackage{amsmath} % Required for some math elements 
 \usepackage{paralist} % For compactitem lists
 \usepackage{color} % Color management options
@@ -18,12 +17,13 @@
 \usepackage{longtable}
 \usepackage[strings]{underscore}
 \usepackage{pdfpages}
+\usepackage{hyperref}
 
 \geometry{
 	a4paper,
-	total={170mm,257mm},
-	left=20mm,
-	top=20mm,
+	total={160mm,247mm},
+	left=30mm,
+	top=25mm
 }
 \setlength\parindent{0.5cm} % Set indentation for paragraphs
 % To make floats, on float only pages, placed at top.
@@ -67,33 +67,48 @@
     \centering
     \vspace*{0.5 cm}
     \includegraphics[scale = 2]{EELogo.png}\\[1.0 cm]   % University Logo
-    \textsc{\LARGE Project (E) 448 \\ Technical Report}\\[0.5 cm]               % Course Name
+    \vspace{3cm}
     \rule{\linewidth}{0.2 mm} \\[0.4 cm]
     { \huge \bfseries \thetitle }\\[0.4 cm]
     \rule{\linewidth}{0.2 mm} \\[1.5 cm]
-    
+    \vspace{2cm}
 	\begin{minipage}{6.5cm}
 		\begin{flushleft} \large
-			\emph{Author:}\\
-			\theauthor
+			\emph{Student Name:}\\
+			\emph{Student Number:}\\
+			\emph{Study Leader:}\\
+			\emph{Date:}
 		\end{flushleft}
 	\end{minipage}~
 	\begin{minipage}{6.5cm}
 		\begin{flushright} \large
-			\emph{Student Number:} \\
-			19231466
+		\theauthor\\
+		19231466-2015\\
+		Dr. Lourens Visagie\\
+		May 2019
 		\end{flushright}
 	\end{minipage}\\[2 cm]
-    
-    {\large \thedate}\\[2 cm]
     \vfill
     \includegraphics[width=7cm]{SUNLogo.jpg}\\[1.0 cm]
+    Report submitted in partial fulfilment of the requirements of the module Project (E) 448 for the degree Baccalaureus in Engineering in the Department of Electrical and Electronic Engineering at the University of Stellenbosch.
+    
 \end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	Acknowledgements
+%----------------------------------------------------------------------------------------
+\pagenumbering{roman}
+\addcontentsline{toc}{chapter}{Preamble}
+\addcontentsline{toc}{section}{Acknowledgements}
+\section*{Acknowledgements}
+
+\newpage
 
 %----------------------------------------------------------------------------------------
 %	DECLARATION
 %----------------------------------------------------------------------------------------
-{\Large \bf Plagiarism Declaration}
+\addcontentsline{toc}{section}{Plagiarism Declaration}
+\section*{Plagiarism Declaration}
 \begin{enumerate}
 \item Plagiarism is the use of ideas, material and other intellectual property of another's work and to present is as my own.
 \item I agree that plagiarism is a punishable offence because it constitutes theft.
@@ -116,11 +131,13 @@
 \newpage
 
 %----------------------------------------------------------------------------------------
-%	ABSTRACT
+%	Summary
 %----------------------------------------------------------------------------------------
-\begin{abstract}
+\addcontentsline{toc}{section}{Summary / Opsomming}
+\section*{Summary}
+\section*{Opsomming}
 
-\end{abstract}
+
 \newpage
 
 %----------------------------------------------------------------------------------------
@@ -136,15 +153,27 @@
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
-\section{Introduction}
-
+\pagenumbering{arabic}
+\chapter{Introduction}
+\section{Project Background}
+\section{Project Aims}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
-\section{System description}
+\chapter{Hardware Design}
+\section{Component Selection}
+\subsection{$\mu$-Controller}
 
-\clearpage 
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+\chapter{Software Design}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 4
+%----------------------------------------------------------------------------------------
+\chapter{Conclusions and Recommendations}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
@@ -157,6 +186,11 @@
 %----------------------------------------------------------------------------------------
 %	APPENDIX
 %----------------------------------------------------------------------------------------
+\appendix
+\chapter{Project Planning Schedule}
 
+\chapter{ECSA Outcome Compliance}
+
+\chapter{Circuit Diagram}
 \newpage
 \end{document}
