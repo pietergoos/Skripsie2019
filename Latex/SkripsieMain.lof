@@ -1,7 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces An Eko Compute Rhythm in Use \cite {comprhythImg}}}{3}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Native Instruments Maschine Mk3 \cite {maschine}}}{3}{figure.2.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Complete System Diagram}}{5}{figure.3.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces The Final Revision (Rev. B) of the Circuit Diagram}}{12}{figure.C.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Revision A of the Circuit Design}}{13}{figure.C.2}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Front Copper Layer of Revision C of the \ac {pcb}}}{14}{figure.D.1}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Back Copper Layer of Revision C of the \ac {pcb}}}{15}{figure.D.2}

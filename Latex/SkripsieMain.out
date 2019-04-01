@@ -5,11 +5,18 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
 \BOOKMARK [1][-]{section.1.1}{Project Background}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.2}{Project Aims}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Hardware Design}{}% 8
-\BOOKMARK [1][-]{section.2.1}{Component Selection}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.1.1}{-Controller}{section.2.1}% 10
-\BOOKMARK [0][-]{chapter.3}{Software Design}{}% 11
-\BOOKMARK [0][-]{chapter.4}{Conclusions and Recommendations}{}% 12
-\BOOKMARK [0][-]{appendix.A}{Project Planning Schedule}{}% 13
-\BOOKMARK [0][-]{appendix.B}{ECSA Outcome Compliance}{}% 14
-\BOOKMARK [0][-]{appendix.C}{Circuit Diagram}{}% 15
+\BOOKMARK [0][-]{chapter.2}{Literature Study}{}% 8
+\BOOKMARK [1][-]{section.2.1}{The Beginning of Drum Machines}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{Programmable Drum Machines}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Hardware Design}{}% 11
+\BOOKMARK [1][-]{section.3.1}{C}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{LED Matrix Driver}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.2.1}{Other}{section.3.2}% 14
+\BOOKMARK [1][-]{section.3.3}{Button Matrix Driver}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.4}{Tempo and Volume Control with LCD}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Software Design}{}% 17
+\BOOKMARK [0][-]{chapter.5}{Conclusions and Recommendations}{}% 18
+\BOOKMARK [0][-]{appendix.A}{Project Planning Schedule}{}% 19
+\BOOKMARK [0][-]{appendix.B}{ECSA Outcome Compliance}{}% 20
+\BOOKMARK [0][-]{appendix.C}{Circuit Diagram}{}% 21
+\BOOKMARK [0][-]{appendix.D}{PCB Design}{}% 22

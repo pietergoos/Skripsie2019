@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.17)  12 MAR 2019 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.17)  1 APR 2019 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1467,26 +1467,258 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip75
 )
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+
+(c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count301
+
+(c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count302
+\decimalpart=\count303
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count304
+\c@listtotal=\count305
+\c@listcount=\count306
+\c@liststart=\count307
+\c@liststop=\count308
+\c@citecount=\count309
+\c@citetotal=\count310
+\c@multicitecount=\count311
+\c@multicitetotal=\count312
+\c@instcount=\count313
+\c@maxnames=\count314
+\c@minnames=\count315
+\c@maxitems=\count316
+\c@minitems=\count317
+\c@citecounter=\count318
+\c@savedcitecounter=\count319
+\c@uniquelist=\count320
+\c@uniquename=\count321
+\c@refsection=\count322
+\c@refsegment=\count323
+\c@maxextratitle=\count324
+\c@maxextratitleyear=\count325
+\c@maxextrayear=\count326
+\c@maxextraalpha=\count327
+\c@abbrvpenalty=\count328
+\c@highnamepenalty=\count329
+\c@lownamepenalty=\count330
+\c@maxparens=\count331
+\c@parenlevel=\count332
+\blx@tempcnta=\count333
+\blx@tempcntb=\count334
+\blx@tempcntc=\count335
+\blx@maxsection=\count336
+\blx@maxsegment@0=\count337
+\blx@notetype=\count338
+\blx@parenlevel@text=\count339
+\blx@parenlevel@foot=\count340
+\blx@sectionciteorder@0=\count341
+\labelnumberwidth=\skip76
+\labelalphawidth=\skip77
+\biblabelsep=\skip78
+\bibitemsep=\skip79
+\bibnamesep=\skip80
+\bibinitsep=\skip81
+\bibparsep=\skip82
+\bibhang=\skip83
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\c@mincomprange=\count342
+\c@maxcomprange=\count343
+\c@mincompwidth=\count344
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count345
+\c@savedafterword=\count346
+\c@annotator=\count347
+\c@savedannotator=\count348
+\c@author=\count349
+\c@savedauthor=\count350
+\c@bookauthor=\count351
+\c@savedbookauthor=\count352
+\c@commentator=\count353
+\c@savedcommentator=\count354
+\c@editor=\count355
+\c@savededitor=\count356
+\c@editora=\count357
+\c@savededitora=\count358
+\c@editorb=\count359
+\c@savededitorb=\count360
+\c@editorc=\count361
+\c@savededitorc=\count362
+\c@foreword=\count363
+\c@savedforeword=\count364
+\c@holder=\count365
+\c@savedholder=\count366
+\c@introduction=\count367
+\c@savedintroduction=\count368
+\c@namea=\count369
+\c@savednamea=\count370
+\c@nameb=\count371
+\c@savednameb=\count372
+\c@namec=\count373
+\c@savednamec=\count374
+\c@translator=\count375
+\c@savedtranslator=\count376
+\c@shortauthor=\count377
+\c@savedshortauthor=\count378
+\c@shorteditor=\count379
+\c@savedshorteditor=\count380
+\c@labelname=\count381
+\c@savedlabelname=\count382
+\c@institution=\count383
+\c@savedinstitution=\count384
+\c@lista=\count385
+\c@savedlista=\count386
+\c@listb=\count387
+\c@savedlistb=\count388
+\c@listc=\count389
+\c@savedlistc=\count390
+\c@listd=\count391
+\c@savedlistd=\count392
+\c@liste=\count393
+\c@savedliste=\count394
+\c@listf=\count395
+\c@savedlistf=\count396
+\c@location=\count397
+\c@savedlocation=\count398
+\c@organization=\count399
+\c@savedorganization=\count400
+\c@origlocation=\count401
+\c@savedoriglocation=\count402
+\c@origpublisher=\count403
+\c@savedorigpublisher=\count404
+\c@publisher=\count405
+\c@savedpublisher=\count406
+\c@language=\count407
+\c@savedlanguage=\count408
+\c@pageref=\count409
+\c@savedpageref=\count410
+\shorthandwidth=\skip84
+\shortjournalwidth=\skip85
+\shortserieswidth=\skip86
+\shorttitlewidth=\skip87
+\shortauthorwidth=\skip88
+\shorteditorwidth=\skip89
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count411
+\c@textcitetotal=\count412
+\c@textcitemaxnames=\count413
+\c@biburlnumpenalty=\count414
+\c@biburlucpenalty=\count415
+\c@biburllcpenalty=\count416
+\c@smartand=\count417
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2016/12/30 vvv1.2 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count418
+\c@bbx:relatedtotal=\count419
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2016/12/30 vvv1.2 biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count420
+\c@cbx@tempcntb=\count421
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 64.
+h' as default language. on input line 145.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count422
+\@quotereset=\count423
 
 (./SkripsieMain.aux)
 \openout1 = `SkripsieMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1532,16 +1764,16 @@ File: siunitx-abbreviations.cfg 2017/02/01 v2.7c siunitx: Abbreviated units
 )
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
+\scratchcounter=\count424
 \scratchdimen=\dimen309
 \scratchbox=\box76
-\nofMPsegments=\count302
-\nofMParguments=\count303
+\nofMPsegments=\count425
+\nofMParguments=\count426
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count304
+\MPscratchCnt=\count427
 \MPscratchDim=\dimen310
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
+\MPnumerator=\count428
+\makeMPintoPDFobject=\count429
 \everyMPtoPDFconversion=\toks48
 ) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1560,7 +1792,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count307
+\c@lstlisting=\count430
 \AtBeginShipoutBox=\box77
 
 (c:/texlive/2016/texmf-dist/tex/latex/translations/translations-basic-dictionar
@@ -1569,44 +1801,55 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 64.
+or `english'. on input line 145.
  ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
 your preamble.
- on input line 64.
+ on input line 145.
 
-Package hyperref Info: Link coloring OFF on input line 64.
+Package hyperref Info: Link coloring OFF on input line 145.
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count308
+\c@section@level=\count431
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
 
 (./SkripsieMain.out) (./SkripsieMain.out)
-\@outlinefile=\write4
-\openout4 = `SkripsieMain.out'.
+\@outlinefile=\write6
+\openout6 = `SkripsieMain.out'.
 
-\c__siunitx_mathsf_int=\count309
-\c__siunitx_mathtt_int=\count310
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+\openout5 = `SkripsieMain.bcf'.
 
-<EELogo.png, id=67, 84.315pt x 19.272pt>
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'SkripsieMain.bbl' found.
+ (./SkripsieMain.bbl)
+Package biblatex Info: Reference section=0 on input line 145.
+Package biblatex Info: Reference segment=0 on input line 145.
+\c__siunitx_mathsf_int=\count432
+\c__siunitx_mathtt_int=\count433
+
+<EELogo.png, id=95, 84.315pt x 19.272pt>
 File: EELogo.png Graphic file (type png)
  <use EELogo.png>
-Package pdftex.def Info: EELogo.png used on input line 69.
+Package pdftex.def Info: EELogo.png used on input line 150.
 (pdftex.def)             Requested size: 168.62955pt x 38.54388pt.
 
-<SUNLogo.jpg, id=69, 753.7761pt x 161.6439pt>
+<SUNLogo.jpg, id=97, 753.7761pt x 161.6439pt>
 File: SUNLogo.jpg Graphic file (type jpg)
  <use SUNLogo.jpg>
-Package pdftex.def Info: SUNLogo.jpg used on input line 92.
+Package pdftex.def Info: SUNLogo.jpg used on input line 173.
 (pdftex.def)             Requested size: 199.16928pt x 42.70964pt.
  [1
 
@@ -1614,104 +1857,235 @@ Package pdftex.def Info: SUNLogo.jpg used on input line 92.
 ./SUNLogo.jpg>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 102.
+(hyperref)                be the same. Added a new anchor on input line 183.
 
-[1] [2] [3] (./SkripsieMain.toc)
-\tf@toc=\write5
-\openout5 = `SkripsieMain.toc'.
+[1]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ò in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ò in font cmti12!
+ [2] [3] (./SkripsieMain.toc)
+\tf@toc=\write7
+\openout7 = `SkripsieMain.toc'.
 
  [4
 
 ] (./SkripsieMain.lof)
-\tf@lof=\write6
-\openout6 = `SkripsieMain.lof'.
+\tf@lof=\write8
+\openout8 = `SkripsieMain.lof'.
 
  [5
 
 ]
 (./SkripsieMain.lot)
-\tf@lot=\write7
-\openout7 = `SkripsieMain.lot'.
+\tf@lot=\write9
+\openout9 = `SkripsieMain.lot'.
 
  [6
 
 ]
 Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.164 \chapter
-              {Hardware Design} [1
+[1
 
 ]
 Chapter 2.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 166.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 166.
+<computerhythm.jpg, id=199, 301.125pt x 168.63pt>
+File: computerhythm.jpg Graphic file (type jpg)
+ <use computerhythm.jpg>
+Package pdftex.def Info: computerhythm.jpg used on input line 259.
+(pdftex.def)             Requested size: 227.62204pt x 127.4731pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 166.
+LaTeX Warning: Reference `sec:beatmatrix' on page 2 undefined on input line 264
+.
+
+<maschine.jpg, id=212, 521.95pt x 391.4625pt>
+File: maschine.jpg Graphic file (type jpg)
+ <use maschine.jpg>
+Package pdftex.def Info: maschine.jpg used on input line 269.
+(pdftex.def)             Requested size: 136.5746pt x 127.58858pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2
 
-]
+] [3 <./maschine.jpg> <./computerhythm.jpg>]
 Chapter 3.
-[3
 
-]
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 481.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 481.
+
+[4
+
+] [5]
 Chapter 4.
-(./SkripsieMain.bbl [4
-
-]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 24.
-
-) [5
-
-]
-Appendix A.
 [6
 
 ]
-Appendix B.
+Chapter 5.
 [7
 
-]
-Appendix C.
-[8
+] [8
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
- (./SkripsieMain.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Appendix A.
+[9
+
+]
+Appendix B.
+
+Overfull \hbox (25.19997pt too wide) in alignment at lines 516--520
+ [] [] 
+ []
+
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no † in font cmbx12!
+
+Underfull \hbox (badness 2293) in paragraph at lines 523--523
+\OT1/cmr/m/n/12 Identify, for-mu-late, anal-yse and
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ê in font cmr12!
+
+Underfull \hbox (badness 2846) in paragraph at lines 531--531
+\OT1/cmr/m/n/12 Demonstrate com-pe-tence to use
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 531--531
+\OT1/cmr/m/n/12 ap-pro-pri-ate en-gi-neer-ing meth-ods,
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 531--531
+\OT1/cmr/m/n/12 skills and tools, in-clud-ing those
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 533--533
+\OT1/cmr/m/n/12 mu-ni-cate ef-fec-tively, both orally
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 537--537
+\OT1/cmr/m/n/12 in in-de-pen-dent learn-ing through
+ []
+
+
+Overfull \hbox (25.19997pt too wide) in alignment at lines 520--542
+ [] [] 
+ []
+
+[10
+
+] [11]
+Appendix C.
+
+
+pdfTeX warning: pdflatex.exe (file ../Skripsie/Layout_05032019.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<../Skripsie/Layout_05032019.pdf, id=281, 794.97pt x 614.295pt>
+File: ../Skripsie/Layout_05032019.pdf Graphic file (type pdf)
+
+<use ../Skripsie/Layout_05032019.pdf>
+Package pdftex.def Info: ../Skripsie/Layout_05032019.pdf used on input line 547
+.
+(pdftex.def)             Requested size: 455.24408pt x 351.79211pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Skripsie/Layout_28022019.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<../Skripsie/Layout_28022019.pdf, id=282, 794.97pt x 614.295pt>
+File: ../Skripsie/Layout_28022019.pdf Graphic file (type pdf)
+
+<use ../Skripsie/Layout_28022019.pdf>
+Package pdftex.def Info: ../Skripsie/Layout_28022019.pdf used on input line 553
+.
+(pdftex.def)             Requested size: 455.24408pt x 351.79211pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12
+
+ <../Skripsie/Layout_05032019.pdf>] [13 <../Skripsie/Layout_28022019.pdf>]
+Appendix D.
+
+
+pdfTeX warning: pdflatex.exe (file ../Skripsie/PCB_27032019.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<../Skripsie/PCB_27032019.pdf, id=294, 845.07724pt x 597.55246pt>
+File: ../Skripsie/PCB_27032019.pdf Graphic file (type pdf)
+
+<use ../Skripsie/PCB_27032019.pdf>
+Package pdftex.def Info: ../Skripsie/PCB_27032019.pdf used on input line 561.
+(pdftex.def)             Requested size: 455.24408pt x 376.6223pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Skripsie/PCB_27032019.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<../Skripsie/PCB_27032019.pdf, id=296, page=2, 845.07724pt x 597.55246pt>
+File: ../Skripsie/PCB_27032019.pdf Graphic file (type pdf)
+
+<use ../Skripsie/PCB_27032019.pdf, page 2>
+Package pdftex.def Info: ../Skripsie/PCB_27032019.pdf, page2 used on input line
+ 568.
+(pdftex.def)             Requested size: 455.24408pt x 376.6223pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14
+
+ <../Skripsie/PCB_27032019.pdf>] [15 <../Skripsie/PCB_27032019.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 578.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 578.
+
+(./SkripsieMain.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 578.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 578.
 Package rerunfilecheck Info: File `SkripsieMain.out' has not changed.
-(rerunfilecheck)             Checksum: 11B8C71832C59287840E7EF9928613FE;872.
+(rerunfilecheck)             Checksum: 23D63A6F70B18BEF19E840BBBAE4C3BA;1308.
+
+
+LaTeX Warning: There were undefined references.
+
+Package logreq Info: Writing requests to 'SkripsieMain.run.xml'.
+\openout1 = `SkripsieMain.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 41450 strings out of 493013
- 961430 string characters out of 6136993
- 1089106 words of memory out of 5000000
- 44380 multiletter control sequences out of 15000+600000
- 13717 words of font info for 51 fonts, out of 8000000 for 9000
+ 47890 strings out of 493013
+ 1083477 string characters out of 6136993
+ 1575015 words of memory out of 5000000
+ 50726 multiletter control sequences out of 15000+600000
+ 13669 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,9n,100p,10425b,796s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,9n,100p,10425b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SkripsieMain.pdf (15 pages, 488284 bytes).
+type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmtt12.pfb>
+Output written on SkripsieMain.pdf (22 pages, 2893283 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
