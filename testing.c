@@ -12,14 +12,6 @@ int main()
     currTime = 0;
     altCol();
     //altLED(rand() % 5, rand() % 16);
-    
-    /*
-    for(int k = 0; k < 20; k++){
-        printArr();
-        timeIncrem();
-        printf("\n");
-    }
-    */
 
     printArr();
 
@@ -52,9 +44,6 @@ int main()
                 printf("Invalid Command"); 
         }        
     }
-
-   
-  
     
     return 0;
 }
