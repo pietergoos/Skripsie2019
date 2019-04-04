@@ -23,7 +23,7 @@ void userInit(){
 	cData[3] = 0b0000000000000000;
 	cData[4] = 0b0000000000000000;
 
-	startLEDs();
+	t=0;
 
 }
 
@@ -40,14 +40,13 @@ void userLoop(){
 			r = 0;
 		}
 	}
-	//TODO: Check the systick time - this is 1.5s
+
 	if (tickCtr >= 100000){
+		incrCol(t);
 		t++;
 		if(t == 16){
 			t = 0;
 		}
-		incrCol(t);
-
 		//once a second tick counter resets
 		tickCtr = 0;
 	}
@@ -96,13 +95,4 @@ void incrCol(uint8_t col){
 	}
 	toggleLEDCol(col);
 	toggleLEDCol(cl);
-}
-
-void startLEDs(){
-	t = 0;
-	toggleLEDCol(0);
-}
-
-void stopLEDs(){
-	toggleLEDCol(t);
 }

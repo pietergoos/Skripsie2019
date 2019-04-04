@@ -40,14 +40,13 @@ void userLoop(){
 			r = 0;
 		}
 	}
-	//TODO: Check the systick time - this is 1.5s
+
 	if (tickCtr >= 100000){
+		incrCol(t);
 		t++;
 		if(t == 16){
 			t = 0;
 		}
-		incrCol(t);
-
 		//once a second tick counter resets
 		tickCtr = 0;
 	}

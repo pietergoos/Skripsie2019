@@ -8,4 +8,3 @@ void toggleLED(uint8_t row, uint8_t col);
 void toggleLEDCol(uint8_t col);
 void incrCol(uint8_t col);
 void startLEDs();
-void stopLEDs();

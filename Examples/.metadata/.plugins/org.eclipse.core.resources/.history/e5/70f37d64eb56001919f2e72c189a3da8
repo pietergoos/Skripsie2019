@@ -17,11 +17,11 @@ void userInit(){
 	prevTick = HAL_GetTick();
 	spi5 = getSPI5();
 
-	cData[0] = 0b0000000000000000;
-	cData[1] = 0b0000000000000000;
-	cData[2] = 0b0000000000000000;
-	cData[3] = 0b0000000000000000;
-	cData[4] = 0b0000000000000000;
+	cData[0] = 0b0000000000000001;
+	cData[1] = 0b0000000000000001;
+	cData[2] = 0b0000000000000001;
+	cData[3] = 0b0000000000000001;
+	cData[4] = 0b0000000000000001;
 
 	startLEDs();
 
@@ -40,14 +40,13 @@ void userLoop(){
 			r = 0;
 		}
 	}
-	//TODO: Check the systick time - this is 1.5s
+
 	if (tickCtr >= 100000){
+		incrCol(t);
 		t++;
 		if(t == 16){
 			t = 0;
 		}
-		incrCol(t);
-
 		//once a second tick counter resets
 		tickCtr = 0;
 	}

@@ -2,12 +2,11 @@
 
 uint8_t spiData[3];
 uint8_t r;
+//uint16_t c;
 uint32_t tickCtr;
 uint32_t prevTick;
 SPI_HandleTypeDef spi5;
 uint16_t cData[5];
-
-uint8_t t;
 
 void userInit(){
 	//c = 0b1010101010101010;
@@ -17,13 +16,11 @@ void userInit(){
 	prevTick = HAL_GetTick();
 	spi5 = getSPI5();
 
-	cData[0] = 0b0000000000000000;
-	cData[1] = 0b0000000000000000;
-	cData[2] = 0b0000000000000000;
-	cData[3] = 0b0000000000000000;
-	cData[4] = 0b0000000000000000;
-
-	startLEDs();
+	cData[0] = 0b1010110100100010;
+	cData[1] = 0b1010100100100101;
+	cData[2] = 0b1110110100100101;
+	cData[3] = 0b1010100100100101;
+	cData[4] = 0b1010110110110010;
 
 }
 
@@ -40,14 +37,8 @@ void userLoop(){
 			r = 0;
 		}
 	}
-	//TODO: Check the systick time - this is 1.5s
-	if (tickCtr >= 100000){
-		t++;
-		if(t == 16){
-			t = 0;
-		}
-		incrCol(t);
 
+	if (tickCtr >= 100000){
 		//once a second tick counter resets
 		tickCtr = 0;
 	}
@@ -82,27 +73,4 @@ void toggleLED(uint8_t row, uint8_t col){
 	cData[row]  ^= 1 << (15-col);
 }
 
-void toggleLEDCol(uint8_t col){
-	uint8_t i;
-	for(i = 0; i<5; i++){
-		toggleLED(i, col);
-	}
-}
 
-void incrCol(uint8_t col){
-	uint8_t cl = col-1;
-	if (col == 0){
-		cl = 15;
-	}
-	toggleLEDCol(col);
-	toggleLEDCol(cl);
-}
-
-void startLEDs(){
-	t = 0;
-	toggleLEDCol(0);
-}
-
-void stopLEDs(){
-	toggleLEDCol(t);
-}
