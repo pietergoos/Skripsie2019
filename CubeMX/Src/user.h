@@ -9,3 +9,7 @@ void toggleLEDCol(uint8_t col);
 void incrCol(uint8_t col);
 void startLEDs();
 void stopLEDs();
+void initBtns();
+void incrBtns();
+void resetBtns();
+

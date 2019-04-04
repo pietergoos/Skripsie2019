@@ -141,7 +141,6 @@ int main(void)
   MX_SPI5_Init();
   MX_ADC1_Init();
   MX_USART1_UART_Init();
-  MX_SPI4_Init();
   /* USER CODE BEGIN 2 */
   userInit();
   /* USER CODE END 2 */

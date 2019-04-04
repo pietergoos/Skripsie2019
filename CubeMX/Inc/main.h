@@ -97,8 +97,6 @@ void Error_Handler(void);
 #define INT1_GPIO_Port GPIOE
 #define INT2_Pin GPIO_PIN_5
 #define INT2_GPIO_Port GPIOE
-#define BTN_SERIAL_Pin GPIO_PIN_6
-#define BTN_SERIAL_GPIO_Port GPIOE
 #define PC14_OSC32_IN_Pin GPIO_PIN_14
 #define PC14_OSC32_IN_GPIO_Port GPIOC
 #define PC15_OSC32_OUT_Pin GPIO_PIN_15
@@ -139,8 +137,8 @@ void Error_Handler(void);
 #define BTN_R3_GPIO_Port GPIOE
 #define BTN_RESET_Pin GPIO_PIN_11
 #define BTN_RESET_GPIO_Port GPIOE
-#define BTN_SRCLK_Pin GPIO_PIN_12
-#define BTN_SRCLK_GPIO_Port GPIOE
+#define BTN_CLK_Pin GPIO_PIN_12
+#define BTN_CLK_GPIO_Port GPIOE
 #define LED_SERIAL_Pin GPIO_PIN_14
 #define LED_SERIAL_GPIO_Port GPIOE
 #define CLK_IN_Pin GPIO_PIN_10
