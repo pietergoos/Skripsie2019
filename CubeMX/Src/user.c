@@ -1,16 +1,19 @@
 #include "user.h"
 
 uint8_t spiData[3];
-uint16_t c;
 uint8_t r;
+uint16_t c;
 uint32_t tickCtr;
 uint32_t prevTick;
+SPI_HandleTypeDef spi5;
 
 void userInit(){
-	c = 0b1010101010101010;
-	r = 2;
+	//c = 0b1010101010101010;
+	c = 0b1101000100010001;
+	r = 0;
 	tickCtr = 0;
 	prevTick = HAL_GetTick();
+	spi5 = getSPI5();
 }
 
 void userLoop(){
@@ -18,31 +21,30 @@ void userLoop(){
 	while(HAL_GetTick() == prevTick);
 	tickCtr++;
 
-	if (tickCtr >= 100000){
-		c = ~c;
+	if(tickCtr % 10 == 0){
 		sendLED();
-		//once a second
 		r++;
-		if(r == 6){
-			r = 1;
+		if(r >= 5){
+			r = 0;
 		}
+	}
 
+	if (tickCtr >= 100000){
+		//once a second
 		tickCtr = 0;
 	}
 
 }
 
 void sendLED(){
-	//TODO: Add multiple Row printing in one go, not row by row (for loop?)
-	spiData[0] = ~((c & 0xFF00) >> 8);
-	spiData[1] = ~(c & 0x00FF);
-	spiData[2] = (1 << (r-1));
+	//Get Data
+	spiData[1] = ((c & 0xFF00) >> 8);
+	spiData[0] = (c & 0x00FF);
+	spiData[2] = (0b1000 << r);
 
-	SPI_HandleTypeDef spi5 = getSPI5();
-
-	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_RESET);
-	HAL_SPI_Transmit(&spi5, spiData, 3, 10);
-	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_RESET); //Enable Goes Low
+	HAL_SPI_Transmit(&spi5, spiData, 3, 10); //Transmit 3 bytes
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_SET); //Enable Goes High
 }
 
 
