@@ -48,7 +48,7 @@ void sendLED(){
 	//Get Data
 	spiData[1] = ((cData[r] & 0xFF00) >> 8);
 	spiData[0] = (cData[r] & 0x00FF);
-	spiData[2] = (0b10000000 >> r);
+	spiData[2] = (0b1000 << r);
 
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_RESET); //Enable Goes Low
 	HAL_SPI_Transmit(&spi5, spiData, 3, 10); //Transmit 3 bytes
