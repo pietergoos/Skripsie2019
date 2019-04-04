@@ -4,21 +4,23 @@ uint8_t spiData[3];
 uint16_t c;
 uint8_t r;
 uint32_t tickCtr;
+uint32_t prevTick;
 
 void userInit(){
 	c = 0b1010101010101010;
 	r = 2;
 	tickCtr = 0;
+	prevTick = HAL_GetTick();
 }
 
 void userLoop(){
 
-	if (tickCtr % 10 == 0){
-		sendLED();
-	}
+	while(HAL_GetTick() == prevTick);
+	tickCtr++;
 
-	//TODO: Why doesn't systick seem to happen?
-	if (tickCtr >= 1000){
+	if (tickCtr >= 100000){
+		c = ~c;
+		sendLED();
 		//once a second
 		r++;
 		if(r == 6){
@@ -28,11 +30,6 @@ void userLoop(){
 		tickCtr = 0;
 	}
 
-}
-
-void HAL_SYSTICK_Callback(void)
-{
-  tickCtr++;
 }
 
 void sendLED(){
