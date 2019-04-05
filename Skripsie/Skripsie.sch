@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SKRIPSIE 2019"
-Date "2019-03-05"
-Rev "B"
+Date "2019-04-05"
+Rev "B.1"
 Comp "PIETER GOOS"
 Comment1 ""
 Comment2 ""
@@ -4943,7 +4943,7 @@ Text GLabel 2650 9650 2    50   Input ~ 0
 LED_SRCLK
 Text GLabel 1900 9650 0    50   Input ~ 0
 LED_RCLK
-Text GLabel 2650 9750 2    50   Input ~ 0
+Text GLabel 2650 9550 2    50   Input ~ 0
 BTN_R4
 Text GLabel 1900 9850 0    50   Input ~ 0
 BTN_R0
@@ -5156,7 +5156,7 @@ NoConn ~ 2650 10850
 NoConn ~ 2650 10750
 NoConn ~ 2650 10350
 NoConn ~ 2650 10250
-NoConn ~ 2650 9550
+NoConn ~ 2650 9750
 NoConn ~ 2650 9450
 NoConn ~ 2650 9350
 NoConn ~ 2650 9150
