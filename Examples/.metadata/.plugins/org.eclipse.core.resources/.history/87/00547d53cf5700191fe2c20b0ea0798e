@@ -135,8 +135,8 @@ void incrBtns(){
 	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12, GPIO_PIN_SET);
 	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12, GPIO_PIN_RESET);
 
-	GPIO_TypeDef* letter[] = {GPIOE, GPIOE, GPIOE, GPIOE, GPIOC};
-	uint16_t number[] = {GPIO_PIN_7, GPIO_PIN_8, GPIO_PIN_9, GPIO_PIN_10, GPIO_PIN_4};
+	GPIO_TypeDef* letter[] = {GPIOE, GPIOE, GPIOE, GPIOE, GPIOB};
+	uint16_t number[] = {GPIO_PIN_7, GPIO_PIN_8, GPIO_PIN_9, GPIO_PIN_10, GPIO_PIN_2};
 	uint8_t i;
 
 	for (i = 0; i<5; i++){

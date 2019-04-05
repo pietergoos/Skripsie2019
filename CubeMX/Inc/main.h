@@ -121,12 +121,12 @@ void Error_Handler(void);
 #define SPI1_MISO_GPIO_Port GPIOA
 #define SPI1_MOSI_Pin GPIO_PIN_7
 #define SPI1_MOSI_GPIO_Port GPIOA
+#define BTN_R4_Pin GPIO_PIN_4
+#define BTN_R4_GPIO_Port GPIOC
 #define LED_SRCLK_Pin GPIO_PIN_0
 #define LED_SRCLK_GPIO_Port GPIOB
 #define LED_RCLK_Pin GPIO_PIN_1
 #define LED_RCLK_GPIO_Port GPIOB
-#define BTN_R4_Pin GPIO_PIN_2
-#define BTN_R4_GPIO_Port GPIOB
 #define BTN_R0_Pin GPIO_PIN_7
 #define BTN_R0_GPIO_Port GPIOE
 #define BTN_R1_Pin GPIO_PIN_8
