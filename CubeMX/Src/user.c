@@ -6,20 +6,19 @@ uint8_t spiData[3];
 uint8_t r;
 uint32_t tickCtr;
 uint32_t prevTick;
-SPI_HandleTypeDef spi5;
 uint16_t cData[5];
 uint8_t cBtns[5][16];
+uint8_t txBuff[50];
+
+uint32_t adc[2], adcDMA[2];
 
 uint8_t t;
 uint8_t tm;
 
 void userInit(){
-	//c = 0b1010101010101010;
-	//c = 0b1101000100010001;
 	r = 0;
 	tickCtr = 0;
 	prevTick = HAL_GetTick();
-	spi5 = getSPI5();
 
 	cData[0] = 0b0000000000000000;
 	cData[1] = 0b0000000000000000;
@@ -30,6 +29,9 @@ void userInit(){
 	initBtns();
 	startLEDs();
 
+	HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
+
+	HAL_ADC_Start_DMA(&hadc1, adcDMA, 2);
 
 }
 
@@ -61,6 +63,9 @@ void userLoop(){
 		}
 		incrCol(t);
 
+		sprintf(txBuff, "A: %4u B: %4u\r\n", adc[0], adc[1]);
+		HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
+
 		//once a second tick counter resets
 		tickCtr = 0;
 	}
@@ -74,7 +79,7 @@ void sendLED(){
 	spiData[2] = (0b10000000 >> r);
 
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_RESET); //Enable Goes Low
-	HAL_SPI_Transmit(&spi5, spiData, 3, 10); //Transmit 3 bytes
+	HAL_SPI_Transmit(&hspi5, spiData, 3, 10); //Transmit 3 bytes
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_SET); //Enable Goes High
 }
 
@@ -157,3 +162,20 @@ void resetBtns(){
 	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_11, GPIO_PIN_SET);
 	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_11, GPIO_PIN_RESET);
 }
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
+{
+	adc[0] = adcDMA[0];
+	adc[1] = adcDMA[1];
+}
+
+void HAL_UART_TxHalfCpltCallback(UART_HandleTypeDef *huart)
+{
+
+}
+
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
+{
+
+}
+

@@ -97,10 +97,6 @@ void MX_USB_HOST_Process(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-SPI_HandleTypeDef getSPI5(){
-	return hspi5;
-}
-
 /* USER CODE END 0 */
 
 /**
