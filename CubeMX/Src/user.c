@@ -14,6 +14,8 @@ uint32_t adc[2], adcDMA[2];
 
 uint8_t t;
 uint8_t tm;
+float tempF;
+uint16_t timer;
 
 void userInit(){
 	r = 0;
@@ -29,7 +31,7 @@ void userInit(){
 	initBtns();
 	startLEDs();
 
-	HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
+	//HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
 
 	HAL_ADC_Start_DMA(&hadc1, adcDMA, 2);
 
@@ -40,6 +42,9 @@ void userLoop(){
 	//Do nothing between ticks
 	while(HAL_GetTick() == prevTick);
 	tickCtr++;
+
+
+
 
 	if(tickCtr % 10 == 0){
 		sendLED();
@@ -56,15 +61,18 @@ void userLoop(){
 
 	}
 
-	if (tickCtr >= ONESEC){
+	tempF = 0;
+	timer = (4096-adc[0]) * ONESEC / 4095;
+
+	if (tickCtr >= timer){
 		t++;
 		if(t == 16){
 			t = 0;
 		}
 		incrCol(t);
 
-		sprintf(txBuff, "A: %4u B: %4u\r\n", adc[0], adc[1]);
-		HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
+		//sprintf(txBuff, "A: %04u B: %04u\r\n", adc[0], adc[1]);
+		//HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
 
 		//once a second tick counter resets
 		tickCtr = 0;
