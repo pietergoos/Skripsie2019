@@ -4,6 +4,8 @@
 extern UART_HandleTypeDef huart1;
 extern ADC_HandleTypeDef hadc1;
 extern SPI_HandleTypeDef hspi5;
+extern uint8_t volString;
+extern uint8_t bpmString;
 
 void userInit();
 void userLoop();
