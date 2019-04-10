@@ -1,18 +1,18 @@
 [1] Config.pm:354> INFO - This is Biber 2.7
 [1] Config.pm:357> INFO - Logfile is 'SkripsieMain.blg'
-[202] biber-MSWIN32:303> INFO - === 
-[305] Biber.pm:359> INFO - Reading 'SkripsieMain.bcf'
-[800] Biber.pm:835> INFO - Found 8 citekeys in bib section 0
-[857] Biber.pm:3670> INFO - Processing section 0
-[927] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
-[943] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[967] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
-[1030] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\PIETER~1\AppData\Local\Temp\7EvtlZFGSP\references.bib_9620.utf8, line 58, warning: 24 characters of junk seen at toplevel
-[1077] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1078] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1078] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[1078] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[1102] bbl.pm:608> INFO - Writing 'SkripsieMain.bbl' with encoding 'ascii'
-[1113] Utils.pm:164> WARN - The entry 'schedel' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1118] bbl.pm:712> INFO - Output to SkripsieMain.bbl
-[1124] Biber.pm:109> INFO - WARNINGS: 2
+[53] biber-MSWIN32:303> INFO - === 
+[97] Biber.pm:359> INFO - Reading 'SkripsieMain.bcf'
+[230] Biber.pm:835> INFO - Found 8 citekeys in bib section 0
+[249] Biber.pm:3670> INFO - Processing section 0
+[274] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
+[279] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[287] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
+[309] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\PIETER~1\AppData\Local\Temp\2xu_FW5cZa\references.bib_20972.utf8, line 58, warning: 24 characters of junk seen at toplevel
+[326] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[326] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[326] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[326] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[333] bbl.pm:608> INFO - Writing 'SkripsieMain.bbl' with encoding 'ascii'
+[337] Utils.pm:164> WARN - The entry 'schedel' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[338] bbl.pm:712> INFO - Output to SkripsieMain.bbl
+[339] Biber.pm:109> INFO - WARNINGS: 2

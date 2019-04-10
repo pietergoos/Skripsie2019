@@ -1,9 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.17)  1 APR 2019 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.17)  10 APR 2019 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./SkripsieMain.tex
-(./SkripsieMain.tex
+**"c:/Users/Pieter Goos/Google Drive/Stellenbosch University/5th Year/Latex/Skr
+ipsieMain.tex"
+
+(c:/Users/Pieter Goos/Google Drive/Stellenbosch University/5th Year/Latex/Skrip
+sieMain.tex
 LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (c:/texlive/2016/texmf-dist/tex/latex/base/report.cls
@@ -23,22 +26,17 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(c:/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-
 (c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-)
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-(c:/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (c:/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -53,11 +51,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-)
-(c:/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
-(c:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty (c:/texlive/2016/te
+xmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2017/02/10 v6878 L3 programming layer (loader) 
-
 (c:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2017/02/10 v6878 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/12/28 v6805 L3 Bootstrap code
@@ -178,13 +174,11 @@ L3 Module: l3candidates 2017/01/30 v6835 L3 Experimental additions to l3kernel
 \l__coffin_scaled_total_height_dim=\dimen140
 \l__coffin_scaled_width_dim=\dimen141
 L3 Module: l3luatex 2016/12/28 v6805 L3 Experimental LuaTeX-specific functions
-)
-(c:/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+) (c:/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/12/28 v6805 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count126
 \l__driver_tmp_box=\box41
-))
-(c:/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+)) (c:/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2017/02/10 v6878 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count127
 \g__xparse_grabber_int=\count128
@@ -193,24 +187,20 @@ Package: xparse 2017/02/10 v6878 L3 Experimental document command parser
 \l__xparse_v_nesting_int=\count131
 )
 Package: siunitx 2017/02/01 v2.7c A comprehensive (SI) units package
-
 (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
 (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen142
-))
-(c:/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+)) (c:/texlive/2016/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen143
 \extrarowheight=\dimen144
 \NC@list=\toks17
 \extratabsurround=\skip49
 \backup@length=\skip50
-)
-(c:/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2017/02/10 v6878 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box42
@@ -371,49 +361,39 @@ Package: l3keys2e 2017/02/10 v6878 LaTeX2e option processing using LaTeX3 keys
 . Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7429.
 .................................................
 \g__file_internal_ior=\read1
-
 (c:/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
 
 (c:/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator-language-map
 pings.tex))) (c:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
 (c:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
-
 (c:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-
 (c:/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count149
 ))
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
-)
-(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip55
-
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen159
-)
-(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count150
@@ -453,24 +433,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/paralist/paralist.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
 \pltopsep=\skip58
 \plpartopsep=\skip59
 \plitemsep=\skip60
 \plparsep=\skip61
 \pl@lab=\toks22
-)
-(c:/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
 (c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count162
 \lst@gtempboxa=\box51
 \lst@token=\toks23
@@ -483,36 +459,30 @@ Package color Info: Driver file: pdftex.def on input line 147.
 \lst@newlines=\count166
 \lst@lineno=\count167
 \lst@maxwidth=\dimen170
-
 (c:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count168
 \lst@skipnumbers=\count169
 \lst@framebox=\box52
-)
-(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+) (c:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
-
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
 (c:/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/acro/acro.sty
-(c:/texlive/2016/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/acro/acro.sty (c:/texlive/2016/texmf-di
+st/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2017/02/10 v6878 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen171
 \l__xtemplate_tmp_int=\count170
 \l__xtemplate_tmp_muskip=\muskip17
 \l__xtemplate_tmp_skip=\skip62
-)
-(c:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count171
 )
@@ -553,19 +523,14 @@ Package: acro 2017/01/22 v2.7a Typeset Acronyms
 . 
 . Defining command \DeclareAcroExtraStyle with sig. 'mmm' on line 1004.
 .................................................
-
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
-
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/zref-base.sty
 Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
-
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
@@ -574,26 +539,22 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-))
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+)) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-)
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
-)
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
 \c@abspage=\count176
@@ -700,23 +661,18 @@ Package zref Info: New property: abspage on input line 62.
 . 
 . Defining command \printacronyms with sig. 'O{}' on line 3872.
 .................................................
-
 (c:/texlive/2016/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2016/06/02 v1.4a internationalization of LaTeX2e packages
  (CN)
-
 (c:/texlive/2016/texmf-dist/tex/latex/cnltx/cnltx-base.sty
 Package: cnltx-base 2015/08/17 v0.13 LaTeX tools and documenting facilities (CN
 )
-
 (c:/texlive/2016/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-
-(c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/201
+6/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks24
 \pgfkeys@temptoks=\toks25
-
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks26
 )))
@@ -729,9 +685,8 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \cnltx@tmpa@length=\skip64
 \cnltx@tmpb@length=\skip65
 \cnltx@tmpc@length=\skip66
- (c:/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+(c:/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
 (c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
@@ -746,13 +701,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-(c:/texlive/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
+)) (c:/texlive/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2017/01/03 v3.22 KOMA-Script package (loading files)
-
 Package scrlfile, 2017/01/03 v3.22 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
@@ -927,35 +879,29 @@ Package scrlfile, 2017/01/03 v3.22 KOMA-Script package (loading files)
 . 
 . Defining command \acfplike with sig. 'smm' on line 4303.
 .................................................
-) (c:/texlive/2016/texmf-dist/tex/latex/pgfplots/pgfplots.sty
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+) (c:/texlive/2016/texmf-dist/tex/latex/pgfplots/pgfplots.sty (c:/texlive/2016/
+texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
-
-(c:/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(c:/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/20
+16/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2016/texmf-dist/tex/
+latex/pgf/utilities/pgfrcs.sty (c:/texlive/2016/texmf-dist/tex/generic/pgf/util
+ities/pgfutil-common.tex
 \pgfutil@everybye=\toks29
 \pgfutil@tempdima=\dimen173
 \pgfutil@tempdimb=\dimen174
-
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
 ) (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box53
-
 (c:/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+)) (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(c:/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(c:/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(c:/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/20
+16/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2016/texmf-dist/
+tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 \pgf@x=\dimen175
 \pgf@y=\dimen176
@@ -974,15 +920,12 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \t@pgf@toka=\toks30
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
-
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
@@ -995,19 +938,17 @@ File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 )) (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2
+016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2016/texmf
+-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2016/texmf-dist/te
+x/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen183
 \pgfmath@count=\count187
 \pgfmath@box=\box54
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
-)
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
 x)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
@@ -1023,11 +964,11 @@ x)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
-etics.code.tex)))
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+etics.code.tex))) (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat
+.code.tex
 \c@pgfmathroundto@lastzeros=\count188
-))
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+)) (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen184
 \pgf@picmaxx=\dimen185
@@ -1055,8 +996,7 @@ x
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen256
 \pgf@shorten@start@additional=\dimen257
-)
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box55
 \pgf@hbox=\box56
@@ -1074,34 +1014,30 @@ File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen259
 \pgf@pt@y=\dimen260
 \pgf@pt@temp=\dimen261
-)
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.te
+x
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
 de.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen262
-)
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen263
 \pgf@sys@shading@range@num=\count190
-)
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box58
-))
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)) (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
@@ -1110,12 +1046,11 @@ File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box59
-)
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+) (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
@@ -1127,19 +1062,17 @@ Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(c:/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2
+016/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2016/texmf-dist/tex/g
+eneric/pgf/math/pgfmath.code.tex)) (c:/texlive/2016/texmf-dist/tex/generic/pgf/
+utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen266
 \pgffor@skip=\dimen267
 \pgffor@stack=\toks36
 \pgffor@toks=\toks37
-))
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
@@ -1162,7 +1095,6 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofchildren=\count193
 \tikznumberofcurrentchild=\count194
 \tikz@fig@count=\count195
-
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count196
@@ -1174,9 +1106,8 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+))) (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (c:/texl
+ive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks38
 \t@pgfplots@tokb=\toks39
 \t@pgfplots@tokc=\toks40
@@ -1185,12 +1116,11 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 \c@pgfplots@scanlineindex=\count267
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
-x))
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
-
+x)) (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.
+tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
-upp_loader.code.tex
-(c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+upp_loader.code.tex (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgfli
+braryfpu.code.tex)
 Package pgfplots: loading complementary arithmetics for your pgf version...
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
@@ -1198,8 +1128,7 @@ upp_pgflibraryfpu.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
 upp_pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count268
-))
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+)) (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
 cture.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
@@ -1216,8 +1145,8 @@ ode.tex
 \t@pgfplotstable@a=\toks41
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
-de.tex)
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+de.tex) (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.
 tex))
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.te
@@ -1229,7 +1158,7 @@ ading.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
 ding.pgfsys-pdftex.def)))
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.t
@@ -1238,11 +1167,10 @@ ex
 ))) (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.t
-ex)
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
-(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+ex) (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.te
+x) (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) 
+(c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/te
+xlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
@@ -1283,7 +1211,6 @@ tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ))) (c:/texlive/2016/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
-
 (c:/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box65
@@ -1313,8 +1240,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@hleads=\box68
 \tabu@vleads=\box69
 \tabu@cellskip=\skip67
-)
-(c:/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip68
 \LTright=\skip69
@@ -1331,18 +1257,14 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count284
 \c@LT@chunks=\count285
 \LT@p@ftn=\toks44
-)
-(c:/texlive/2016/texmf-dist/tex/latex/underscore/underscore.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/underscore/underscore.sty
 Package: underscore 2006/09/13
 LaTeX Info: Redefining \_ on input line 42.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
-
 (c:/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(c:/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count286
 \calc@Bcount=\count287
@@ -1354,13 +1276,11 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count288
 \calc@Cskip=\skip74
-)
-(c:/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
 \AM@pagewidth=\dimen303
 \AM@pageheight=\dimen304
-
 (c:/texlive/2016/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 )
@@ -1369,13 +1289,10 @@ File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks46
 \c@AM@survey=\count289
 \AM@templatesizebox=\box75
-)
-(c:/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
-
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
 
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
@@ -1404,19 +1321,16 @@ Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen305
 \Hy@linkcounter=\count290
 \Hy@pagecounter=\count291
-
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count292
-
 (c:/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -1428,7 +1342,6 @@ Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
 \c@Hy@tempcnt=\count293
-
 (c:/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -1459,26 +1372,21 @@ File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
 \HyAnn@Count=\count298
 \Fld@listcount=\count299
 \c@bookmark@seq@number=\count300
-
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip75
-)
-(c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
-
 (c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count301
-
 (c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
-(c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+)) (c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2016
+/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
 \integerpart=\count302
 \decimalpart=\count303
@@ -1538,7 +1446,6 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \c@mincompwidth=\count344
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
@@ -1618,13 +1525,11 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \shorteditorwidth=\skip89
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 \c@textcitecount=\count411
@@ -1637,22 +1542,18 @@ File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
 File: ieee.bbx 2016/12/30 vvv1.2 biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
 File: numeric-comp.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count418
@@ -1660,12 +1561,10 @@ File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
 File: ieee.cbx 2016/12/30 vvv1.2 biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
 \c@cbx@tempcnta=\count420
@@ -1687,7 +1586,6 @@ Package biblatex Info: Redefining '\cites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
@@ -1695,14 +1593,14 @@ Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 145.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count422
 \@quotereset=\count423
 
-(./SkripsieMain.aux)
+(C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Latex/Skrip
+sieMain.aux)
 \openout1 = `SkripsieMain.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
@@ -1719,7 +1617,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
 LaTeX Font Info:    ... okay on input line 145.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
 LaTeX Font Info:    ... okay on input line 145.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1758,11 +1655,9 @@ LaTeX Font Info:    ... okay on input line 145.
 (c:/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
-)
-(c:/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+) (c:/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/02/01 v2.7c siunitx: Abbreviated units
-)
-(c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count424
 \scratchdimen=\dimen309
@@ -1777,7 +1672,6 @@ File: siunitx-abbreviations.cfg 2017/02/01 v2.7c siunitx: Abbreviated units
 \everyMPtoPDFconversion=\toks48
 ) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
@@ -1787,7 +1681,6 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
 (c:/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
@@ -1802,7 +1695,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 145.
- ABD: EveryShipout initializing macros
+ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
@@ -1812,7 +1705,6 @@ your preamble.
 Package hyperref Info: Link coloring OFF on input line 145.
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
@@ -1822,7 +1714,10 @@ LaTeX Info: Redefining \ref on input line 145.
 LaTeX Info: Redefining \pageref on input line 145.
 LaTeX Info: Redefining \nameref on input line 145.
 
-(./SkripsieMain.out) (./SkripsieMain.out)
+(C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Latex/Skrip
+sieMain.out)
+(C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Latex/Skrip
+sieMain.out)
 \@outlinefile=\write6
 \openout6 = `SkripsieMain.out'.
 
@@ -1834,27 +1729,28 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'SkripsieMain.bbl' found.
- (./SkripsieMain.bbl)
+
+(C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Latex/Skrip
+sieMain.bbl)
 Package biblatex Info: Reference section=0 on input line 145.
 Package biblatex Info: Reference segment=0 on input line 145.
 \c__siunitx_mathsf_int=\count432
 \c__siunitx_mathtt_int=\count433
-
 <EELogo.png, id=95, 84.315pt x 19.272pt>
 File: EELogo.png Graphic file (type png)
- <use EELogo.png>
+<use EELogo.png>
 Package pdftex.def Info: EELogo.png used on input line 150.
 (pdftex.def)             Requested size: 168.62955pt x 38.54388pt.
-
 <SUNLogo.jpg, id=97, 753.7761pt x 161.6439pt>
 File: SUNLogo.jpg Graphic file (type jpg)
- <use SUNLogo.jpg>
+<use SUNLogo.jpg>
 Package pdftex.def Info: SUNLogo.jpg used on input line 173.
 (pdftex.def)             Requested size: 199.16928pt x 42.70964pt.
- [1
+[1
 
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./EELogo.png> <
-./SUNLogo.jpg>]
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/Pieter
+ Goos/Google Drive/Stellenbosch University/5th Year/Latex/EELogo.png> <c:/Users
+/Pieter Goos/Google Drive/Stellenbosch University/5th Year/Latex/SUNLogo.jpg>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 183.
@@ -1866,24 +1762,29 @@ Missing character: There is no ˜ in font cmti12!
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no ˜ in font cmti12!
- [2] [3] (./SkripsieMain.toc)
+[2] [3]
+(C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Latex/Skrip
+sieMain.toc)
 \tf@toc=\write7
 \openout7 = `SkripsieMain.toc'.
 
- [4
+[4
 
-] (./SkripsieMain.lof)
+]
+(C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Latex/Skrip
+sieMain.lof)
 \tf@lof=\write8
 \openout8 = `SkripsieMain.lof'.
 
- [5
+[5
 
 ]
-(./SkripsieMain.lot)
+(C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Latex/Skrip
+sieMain.lot)
 \tf@lot=\write9
 \openout9 = `SkripsieMain.lot'.
 
- [6
+[6
 
 ]
 Chapter 1.
@@ -1893,26 +1794,26 @@ Chapter 1.
 Chapter 2.
 <computerhythm.jpg, id=199, 301.125pt x 168.63pt>
 File: computerhythm.jpg Graphic file (type jpg)
- <use computerhythm.jpg>
+<use computerhythm.jpg>
 Package pdftex.def Info: computerhythm.jpg used on input line 259.
 (pdftex.def)             Requested size: 227.62204pt x 127.4731pt.
-
 
 LaTeX Warning: Reference `sec:beatmatrix' on page 2 undefined on input line 264
 .
 
 <maschine.jpg, id=212, 521.95pt x 391.4625pt>
 File: maschine.jpg Graphic file (type jpg)
- <use maschine.jpg>
+<use maschine.jpg>
 Package pdftex.def Info: maschine.jpg used on input line 269.
 (pdftex.def)             Requested size: 136.5746pt x 127.58858pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2
 
-] [3 <./maschine.jpg> <./computerhythm.jpg>]
+] [3 <c:/Users/Pieter Goos/Google Drive/Stellenbosch University/5th Year/Latex/
+maschine.jpg> <c:/Users/Pieter Goos/Google Drive/Stellenbosch University/5th Ye
+ar/Latex/computerhythm.jpg>]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1999,7 +1900,6 @@ pdfTeX warning: pdflatex.exe (file ../Skripsie/Layout_05032019.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
 <../Skripsie/Layout_05032019.pdf, id=281, 794.97pt x 614.295pt>
 File: ../Skripsie/Layout_05032019.pdf Graphic file (type pdf)
-
 <use ../Skripsie/Layout_05032019.pdf>
 Package pdftex.def Info: ../Skripsie/Layout_05032019.pdf used on input line 547
 .
@@ -2010,12 +1910,10 @@ pdfTeX warning: pdflatex.exe (file ../Skripsie/Layout_28022019.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
 <../Skripsie/Layout_28022019.pdf, id=282, 794.97pt x 614.295pt>
 File: ../Skripsie/Layout_28022019.pdf Graphic file (type pdf)
-
 <use ../Skripsie/Layout_28022019.pdf>
 Package pdftex.def Info: ../Skripsie/Layout_28022019.pdf used on input line 553
 .
 (pdftex.def)             Requested size: 455.24408pt x 351.79211pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2029,7 +1927,6 @@ pdfTeX warning: pdflatex.exe (file ../Skripsie/PCB_27032019.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 <../Skripsie/PCB_27032019.pdf, id=294, 845.07724pt x 597.55246pt>
 File: ../Skripsie/PCB_27032019.pdf Graphic file (type pdf)
-
 <use ../Skripsie/PCB_27032019.pdf>
 Package pdftex.def Info: ../Skripsie/PCB_27032019.pdf used on input line 561.
 (pdftex.def)             Requested size: 455.24408pt x 376.6223pt.
@@ -2039,12 +1936,10 @@ pdfTeX warning: pdflatex.exe (file ../Skripsie/PCB_27032019.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 <../Skripsie/PCB_27032019.pdf, id=296, page=2, 845.07724pt x 597.55246pt>
 File: ../Skripsie/PCB_27032019.pdf Graphic file (type pdf)
-
 <use ../Skripsie/PCB_27032019.pdf, page 2>
 Package pdftex.def Info: ../Skripsie/PCB_27032019.pdf, page2 used on input line
  568.
 (pdftex.def)             Requested size: 455.24408pt x 376.6223pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2054,12 +1949,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 578.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 578.
 
-(./SkripsieMain.aux)
+(C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Latex/Skrip
+sieMain.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 578.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 578.
 Package rerunfilecheck Info: File `SkripsieMain.out' has not changed.
 (rerunfilecheck)             Checksum: 23D63A6F70B18BEF19E840BBBAE4C3BA;1308.
-
 
 LaTeX Warning: There were undefined references.
 
@@ -2068,13 +1963,13 @@ Package logreq Info: Writing requests to 'SkripsieMain.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47890 strings out of 493013
- 1083477 string characters out of 6136993
+ 47893 strings out of 493013
+ 1085079 string characters out of 6136993
  1575015 words of memory out of 5000000
  50726 multiletter control sequences out of 15000+600000
  13669 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,9n,100p,10425b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,9n,100p,10498b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-d
@@ -2082,7 +1977,8 @@ ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt12.pfb>
-Output written on SkripsieMain.pdf (22 pages, 2893283 bytes).
+Output written on "C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5t
+h Year\Latex/SkripsieMain.pdf" (22 pages, 2893283 bytes).
 PDF statistics:
  354 PDF objects out of 1000 (max. 8388607)
  307 compressed objects within 4 object streams
