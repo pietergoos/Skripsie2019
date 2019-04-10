@@ -37,6 +37,8 @@ void userInit(){
 
 	initLCD();
 
+
+
 	//HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
 
 	HAL_ADC_Start_DMA(&hadc1, adcDMA, 2);
