@@ -1,6 +1,8 @@
 #include "user.h"
 #include "lcd.h"
 
+//#define ONESEC 67000
+//#define ONESEC 56000
 #define ONESEC 1000
 
 uint8_t spiData[3];
@@ -65,7 +67,6 @@ void userLoop(){
 	}
 
 	timer = (4096-adc[0]) * ONESEC / 4095;
-
 
 	if (tickCtr >= timer){
 		t++;

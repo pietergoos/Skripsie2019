@@ -1,6 +1,8 @@
 #include "user.h"
 #include "lcd.h"
 
+//#define ONESEC 67000
+//#define ONESEC 56000
 #define ONESEC 1000
 
 uint8_t spiData[3];
@@ -51,13 +53,13 @@ void userLoop(){
 
 	updateLCD();
 
-	//if(tickCtr % 1 == 0){
+	if(tickCtr % 1 == 0){
 		sendLED();
 		r++;
 		if(r >= 5){
 			r = 0;
 		}
-	//}
+	}
 
 	//Resets on high (PE11) /\ Clk on PE12
 	if (tickCtr % (ONESEC/160) == 0){
@@ -65,7 +67,6 @@ void userLoop(){
 	}
 
 	timer = (4096-adc[0]) * ONESEC / 4095;
-
 
 	if (tickCtr >= timer){
 		t++;

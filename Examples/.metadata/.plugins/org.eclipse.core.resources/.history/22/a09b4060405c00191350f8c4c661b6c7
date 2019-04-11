@@ -48,7 +48,7 @@
 /* Include audio component Driver */
 #include "../Components/cs43l22/cs43l22.h"
 #include "stm32f411e_discovery.h"
-#include "../Middlewares/pdm_filter.h"
+#include "pdm_filter.h"
 
 /** @addtogroup BSP
   * @{

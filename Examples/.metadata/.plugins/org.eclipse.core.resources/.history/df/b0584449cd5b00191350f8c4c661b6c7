@@ -1,7 +1,8 @@
 #include "user.h"
 #include "lcd.h"
 
-#define ONESEC 1000
+//#define ONESEC 67000
+#define ONESEC 56000
 
 uint8_t spiData[3];
 uint8_t r;
@@ -36,6 +37,8 @@ void userInit(){
 
 	initLCD();
 
+
+
 	//HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
 
 	HAL_ADC_Start_DMA(&hadc1, adcDMA, 2);
@@ -47,25 +50,25 @@ void userLoop(){
 	//Do nothing between ticks
 	while(HAL_GetTick() == prevTick);
 	tickCtr++;
-	prevTick = HAL_GetTick();
 
 	updateLCD();
 
-	//if(tickCtr % 1 == 0){
+	if(tickCtr % 10 == 0){
 		sendLED();
 		r++;
 		if(r >= 5){
 			r = 0;
 		}
-	//}
+	}
 
 	//Resets on high (PE11) /\ Clk on PE12
 	if (tickCtr % (ONESEC/160) == 0){
+
 		incrBtns();
+
 	}
 
 	timer = (4096-adc[0]) * ONESEC / 4095;
-
 
 	if (tickCtr >= timer){
 		t++;
