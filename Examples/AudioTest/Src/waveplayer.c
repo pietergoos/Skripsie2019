@@ -225,6 +225,7 @@ void WavePlayBack(uint32_t AudioFreq)
         
         BufferOffset = BUFFER_OFFSET_NONE;
       } 
+      
       if(AudioRemSize > (AUDIO_BUFFER_SIZE / 2))
       {
         AudioRemSize -= bytesread;
