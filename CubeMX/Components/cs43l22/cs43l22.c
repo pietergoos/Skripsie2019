@@ -86,7 +86,7 @@
   */
 
 /* Audio codec driver structure initialization */  
-AUDIO_DrvTypeDef cs43l22_drv = 
+AUDIO_DrvTypeDef cs43l22_drv =
 {
   cs43l22_Init,
   cs43l22_DeInit,

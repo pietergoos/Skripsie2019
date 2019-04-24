@@ -21,6 +21,7 @@ uint8_t t;
 uint8_t tm;
 float tempF;
 uint16_t timer;
+uint8_t startPlay = 0;
 
 FIL Files[5];
 #define AUDIO_BUFFER_SIZE 4096
@@ -69,61 +70,77 @@ void userLoop() {
 		case USBH_USR_AUDIO:
 			//TODO: Allow the code to run, otherwise find out how other modes work
 			//WavePlayerStart();
-			USBH_USR_ApplicationState = USBH_USR_FS_INIT;
+			startPlay = 1;
+			initFiles();
+			//USBH_USR_ApplicationState = USBH_USR_FS_INIT;
 			break;
 		}
 		break;
 	case APPLICATION_IDLE:
+		break;
+	case APPLICATION_DISCONNECT:
+		BSP_AUDIO_OUT_Stop(CODEC_PDWN_HW);
+		f_mount(NULL, (TCHAR const*) "", 0);
+		Appli_state = APPLICATION_IDLE;
+		USBH_USR_ApplicationState = USBH_USR_FS_INIT;
+		break;
 	default:
 		break;
 	}
 
-	//Do nothing between ticks
-	while (HAL_GetTick() == prevTick)
-		;
-	tickCtr++;
-	prevTick = HAL_GetTick();
+	if (startPlay == 0) {
 
-	updateLCD();
+		fillDMAArr();
 
-	//if(tickCtr % 1 == 0){
-	sendLED();
-	r++;
-	if (r >= 5) {
-		r = 0;
-	}
-	//}
+		if(HAL_GetTick() != prevTick){
 
-	//Resets on high (PE11) /\ Clk on PE12
-	if (tickCtr % (ONESEC / 160) == 0) {
-		incrBtns();
-	}
+		//Do nothing between ticks
+		//while (HAL_GetTick() == prevTick);
+		tickCtr++;
+		prevTick = HAL_GetTick();
 
-	timer = (4096 - adc[0]) * ONESEC / 4095;
-	if (tickCtr >= timer) {
-		t++;
-		if (t == 16) {
-			t = 0;
+		updateLCD();
+
+		//if(tickCtr % 1 == 0){
+		sendLED();
+		r++;
+		if (r >= 5) {
+			r = 0;
 		}
-		incrCol(t);
+		//}
 
-		//sprintf(txBuff, "A: %04u B: %04u\r\n", adc[0], adc[1]);
-		//HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
-
-		bpmOld = bpm;
-		volOld = vol;
-
-		bpm = 60 * 4095 / (4096 - adc[0]);
-		vol = adc[1] * 100 / 4095;
-
-		if (bpm != bpmOld || vol != volOld) {
-			lcdRefresh(vol, bpm);
+		//Resets on high (PE11) /\ Clk on PE12
+		if (tickCtr % (ONESEC / 160) == 0) {
+			incrBtns();
+			primeCol(tm);
 		}
 
-		//once a second tick counter resets
-		tickCtr = 0;
-	}
+		timer = (4096 - adc[0]) * ONESEC / 4095;
+		if (tickCtr >= timer) {
+			t++;
+			if (t == 16) {
+				t = 0;
+			}
+			incrCol(t);
 
+			//sprintf(txBuff, "A: %04u B: %04u\r\n", adc[0], adc[1]);
+			//HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
+
+			bpmOld = bpm;
+			volOld = vol;
+
+			bpm = 60 * 4095 / (4096 - adc[0]);
+			vol = adc[1] * 100 / 4095;
+
+			if (bpm != bpmOld || vol != volOld) {
+				lcdRefresh(vol, bpm);
+			}
+
+			//once a second tick counter resets
+			tickCtr = 0;
+		}
+	}
+	}
 }
 
 void sendLED() {
@@ -273,6 +290,7 @@ uint8_t initFiles() {
 
 		sampleRate = fSample[0];
 		//Initialize the audio handler (DMA, I2S, I2C)
+
 		BSP_AUDIO_OUT_Init(OUTPUT_DEVICE_AUTO, Volume, sampleRate);
 		BSP_AUDIO_OUT_Play((uint16_t*) &AudioBuffer[0], AUDIO_BUFFER_SIZE);
 
@@ -361,7 +379,7 @@ void fillDMAArr() {
 void BSP_AUDIO_OUT_TransferComplete_CallBack(void) {
 	BufferOffset = BUFFER_OFFSET_FULL;
 	BSP_AUDIO_OUT_ChangeBuffer((uint16_t *) &AudioBuffer[0],
-			AUDIO_BUFFER_SIZE / 2);
+	AUDIO_BUFFER_SIZE / 2);
 }
 
 /**

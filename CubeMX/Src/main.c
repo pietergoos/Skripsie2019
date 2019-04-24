@@ -132,8 +132,9 @@ int main(void)
   MX_I2S2_Init();
   //MX_I2S3_Init();
   MX_SPI1_Init();
-  MX_USB_HOST_Init();
   MX_FATFS_Init();
+  MX_USB_HOST_Init();
+
   MX_SPI5_Init();
   MX_ADC1_Init();
   MX_USART1_UART_Init();

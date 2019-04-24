@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="spi5" key="selection"/>
+		<item value="Drv" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="drv"/>
 			<item value="Waveplayer_C"/>
 			<item value="spi5"/>
 			<item value="HAL_CORTEX_MODULE_ENABLED"/>
@@ -15,7 +16,6 @@
 			<item value="systick"/>
 			<item value="HAL_SYSTICK"/>
 			<item value="HAL_SYSTICK_Config"/>
-			<item value="systick_config"/>
 		</list>
 		<list key="replacehistory">
 		</list>

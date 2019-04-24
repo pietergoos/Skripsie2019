@@ -53,5 +53,7 @@ void initBtns();
 void incrBtns();
 void resetBtns();
 
-void WavePlayerStart(void);
-void WavePlayBack(uint32_t AudioFreq);
+void fillDMAArr();
+void primeCol(uint8_t col);
+uint8_t initFiles();
+
