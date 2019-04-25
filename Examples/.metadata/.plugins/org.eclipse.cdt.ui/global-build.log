@@ -1,1 +1,20 @@
+22:58:02 **** Incremental Build of configuration Debug for project CubeMX ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F411xE -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\user.o ..\Src\user.c 
+arm-atollic-eabi-gcc -o CubeMX.elf Components\cs43l22\cs43l22.o Components\lsm303dlhc\lsm303dlhc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.o Middlewares\ST\STM32_USB_Host_Library\Class\MSC\Src\usbh_msc.o Middlewares\ST\STM32_USB_Host_Library\Class\MSC\Src\usbh_msc_bot.o Middlewares\ST\STM32_USB_Host_Library\Class\MSC\Src\usbh_msc_scsi.o Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_core.o Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_ctlreq.o Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_ioreq.o Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_pipes.o Middlewares\Third_Party\FatFs\src\diskio.o Middlewares\Third_Party\FatFs\src\ff.o Middlewares\Third_Party\FatFs\src\ff_gen_drv.o Middlewares\Third_Party\FatFs\src\option\syscall.o Src\adc.o Src\dma.o Src\fatfs.o Src\gpio.o Src\i2c.o Src\i2s.o Src\lcd.o Src\main.o Src\spi.o Src\stm32f411e_discovery.o Src\stm32f411e_discovery_audio.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o Src\usart.o Src\usb_host.o Src\usbh_conf.o Src\usbh_diskio.o Src\usbh_platform.o Src\user.o startup\startup_stm32f411xe.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F411VE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=CubeMX.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.2.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.2.0\Tools\arm-atollic-reports.jar sizeinfo list CubeMX.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  38780	    212	  58032	  97024	  17b00	CubeMX.elf
+Print size information done
+Generate listing file
+Output sent to: CubeMX.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex CubeMX.elf CubeMX.hex 
+Info: Nothing to build for CubeMX
+Info: Nothing to build for CubeMX
+Info: Nothing to build for AudioTest
+Info: Nothing to build for AudioTest
 Info: Nothing to build for CubeMX

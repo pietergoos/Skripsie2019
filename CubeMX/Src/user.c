@@ -265,7 +265,10 @@ uint8_t initFiles() {
 	uint32_t fSample[5];
 
 	//Clear the Audio Array
-	memset(AudioBuffer, 0, AUDIO_BUFFER_SIZE);
+	for(int i = 0; i < AUDIO_BUFFER_SIZE; i++){
+		AudioBuffer[i] = 0;
+	}
+	//memset(AudioBuffer, 0, AUDIO_BUFFER_SIZE);
 
 	//Get read out protection status
 	if (f_opendir(&Directory, path) == FR_OK) {
@@ -346,8 +349,11 @@ void fillDMAArr() {
 			break;
 		}
 
-		memset(dataPart, 0, halfSz);
+		for(int i = 0; i < halfSz; i++){
+			dataPart[i] = 0;
+		}
 
+		//memset(dataPart, 0, halfSz);
 		for (int i = 0; i < 80; i++) {
 			if (bLeft[i] < halfSz) {
 				bLeft[i] = 0;
