@@ -25,7 +25,7 @@ uint8_t startPlay = 0;
 
 FIL Files[5];
 #define AUDIO_BUFFER_SIZE 4096
-uint32_t sampleRate = 0;
+volatile uint32_t sampleRate = 0;
 uint8_t Volume = 70;
 uint32_t fSize[5]; //Max filesize of the given row
 FIL FileCall[80]; //File array to use for playing
@@ -62,18 +62,20 @@ void userLoop() {
 	switch (Appli_state) {
 	case APPLICATION_READY:
 		//THINGS
-		switch (USBH_USR_ApplicationState) {
-		case USBH_USR_FS_INIT:
-			f_mount(&USBHFatFS, (TCHAR const*) USBHPath, 0);
-			USBH_USR_ApplicationState = USBH_USR_AUDIO;
-			break;
-		case USBH_USR_AUDIO:
-			//TODO: Allow the code to run, otherwise find out how other modes work
-			//WavePlayerStart();
-			startPlay = 1;
-			initFiles();
-			//USBH_USR_ApplicationState = USBH_USR_FS_INIT;
-			break;
+		if(startPlay != 1){
+			switch (USBH_USR_ApplicationState) {
+			case USBH_USR_FS_INIT:
+				f_mount(&USBHFatFS, (TCHAR const*) USBHPath, 0);
+				USBH_USR_ApplicationState = USBH_USR_AUDIO;
+				break;
+			case USBH_USR_AUDIO:
+				//TODO: Allow the code to run, otherwise find out how other modes work
+				//WavePlayerStart();
+				startPlay = 1;
+				initFiles();
+				//USBH_USR_ApplicationState = USBH_USR_FS_INIT;
+				break;
+			}
 		}
 		break;
 	case APPLICATION_IDLE:
@@ -88,7 +90,7 @@ void userLoop() {
 		break;
 	}
 
-	if (startPlay == 0) {
+	if (startPlay == 1) {
 
 		fillDMAArr();
 
@@ -101,7 +103,7 @@ void userLoop() {
 
 		updateLCD();
 
-		//if(tickCtr % 1 == 0){
+		//if(tickCtr % 1 == 0){_
 		sendLED();
 		r++;
 		if (r >= 5) {
@@ -112,7 +114,7 @@ void userLoop() {
 		//Resets on high (PE11) /\ Clk on PE12
 		if (tickCtr % (ONESEC / 160) == 0) {
 			incrBtns();
-			primeCol(tm);
+
 		}
 
 		timer = (4096 - adc[0]) * ONESEC / 4095;
@@ -122,6 +124,7 @@ void userLoop() {
 				t = 0;
 			}
 			incrCol(t);
+			primeCol(t);
 
 			//sprintf(txBuff, "A: %04u B: %04u\r\n", adc[0], adc[1]);
 			//HAL_UART_Transmit_DMA(&huart1, txBuff, 17);
@@ -134,6 +137,9 @@ void userLoop() {
 
 			if (bpm != bpmOld || vol != volOld) {
 				lcdRefresh(vol, bpm);
+			}
+			if(vol != volOld){
+				BSP_AUDIO_OUT_SetVolume(vol);
 			}
 
 			//once a second tick counter resets
@@ -303,12 +309,13 @@ uint8_t initFiles() {
 /**
  * The function where the file will be copied from the prototype into the buffer and the bytes left will be reset
  */
-void primeCol(uint8_t col) {
+void primeCol(uint8_t c) {
 	uint8_t datapt = 0;
+	uint8_t col = 15 - c;
 	for (int i = 0; i < 5; i++) {
-		datapt = col * i;
+		datapt = (c * 5) + i;
 		//If the LED is on in this position, cue sound, otherwise set bLeft to 0
-		if (((cData[i]) & (1 << col)) >> col == 1) {
+		if (((cData[i]) & (1 << col)) >> col == 0) {
 			bLeft[datapt] = fSize[i];
 			FileCall[datapt] = Files[i];
 		} else {
@@ -348,8 +355,7 @@ void fillDMAArr() {
 
 			if (bLeft[i] != 0) {
 				divisor++;
-				f_read(&FileCall[i], &singleDataPc[0], halfSz,
-						(void *) &bytesread);
+				f_read(&FileCall[i], &singleDataPc[0], halfSz, (void *) &bytesread);
 				bLeft[i] -= halfSz;
 
 				for (int j = 0; j < halfSz; j++) {

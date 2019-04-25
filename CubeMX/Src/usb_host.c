@@ -52,7 +52,6 @@
 #include "usb_host.h"
 #include "usbh_core.h"
 #include "usbh_msc.h"
-#include "fatfs.h"
 
 /* USER CODE BEGIN Includes */
 

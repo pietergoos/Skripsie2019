@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Drv" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="appli_state"/>
 			<item value="drv"/>
 			<item value="Waveplayer_C"/>
 			<item value="spi5"/>
@@ -15,7 +16,6 @@
 			<item value="#if"/>
 			<item value="systick"/>
 			<item value="HAL_SYSTICK"/>
-			<item value="HAL_SYSTICK_Config"/>
 		</list>
 		<list key="replacehistory">
 		</list>
