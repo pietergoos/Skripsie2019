@@ -2127,3 +2127,2445 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-25 23:50:27.599
 !MESSAGE Unloading product manager
+!SESSION 2019-04-29 10:09:16.601 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-29 10:09:22.685
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-29 10:09:22.790
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-04-29 10:09:26.993
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-04-29 10:09:26.998
+!MESSAGE Workspace: C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Examples
+
+!ENTRY org.eclipse.jface 2 0 2019-04-29 10:09:34.864
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-29 10:09:34.864
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e33c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c891f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2019-04-29 10:09:50.527
+!MESSAGE Orphaned CDT build configuration [com.atollic.truestudio.exe.release.1518366166]: parent extension cfg [com.atollic.truestudio.exe.release.1518366166] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:226)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:844)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:402)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:391)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:557)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:136)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:500)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:437)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:419)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:413)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:406)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:608)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:629)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:593)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:467)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:340)
+	at org.eclipse.cdt.core.model.CoreModel.create(CoreModel.java:121)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createTranslationUnit(CDocumentProvider.java:736)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:768)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:721)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:229)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:150)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1437)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1402)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2126)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:362)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:931)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:151)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:375)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:294)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:143)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-04-29 10:09:57.499
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-04-29 10:09:58.240
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-29 10:09:58.442
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pieter Goos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-04-29 15:40:37.573
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@186c4af): Status ERROR: org.eclipse.cdt.dsf code=10001 Sequence "" failed while rolling back. null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-29 15:40:37.573
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-29 15:40:37.573
+!MESSAGE Connection is shut down
+
+!ENTRY com.atollic.hardwaredebug.launch 2 0 2019-04-29 15:52:38.239
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-29 17:11:16.590
+!MESSAGE Unloading product manager
+!SESSION 2019-04-29 17:11:33.502 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Framework arguments:  C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\CubeMX\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\CubeMX\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-29 17:11:35.903
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-29 17:11:35.946
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-04-29 17:11:37.605
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-04-29 17:11:37.608
+!MESSAGE Workspace: C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Examples
+
+!ENTRY org.eclipse.jface 2 0 2019-04-29 17:11:40.741
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-29 17:11:40.741
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@756867,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ebc866,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2019-04-29 17:11:45.686
+!MESSAGE Orphaned CDT build configuration [com.atollic.truestudio.exe.release.1518366166]: parent extension cfg [com.atollic.truestudio.exe.release.1518366166] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:226)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:844)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:402)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:391)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:557)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:136)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:500)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:437)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:419)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:413)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:406)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:608)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:629)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:593)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:467)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:340)
+	at org.eclipse.cdt.core.model.CoreModel.create(CoreModel.java:121)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createTranslationUnit(CDocumentProvider.java:736)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:768)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:721)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:229)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:150)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1437)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1402)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2126)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:362)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:931)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:151)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:375)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:294)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:143)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-04-29 17:11:48.571
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-29 17:11:49.023
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pieter Goos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-04-29 17:11:49.032
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-04-29 20:08:23.030
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@1e58437): Status ERROR: org.eclipse.cdt.dsf code=10001 Sequence "" failed while rolling back. null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-29 20:08:23.030
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-29 20:08:23.030
+!MESSAGE Connection is shut down
+
+!ENTRY TrueSTUDIO 4 0 2019-04-29 21:26:32.448
+!MESSAGE ST-LINK GDB server failed to start (exit code = 2)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-04-29 21:26:32.499
+!MESSAGE Error in initializing ST-Link device.
+Reason: (2) ST-Link DLL error.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-04-29 21:26:44.528
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@19abd8b): Status ERROR: org.eclipse.cdt.dsf code=10001 Sequence "" failed while rolling back. null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-29 21:26:44.528
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-29 21:26:44.528
+!MESSAGE Connection is shut down
+
+!ENTRY com.atollic.truestudio.debug 4 0 2019-04-29 21:26:44.542
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 12 (contextManager row 121)
+
+!ENTRY com.atollic.truestudio.debug 4 0 2019-04-29 21:26:44.545
+!MESSAGE Existing sessions are:
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-29 21:27:16.279
+!MESSAGE Unloading product manager
+!SESSION 2019-04-29 21:34:13.963 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-29 21:34:16.342
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-29 21:34:16.384
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-04-29 21:34:18.029
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-04-29 21:34:18.031
+!MESSAGE Workspace: C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Examples
+
+!ENTRY org.eclipse.jface 2 0 2019-04-29 21:34:21.140
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-29 21:34:21.140
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b85d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d59933,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2019-04-29 21:34:27.012
+!MESSAGE Orphaned CDT build configuration [com.atollic.truestudio.exe.release.1518366166]: parent extension cfg [com.atollic.truestudio.exe.release.1518366166] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:226)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:844)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:402)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:391)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:557)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:136)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:500)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:437)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:419)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:413)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:406)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:608)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:629)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:593)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:467)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:340)
+	at org.eclipse.cdt.core.model.CoreModel.create(CoreModel.java:121)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createTranslationUnit(CDocumentProvider.java:736)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:768)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:721)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:229)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:150)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1437)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1402)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2126)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:362)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:931)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:151)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:375)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:294)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:143)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-04-29 21:34:31.327
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-04-29 21:34:31.686
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-29 21:34:31.786
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pieter Goos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY TrueSTUDIO 4 0 2019-04-29 22:35:50.539
+!MESSAGE ST-LINK GDB server failed to start (exit code = 2)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-04-29 22:35:50.588
+!MESSAGE Error in initializing ST-Link device.
+Reason: (2) ST-Link DLL error.
+!SESSION 2019-04-30 14:04:32.600 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-30 14:04:42.639
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-30 14:04:42.865
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-30 14:04:44.237
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY TrueSTUDIO 1 0 2019-04-30 14:04:50.678
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-04-30 14:04:50.685
+!MESSAGE Workspace: C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Examples
+
+!ENTRY org.eclipse.jface 2 0 2019-04-30 14:04:58.372
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-30 14:04:58.372
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b4ac83,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11ede23,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2019-04-30 14:05:18.858
+!MESSAGE Orphaned CDT build configuration [com.atollic.truestudio.exe.release.1518366166]: parent extension cfg [com.atollic.truestudio.exe.release.1518366166] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:226)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:844)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:402)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:391)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:557)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:136)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:500)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:437)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:419)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:413)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:406)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:608)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:629)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:593)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:467)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:340)
+	at org.eclipse.cdt.core.model.CoreModel.create(CoreModel.java:121)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createTranslationUnit(CDocumentProvider.java:736)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:768)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:721)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:229)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:150)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1437)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1402)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2126)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:362)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:931)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:151)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:375)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:294)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:143)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-04-30 14:05:30.758
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-04-30 14:05:31.444
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-30 14:05:31.752
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pieter Goos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:14:12.384
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:21:38.987
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:22:33.581
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:22:34.740
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:22:36.432
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:22:52.093
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:08.292
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:08.389
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:08.711
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:14.662
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:14.942
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:14.999
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:15.045
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:15.120
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:15.217
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:15.684
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:15.709
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:15.734
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:15.748
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:15.762
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.084
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.098
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.124
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.159
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.195
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.812
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.827
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.841
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.867
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.881
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:16.895
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:17.448
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:17.462
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:17.498
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:17.522
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:17.536
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:17.550
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:17.564
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.043
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.067
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.083
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.096
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.111
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.126
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.139
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.154
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.168
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.182
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.195
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.210
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.225
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.260
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.274
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.289
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.303
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.318
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.333
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.347
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.362
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.376
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.391
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.405
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.421
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.435
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.448
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.462
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.477
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.491
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.506
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.520
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.534
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.548
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.563
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.577
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.591
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.605
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.619
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.633
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.648
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.662
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.675
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.689
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.703
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.718
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.733
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.748
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.762
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.777
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.791
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.816
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.831
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.845
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.880
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.895
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.909
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.923
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.939
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.953
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.967
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.980
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:20.994
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.008
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.022
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.036
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.051
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.064
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.078
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.092
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.108
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.122
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.135
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.150
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.185
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.199
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.214
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.229
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.243
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.257
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.271
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.286
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.300
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.313
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.328
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.341
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.355
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.370
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.384
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.399
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.412
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.427
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.441
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.455
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.468
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.482
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.496
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.509
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.524
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.539
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.551
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.566
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.580
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.594
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.608
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.623
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.637
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.652
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.666
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.680
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.695
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.708
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.722
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.736
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.751
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.764
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.779
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.793
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.808
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.821
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.835
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.849
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.864
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.879
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.894
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.907
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.921
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.936
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.950
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.965
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.979
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:21.993
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.007
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.022
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.035
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.049
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.063
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.077
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.091
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.105
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.120
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.134
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.149
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.162
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.176
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.191
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.206
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.219
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.233
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.248
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.262
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.276
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.290
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.304
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.318
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.333
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.346
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.361
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.375
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.390
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.404
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.419
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.432
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.446
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.460
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.474
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.489
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.502
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.527
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.542
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.556
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.570
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.585
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.599
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.613
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.628
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.643
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.657
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.672
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.687
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.701
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.716
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.730
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.755
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.769
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.784
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.798
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.813
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.827
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.853
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.868
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.894
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.908
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.922
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.946
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.970
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:22.995
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.020
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.034
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.060
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.084
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.099
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.113
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.138
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.163
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.177
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.191
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.216
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.230
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.244
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.269
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:23.293
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:24.873
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:24.959
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:24.973
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:24.987
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.002
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.016
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.031
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.045
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.060
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.072
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.087
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.102
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.114
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.129
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.143
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.168
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.182
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.195
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.210
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.224
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.238
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.252
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.266
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.279
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.293
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.308
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.322
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.337
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.351
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.364
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.378
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.393
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.407
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.421
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.435
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.449
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.463
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.477
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.491
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.506
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.520
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.534
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.547
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.615
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.619
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.679
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.694
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.709
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.722
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.736
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.751
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.764
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.769
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.842
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.856
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.860
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.870
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.884
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.897
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.911
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.917
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.936
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.951
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.965
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.979
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:25.993
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.007
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.022
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.035
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.049
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.063
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.076
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.091
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.105
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.118
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.123
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.127
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.144
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.148
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.168
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.182
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.196
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.211
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.225
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.238
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.252
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.257
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.276
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.290
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.304
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.308
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.431
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.445
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.459
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.464
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.484
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.488
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.508
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.512
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.522
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.536
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.550
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.554
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.575
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.579
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.600
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.614
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.629
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.644
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.657
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.672
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.687
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.692
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.712
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.717
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.736
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.751
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.765
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.779
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.793
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.807
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.812
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.947
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.951
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.961
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.975
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.990
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:26.994
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.013
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.018
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.022
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.028
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.038
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.051
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.065
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.080
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.093
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.108
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.123
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.136
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.151
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.155
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.893
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.908
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.923
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.938
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.952
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.967
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.981
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.986
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:27.995
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.009
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.023
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.058
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.072
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.087
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.102
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.116
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.130
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.145
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.159
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.174
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.188
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.201
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 14:23:28.216
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-04-30 14:57:59.003
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@d0deb7): Status ERROR: org.eclipse.cdt.dsf code=10001 Sequence "" failed while rolling back. null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-30 14:57:59.003
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-30 14:57:59.003
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-04-30 15:07:41.519
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@183b741): Status ERROR: org.eclipse.cdt.dsf code=10001 Sequence "" failed while rolling back. null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-30 15:07:41.519
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-30 15:07:41.519
+!MESSAGE Connection is shut down
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-30 15:26:56.882
+!MESSAGE Unloading product manager
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2019-04-30 15:26:59.931
+!MESSAGE Timeout Exception while shutting down launch org.eclipse.cdt.dsf.gdb.launching.GdbLaunch@12ac694
+!SESSION 2019-04-30 15:27:27.422 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-30 15:27:29.710
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-30 15:27:29.754
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-04-30 15:27:31.291
+!MESSAGE Target: STM32, Version: 9.2.0, Build date: 20181203-0921, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.2.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-04-30 15:27:31.293
+!MESSAGE Workspace: C:\Users\Pieter Goos\Google Drive\Stellenbosch University\5th Year\Examples
+
+!ENTRY org.eclipse.jface 2 0 2019-04-30 15:27:34.133
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-30 15:27:34.133
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e455d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e8e146,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2019-04-30 15:27:38.491
+!MESSAGE Orphaned CDT build configuration [com.atollic.truestudio.exe.release.1518366166]: parent extension cfg [com.atollic.truestudio.exe.release.1518366166] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:226)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:844)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:402)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:391)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:557)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:136)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:500)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:437)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:419)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:413)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:406)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:608)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:629)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:593)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:467)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:340)
+	at org.eclipse.cdt.core.model.CoreModel.create(CoreModel.java:121)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createTranslationUnit(CDocumentProvider.java:736)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:768)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:721)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:229)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:150)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1437)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1402)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2126)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:362)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:931)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:151)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:375)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:294)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:143)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-04-30 15:27:41.408
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-04-30 15:27:41.691
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-30 15:27:41.968
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pieter Goos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY TrueSTUDIO 4 0 2019-04-30 15:27:51.643
+!MESSAGE ST-LINK GDB server failed to start (exit code = 2)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-04-30 15:27:51.698
+!MESSAGE Error in initializing ST-Link device.
+Reason: (2) ST-Link DLL error.
+
+!ENTRY com.atollic.hardwaredebug.launch 2 0 2019-04-30 15:33:31.766
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-04-30 15:35:50.439
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@c528d2): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-30 15:35:50.439
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-04-30 15:48:27.314
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@30b510): Status ERROR: org.eclipse.cdt.dsf code=10001 Sequence "" failed while rolling back. null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-30 15:48:27.314
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2019-04-30 15:48:27.314
+!MESSAGE Connection is shut down
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-30 17:33:48.167
+!MESSAGE Unloading product manager

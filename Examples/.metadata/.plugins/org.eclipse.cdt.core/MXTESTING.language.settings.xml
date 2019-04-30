@@ -1122,6 +1122,9 @@
 					<entry kind="includePath" name="/${ProjName}/#undef __ARM_NEON">
 						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH"/>
 					</entry>
+					<entry kind="includePath" name="/${ProjName}/#undef __ARM_NEON_FP">
+						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH"/>
+					</entry>
 					<entry kind="macro" name="__ACCUM_EPSILON__" value="0x1P-15K">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>

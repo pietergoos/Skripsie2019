@@ -182,13 +182,13 @@ void WavePlayBack(uint32_t AudioFreq)
       
       if(BufferOffset == BUFFER_OFFSET_HALF)
       {
-    	  for(i = 0; i < 5; i++){
+    	  for(i = 0; i < 1; i++){
     		  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE/2, (void *)&bytesread);
     	  }
 
     	  for(j = 0; j < AUDIO_BUFFER_SIZE / 2; j++){
-    		  tempInt = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
-    		  //tempInt = audioPart[0][j];
+    		  //tempInt = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
+    		  tempInt = audioPart[0][j];
     		  Audio_Buffer[j] = (uint8_t) tempInt;
     	}
 
@@ -210,13 +210,13 @@ void WavePlayBack(uint32_t AudioFreq)
                (void *)&bytesread); 
                */
 
-    	  for(i = 0; i < 5; i++){
+    	  for(i = 0; i < 1; i++){
 			  f_read(&Files[i], &audioPart[i][0], AUDIO_BUFFER_SIZE/2, (void *)&bytesread);
 		  }
 
 		  for(j = 0; j < AUDIO_BUFFER_SIZE / 2; j++){
-			  tempInt = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
-			  //tempInt = audioPart[0][j];
+			  //tempInt = (audioPart[0][j] + audioPart[1][j] + audioPart[2][j] + audioPart[3][j] + audioPart[4][j]) / 5;
+			  tempInt = audioPart[0][j];
 
 			  Audio_Buffer[j + (AUDIO_BUFFER_SIZE / 2)] = (uint8_t) tempInt;
 
