@@ -6,6 +6,8 @@
 extern UART_HandleTypeDef huart1;
 extern ADC_HandleTypeDef hadc1;
 extern SPI_HandleTypeDef hspi5;
+extern I2C_HandleTypeDef hi2c1;
+extern I2S_HandleTypeDef hi2s3;
 extern uint8_t volString;
 extern uint8_t bpmString;
 extern ApplicationTypeDef Appli_state;

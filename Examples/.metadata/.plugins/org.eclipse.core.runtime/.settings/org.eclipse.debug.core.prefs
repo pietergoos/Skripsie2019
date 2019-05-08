@@ -2,4 +2,4 @@
 //org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.attachLaunchType=org.eclipse.cdt.dsf.gdb.launch.attachCLaunch,debug,;
 //org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.postmortemLaunchType=org.eclipse.cdt.dsf.gdb.launch.coreCLaunch,debug,;
 eclipse.preferences.version=1
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions>\r\n<expression enabled\="true" text\="singleDataPc"/>\r\n<expression enabled\="true" text\="dataPart"/>\r\n<expression enabled\="true" text\="dataPart[3]"/>\r\n</watchExpressions>\r\n
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions>\r\n<expression enabled\="true" text\="fRow0"/>\r\n<expression enabled\="true" text\="fRow1"/>\r\n<expression enabled\="true" text\="fRow2"/>\r\n<expression enabled\="true" text\="fRow3"/>\r\n<expression enabled\="true" text\="fRow4"/>\r\n<expression enabled\="true" text\="sizeof(*fRow0)"/>\r\n<expression enabled\="true" text\="sampleRate"/>\r\n<expression enabled\="true" text\="BufferOffset"/>\r\n<expression enabled\="true" text\="AudioBuffer"/>\r\n</watchExpressions>\r\n
