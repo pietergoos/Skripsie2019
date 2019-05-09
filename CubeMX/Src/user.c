@@ -373,7 +373,7 @@ void primeCol(uint8_t c) {
 		datapt = (c * 5) + i;
 		//If the LED is on in this position, cue sound, otherwise set bLeft to 0
 		if (((cData[i]) & (1 << col)) >> col == 0) {
-			bLeft[datapt] = fSize[i];
+			bLeft[datapt] = fSize[i]/2;
 			FileCall[datapt] = Files[i];
 		} else {
 			bLeft[datapt] = 0;
@@ -424,47 +424,36 @@ void fillDMAArr() {
 				uint16_t tracker = 0;
 
 				for (int j = 0; j < halfSz / 2; j++) {
-					//volatile uint16_t t = ((singleDataPc[j] & 0x00FF)<<8) | ((singleDataPc[j] & 0xFF00)>>8);
-					//dataPart[j] += t;
-
-					//dataPart[j] += singleDataPc[j] /5; //added /5
 
 					uint16_t temp1 = 0;
 
 					switch (i % 5) {
 					case 0:
-						temp1 = fSize[0] - bLeft[i];
-						//uint16_t t = ((fRow0[j+temp1] & 0x00FF)<<8) | ((fRow0[j+temp1] & 0xFF00)>>8);
-						int16_t t = fRow0[j+temp1];
-//						if (t < 0x8000){
-//							t += 0x8000;
-//						}else{
-//							t -= 0x8000;
-//						}
-						AudioBuffer[offs + tracker] += t/5;
-						AudioBuffer[offs + tracker + 1] += t/5;
+						temp1 = fSize[0]/2 - bLeft[i];
+						AudioBuffer[offs + tracker] += fRow0[j+temp1]/5;
+						AudioBuffer[offs + tracker + 1] += fRow0[j+temp1]/5;
 						//dataPart[j] += fRow0[j + temp1]/5;
 						break;
 					case 1:
-						temp1 = fSize[1] - bLeft[i];
+						temp1 = fSize[1]/2 - bLeft[i];
 						AudioBuffer[offs + tracker] += fRow1[j + temp1] / 5;
 						AudioBuffer[offs + tracker + 1] += fRow1[j + temp1] / 5;
 						//dataPart[j] += fRow1[j + temp1]/5;
 						break;
 					case 2:
-						temp1 = fSize[2] - bLeft[i];
+						temp1 = fSize[2]/2 - bLeft[i];
 						AudioBuffer[offs + tracker] += fRow2[j + temp1] / 5;
 						AudioBuffer[offs + tracker + 1] += fRow2[j + temp1] / 5;
 						//dataPart[j] += fRow2[j + temp1]/5;
 						break;
 					case 3:
-						temp1 = fSize[3] - bLeft[i];
+						temp1 = fSize[3]/2 - bLeft[i];
 						AudioBuffer[offs + tracker] += fRow3[j + temp1] / 5;
 						AudioBuffer[offs + tracker + 1] += fRow3[j + temp1] / 5;
 						//dataPart[j] += fRow3[j + temp1]/5;
 						break;
 					case 4:
-						temp1 = fSize[4] - bLeft[i];
+						temp1 = fSize[4]/2 - bLeft[i];
 						AudioBuffer[offs + tracker] += fRow4[j + temp1] / 5;
 						AudioBuffer[offs + tracker + 1] += fRow4[j + temp1] / 5;
 						//dataPart[j] += fRow4[j + temp1]/5;
@@ -475,15 +464,6 @@ void fillDMAArr() {
 				bLeft[i] -= halfSz / 2;
 			}
 		}
-
-
-
-//		if(divisor == 0){
-//			BSP_AUDIO_OUT_Pause();
-//		}else{
-//			BSP_AUDIO_OUT_Resume();
-//		}
-
 		/*
 		 if (divisor == 0) {
 		 // Fill with zeroes

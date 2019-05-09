@@ -152,6 +152,8 @@ void CS43_SetVolume(uint8_t volume)
 	write_register(PASSTHROUGH_VOLUME_B,&iData[1]);
 	
 	iData[1] = VOLUME_CONVERT_D(volume);
+	/* MODIFICATION FOR VOLUME P GOOS*/
+	iData[1] = ((volume) > 100)? 24:((volume * 228 / 100) + 52);
 	
 	/* Set the Master volume */ 
 	write_register(CS43L22_REG_MASTER_A_VOL,&iData[1]);
