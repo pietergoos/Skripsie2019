@@ -17,7 +17,7 @@
 \usepackage{longtable}
 \usepackage[strings]{underscore}
 \usepackage{pdfpages}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage[backend=biber, style=ieee]{biblatex}
 \usepackage{tikz}
 
@@ -212,6 +212,14 @@
 		\end{tabular*}
 	\end{center}
 \end{table}
+
+\vfill
+
+\begin{center}
+	Copyright \textcopyright \space Stellenbosch University 2019\\
+	All Rights Reserved
+\end{center}
+
 \newpage
 
 %----------------------------------------------------------------------------------------
@@ -428,7 +436,7 @@ The most important feature to be added in the forthcoming years was being able t
 % Text Node
 \draw (364.74,319) node  [align=left] {DAC};
 % Text Node
-\draw (334.75,188) node  [align=left] {STM32\\F411VE};
+\draw (334.75,188) node  [align=center] {STM32\\F411VE};
 % Text Node
 \draw (529,326) node  [align=left] {3.5mm Audio\\Jack (Audio Out)};
 % Text Node
@@ -551,8 +559,8 @@ The chosen \acp{ic} are the 74HC595 latched shift registers and the ULN2803A Dar
 \chapter{Circuit Diagram}
 \begin{figure}[h!]
 \begin{center}
-	\includegraphics[width = \textwidth, angle=0, origin=c]{../Skripsie/Layout_05032019.pdf}
-	\caption{The Final Revision (Rev. B) of the Circuit Diagram}
+	\includegraphics[width = \textwidth, angle=0, origin=c]{../Skripsie/Layout_05042019.pdf}
+	\caption{The Final Revision (Rev. B.1) of the Circuit Diagram}
 \end{center}
 \end{figure}
 \begin{figure}[h!]
@@ -565,20 +573,20 @@ The chosen \acp{ic} are the 74HC595 latched shift registers and the ULN2803A Dar
 \chapter{\ac{pcb} Design}
 \begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width = \textwidth, trim={0.69in 0.78in 3.1in 0.95in}, clip]{../Skripsie/PCB_27032019.pdf}
-		\caption{Front Copper Layer of Revision C of the \ac{pcb}}
+		\includegraphics[width = \textwidth, trim={0.69in 0.78in 3.1in 0.95in}, clip]{../Skripsie/PCB_05042019.pdf}
+		\caption{Front Copper Layer of Revision C.1 of the \ac{pcb}}
 		\label{fig:frontpcb}
 	\end{center}
 \end{figure}
 \begin{figure}[h!]
 	\begin{center}
-		\includegraphics[page=2, width = \textwidth, trim={0.69in 0.78in 3.1in 0.95in}, clip]{../Skripsie/PCB_27032019.pdf}
-		\caption{Back Copper Layer of Revision C of the \ac{pcb}}
+		\includegraphics[page=2, width = \textwidth, trim={0.69in 0.78in 3.1in 0.95in}, clip]{../Skripsie/PCB_05042019.pdf}
+		\caption{Back Copper Layer of Revision C.1 of the \ac{pcb}}
 		\label{fig:backpcb}
 	\end{center}
 \end{figure}
 
-It is worth noting that this board (See Figures \ref{fig:frontpcb} and \ref{fig:backpcb}) shown is Revision C, however the board used to construct this project on is Revision B. The changes made between the two versions are simply forgotten traces, and mounting holes have been added.\\
+It is worth noting that this board (See Figures \ref{fig:frontpcb} and \ref{fig:backpcb}) shown is Revision C, however the board used to construct this project on is Revision B. The changes made between the two versions are simply forgotten and moved traces, and mounting holes have been added.\\
 When looking at the reverse of the board (As in Figure \ref{fig:backpcb}) it is worth noting that the shown diagram is not mirrored. This implies that the diagram shown's top left corner matches that of the front copper layer, thus one would have to mirror this from left to right to see what you would see in reality.
 
 \newpage
