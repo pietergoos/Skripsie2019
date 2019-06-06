@@ -414,7 +414,7 @@ void fillDMAArr() {
 
 		//memset(dataPart, 0, halfSz);
 		for (int i = 0; i < 80; i++) {
-			if (bLeft[i] < halfSz) {
+			if (bLeft[i] < halfSz/2) {
 				bLeft[i] = 0;
 			}
 

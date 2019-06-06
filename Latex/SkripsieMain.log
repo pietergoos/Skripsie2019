@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.17)  10 MAY 2019 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.17)  6 JUN 2019 01:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1691,34 +1691,254 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(c:/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(c:/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen309
+\captionmargin@=\dimen310
+\captionwidth=\dimen311
+\caption@tempdima=\dimen312
+\caption@indent=\dimen313
+\caption@parindent=\dimen314
+\caption@hangindent=\dimen315
+)
+\c@ContinuedFloat=\count422
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(c:/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+))
+(c:/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count423
+\c@subtable=\count424
+)
+(c:/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/01/24 v2.0c Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(c:/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count425
+\mult@box=\box76
+\multicol@leftmargin=\dimen316
+\c@unbalance=\count426
+\c@collectmore=\count427
+\doublecol@number=\count428
+\multicoltolerance=\count429
+\multicolpretolerance=\count430
+\full@width=\dimen317
+\page@free=\dimen318
+\premulticols=\dimen319
+\postmulticols=\dimen320
+\multicolsep=\skip90
+\multicolbaselineskip=\skip91
+\partial@page=\box77
+\last@line=\box78
+\maxbalancingoverflow=\dimen321
+\mult@rightbox=\box79
+\mult@grightbox=\box80
+\mult@gfirstbox=\box81
+\mult@firstbox=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\c@columnbadness=\count431
+\c@finalcolumnbadness=\count432
+\last@try=\dimen322
+\multicolovershoot=\dimen323
+\multicolundershoot=\dimen324
+\mult@nat@firstbox=\box100
+\colbreak@box=\box101
+\mc@col@check@num=\count433
+)
+(c:/texlive/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(c:/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
+)
+\XKV@depth=\count434
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(c:/texlive/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(c:/texlive/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box102
+)
+\tc@llx=\dimen325
+\tc@lly=\dimen326
+\tc@urx=\dimen327
+\tc@ury=\dimen328
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(c:/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen329
+\adjbox@Height=\dimen330
+\adjbox@Depth=\dimen331
+\adjbox@Totalheight=\dimen332
+
+(c:/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count435
+))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 145.
+h' as default language. on input line 266.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count422
-\@quotereset=\count423
+\@quotelevel=\count436
+\@quotereset=\count437
 
 (./SkripsieMain.aux)
 \openout1 = `SkripsieMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 266.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 266.
+
+ (c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 266.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1764,17 +1984,17 @@ File: siunitx-abbreviations.cfg 2017/02/01 v2.7c siunitx: Abbreviated units
 )
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count424
-\scratchdimen=\dimen309
-\scratchbox=\box76
-\nofMPsegments=\count425
-\nofMParguments=\count426
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count427
-\MPscratchDim=\dimen310
-\MPnumerator=\count428
-\makeMPintoPDFobject=\count429
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count438
+\scratchdimen=\dimen333
+\scratchbox=\box103
+\nofMPsegments=\count439
+\nofMParguments=\count440
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count441
+\MPscratchDim=\dimen334
+\MPnumerator=\count442
+\makeMPintoPDFobject=\count443
+\everyMPtoPDFconversion=\toks50
 ) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1792,8 +2012,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count430
-\AtBeginShipoutBox=\box77
+\c@lstlisting=\count444
+\AtBeginShipoutBox=\box104
 
 (c:/texlive/2016/texmf-dist/tex/latex/translations/translations-basic-dictionar
 y-english.trsl
@@ -1801,26 +2021,26 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 145.
+or `english'. on input line 266.
  ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
 your preamble.
- on input line 145.
+ on input line 266.
 
-Package hyperref Info: Link coloring OFF on input line 145.
+Package hyperref Info: Link coloring OFF on input line 266.
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count431
+\c@section@level=\count445
 )
-LaTeX Info: Redefining \ref on input line 145.
-LaTeX Info: Redefining \pageref on input line 145.
-LaTeX Info: Redefining \nameref on input line 145.
+LaTeX Info: Redefining \ref on input line 266.
+LaTeX Info: Redefining \pageref on input line 266.
+LaTeX Info: Redefining \nameref on input line 266.
 
 (./SkripsieMain.out) (./SkripsieMain.out)
 \@outlinefile=\write6
@@ -1835,29 +2055,51 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'SkripsieMain.bbl' found.
  (./SkripsieMain.bbl)
-Package biblatex Info: Reference section=0 on input line 145.
-Package biblatex Info: Reference segment=0 on input line 145.
-\c__siunitx_mathsf_int=\count432
-\c__siunitx_mathtt_int=\count433
+Package biblatex Info: Reference section=0 on input line 266.
+Package biblatex Info: Reference segment=0 on input line 266.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\c__siunitx_mathsf_int=\count446
+\c__siunitx_mathtt_int=\count447
 
-<EELogo.png, id=95, 84.315pt x 19.272pt>
+<EELogo.png, id=302, 84.315pt x 19.272pt>
 File: EELogo.png Graphic file (type png)
  <use EELogo.png>
-Package pdftex.def Info: EELogo.png used on input line 150.
+Package pdftex.def Info: EELogo.png used on input line 271.
 (pdftex.def)             Requested size: 168.62955pt x 38.54388pt.
 
-<SUNLogo.jpg, id=97, 753.7761pt x 161.6439pt>
+<SUNLogo.jpg, id=304, 753.7761pt x 161.6439pt>
 File: SUNLogo.jpg Graphic file (type jpg)
  <use SUNLogo.jpg>
-Package pdftex.def Info: SUNLogo.jpg used on input line 173.
+Package pdftex.def Info: SUNLogo.jpg used on input line 294.
 (pdftex.def)             Requested size: 199.16928pt x 42.70964pt.
  [1
 
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./EELogo.png> <
 ./SUNLogo.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 306--312
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 183.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--312
+
+ []
 
 [1]
 Missing character: There is no ‚ in font cmti12!
@@ -1866,100 +2108,732 @@ Missing character: There is no ò in font cmti12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ò in font cmti12!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 219.
+ [2] [3] (./SkripsieMain.toc [4
 
- (c:/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 219.
- [2] [3]
-(./SkripsieMain.toc)
+])
 \tf@toc=\write7
 \openout7 = `SkripsieMain.toc'.
 
- [4
-
-] (./SkripsieMain.lof)
+ [5] (./SkripsieMain.lof
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+)
 \tf@lof=\write8
 \openout8 = `SkripsieMain.lof'.
 
- [5
+ [6
 
-] (./SkripsieMain.lot)
+] (./SkripsieMain.lot
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+)
 \tf@lot=\write9
 \openout9 = `SkripsieMain.lot'.
 
- [6
+ [7
+
+] (./SkripsieMain.lol)
+\tf@lol=\write10
+\openout10 = `SkripsieMain.lol'.
+
+ [8
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]\OT1/cmr/m/n/12 Universal Asyn-chronous Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]\OT1/cmr/m/n/12 Universal Syn-chronous/Asyn-
+ []
+
+[9
 
 ]
 Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
+
+ []
+
 [1
 
 ]
 Chapter 2.
-<computerhythm.jpg, id=201, 301.125pt x 168.63pt>
+<computerhythm.jpg, id=569, 301.125pt x 168.63pt>
 File: computerhythm.jpg Graphic file (type jpg)
  <use computerhythm.jpg>
-Package pdftex.def Info: computerhythm.jpg used on input line 267.
+Package pdftex.def Info: computerhythm.jpg used on input line 412.
 (pdftex.def)             Requested size: 227.62204pt x 127.4731pt.
 
-
-LaTeX Warning: Reference `sec:beatmatrix' on page 2 undefined on input line 272
-.
-
-<maschine.jpg, id=214, 521.95pt x 391.4625pt>
+<maschine.jpg, id=584, 521.95pt x 391.4625pt>
 File: maschine.jpg Graphic file (type jpg)
  <use maschine.jpg>
-Package pdftex.def Info: maschine.jpg used on input line 277.
-(pdftex.def)             Requested size: 136.5746pt x 127.58858pt.
+Package pdftex.def Info: maschine.jpg used on input line 422.
+(pdftex.def)             Requested size: 182.09485pt x 170.11267pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2
 
-] [3 <./maschine.jpg> <./computerhythm.jpg>]
+] [3 <./maschine.jpg> <./computerhythm.jpg>] [4]
 Chapter 3.
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+[5
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 496.
+]
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `uc'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--769
+[]|\OT1/cmr/bx/n/12 Signal
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 496.
+Underfull \hbox (badness 10000) in paragraph at lines 769--769
+[]|\OT1/cmr/bx/n/12 Input
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 496.
+Overfull \hbox (1.59988pt too wide) in paragraph at lines 769--769
+[]|\OT1/cmr/bx/n/12 Simultaneous
+ []
 
-[4
 
-] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 769--769
+\OT1/cmr/bx/n/12 Out-puts
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--769
+[]|\OT1/cmr/bx/n/12 Extra logic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
+[]|\OT1/cmr/bx/n/12 Reversed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
+\OT1/cmr/bx/n/12 ver-sions
+ []
+
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `sipo'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `piso'!
+* 
+* I am using the short form instead.
+*************************************************
+
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
+[]|\OT1/cmr/m/n/12 Decade
+ []
+
+
+Overfull \hbox (0.82257pt too wide) in paragraph at lines 767--778
+ [][] 
+ []
+
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+[6]
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+[7]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+[8]
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+[9]
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+[10]
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+[11] [12] [13] [14]
+
+pdfTeX warning: pdflatex.exe (file ../Skripsie/Layout_05042019.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<../Skripsie/Layout_05042019.pdf, id=771, 794.97pt x 614.295pt>
+File: ../Skripsie/Layout_05042019.pdf Graphic file (type pdf)
+
+<use ../Skripsie/Layout_05042019.pdf>
+Package pdftex.def Info: ../Skripsie/Layout_05042019.pdf used on input line 218
+9.
+(pdftex.def)             Requested size: 318.66946pt x 96.0907pt.
+ [15 <../Skripsie/Layout_05042019.pdf>]
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `uc'!
+* 
+* I am using the short form instead.
+*************************************************
+[16]
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+[17] [18] [19]
 Chapter 4.
-[6
+<NewFullSystemDiagram.pdf, id=840, 307.1475pt x 759.79855pt>
+File: NewFullSystemDiagram.pdf Graphic file (type pdf)
 
-]
+<use NewFullSystemDiagram.pdf>
+Package pdftex.def Info: NewFullSystemDiagram.pdf used on input line 2597.
+(pdftex.def)             Requested size: 176.13977pt x 435.72206pt.
+ [20
+
+ <./NewFullSystemDiagram.pdf
+
+pdfTeX warning: pdflatex.exe (file ./NewFullSystemDiagram.pdf): PDF inclusion: 
+invalid other resource which is no dict (key 'ProcSets', type <array>); ignored
+.
+>] (c:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(c:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 2608
+.
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2608.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2611
+.
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2611.
+
+ [21]
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+[22] [23]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24] [25] [26] [27] [28] [29]
 Chapter 5.
-[7
+<F0010TEK.jpg, id=962, 283.0575pt x 151.69171pt>
+File: F0010TEK.jpg Graphic file (type jpg)
+ <use F0010TEK.jpg>
+Package pdftex.def Info: F0010TEK.jpg used on input line 2811.
+(pdftex.def)             Requested size: 341.43306pt x 182.9897pt.
+ [30
 
-] [8
+ <./F0010TEK.jpg>] <led_parallel.PNG, id=969, 207.02344pt x 220.57407pt>
+File: led_parallel.PNG Graphic file (type png)
+
+<use led_parallel.PNG>
+Package pdftex.def Info: led_parallel.PNG used on input line 2820.
+(pdftex.def)             Requested size: 182.09485pt x 194.01825pt.
+
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+<btn_serial.PNG, id=971, 397.8614pt x 63.61266pt>
+File: btn_serial.PNG Graphic file (type png)
+ <use btn_serial.PNG>
+Package pdftex.def Info: btn_serial.PNG used on input line 2829.
+(pdftex.def)             Requested size: 273.14922pt x 43.67436pt.
+ [31 <./led_parallel.PNG> <./btn_serial.PNG>]
+<btn_parallel.PNG, id=980, 192.3436pt x 189.70876pt>
+File: btn_parallel.PNG Graphic file (type png)
+ <use btn_parallel.PNG>
+Package pdftex.def Info: btn_parallel.PNG used on input line 2838.
+(pdftex.def)             Requested size: 182.09485pt x 179.6144pt.
+
+<F0004TEK.JPG, id=982, 161.6439pt x 96.8418pt>
+File: F0004TEK.JPG Graphic file (type jpg)
+ <use F0004TEK.JPG>
+Package pdftex.def Info: F0004TEK.JPG used on input line 2846.
+(pdftex.def)             Requested size: 273.14922pt x 163.66391pt.
+
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `ic'!
+* 
+* I am using the short form instead.
+*************************************************
+<LCD_Init.PNG, id=984, 397.485pt x 220.95047pt>
+File: LCD_Init.PNG Graphic file (type png)
+ <use LCD_Init.PNG>
+Package pdftex.def Info: LCD_Init.PNG used on input line 2855.
+(pdftex.def)             Requested size: 318.66946pt x 177.14494pt.
+ [32 <./btn_parallel.PNG> <./F0004TEK.JPG>]
+<LCD_Data.PNG, id=993, 653.81766pt x 220.95047pt>
+File: LCD_Data.PNG Graphic file (type png)
+ <use LCD_Data.PNG>
+Package pdftex.def Info: LCD_Data.PNG used on input line 2863.
+(pdftex.def)             Requested size: 364.19664pt x 123.07397pt.
+
+<uart.PNG, id=996, 321.45094pt x 61.73062pt>
+File: uart.PNG Graphic file (type png)
+ <use uart.PNG>
+Package pdftex.def Info: uart.PNG used on input line 2872.
+(pdftex.def)             Requested size: 273.14922pt x 52.45618pt.
+ [33 <./LCD_Init.PNG> <./LCD_Data.PNG>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2878.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 2878.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2878.
+
+<i2s.PNG, id=1007, 517.5586pt x 224.33812pt>
+File: i2s.PNG Graphic file (type png)
+ <use i2s.PNG>
+Package pdftex.def Info: i2s.PNG used on input line 2881.
+(pdftex.def)             Requested size: 364.19664pt x 157.86743pt.
+ [34 <./uart.PNG> <./i2s.PNG>] <F0009TEK.jpg, id=1019, 290.20921pt x 153.57375p
+t>
+File: F0009TEK.jpg Graphic file (type jpg)
+
+<use F0009TEK.jpg>
+Package pdftex.def Info: F0009TEK.jpg used on input line 2890.
+(pdftex.def)             Requested size: 273.14922pt x 144.55617pt.
+ <audFile.PNG, id=1024, 386.94562pt x 145.66922pt>
+File: audFile.PNG Graphic file (type png)
+
+<use audFile.PNG>
+Package pdftex.def Info: audFile.PNG used on input line 2897.
+(pdftex.def)             Requested size: 273.14922pt x 102.83017pt.
+ [35 <./F0009TEK.jpg> <./audFile.PNG>]
+<angleFull.jpg, id=1032, 1908.12875pt x 2273.49374pt>
+File: angleFull.jpg Graphic file (type jpg)
+ <use angleFull.jpg>
+Package pdftex.def Info: angleFull.jpg used on input line 2906.
+(pdftex.def)             Requested size: 409.71689pt x 488.1672pt.
+
+[36 <./angleFull.jpg>]
+Chapter 6.
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+[37
 
 ]
+*************************************************
+* acro warning: "no-alternative"
+* 
+* There is no alternative form for acronym `led'!
+* 
+* I am using the short form instead.
+*************************************************
+[38]
+Overfull \hbox (0.99301pt too wide) in paragraph at lines 2932--2932
+[]\OT1/cmr/m/n/12 W. van Ee-den. (). Skrip-sie pcb's, Stel-len-bosch Uni-ver-si
+ty, [On-line]. Avail-able: []$\OT1/cmtt/m/n/12 https :
+ []
+
+
+Overfull \hbox (5.98813pt too wide) in paragraph at lines 2932--2932
+\OT1/cmr/m/n/12 Avail-able: []$\OT1/cmtt/m/n/12 http : / / www . openmusiclabs 
+. com / learning / digital / input -[] scanning -[]
+ []
+
+
+Overfull \hbox (5.98813pt too wide) in paragraph at lines 2932--2932
+\OT1/cmr/m/n/12 Avail-able: []$\OT1/cmtt/m/n/12 http : / / www . openmusiclabs 
+. com / learning / digital / input -[] scanning -[]
+ []
+
+[39
+
+]
+Overfull \hbox (0.872pt too wide) in paragraph at lines 2932--2932
+[]\OT1/cmr/m/it/12 Uln2803a dar-ling-ton tran-sis-tor ar-rays\OT1/cmr/m/n/12 , 
+Texas In-stru-ments, Feb. 2017. [On-line]. Avail-
+ []
+
+[40]
+Overfull \hbox (50.75984pt too wide) in paragraph at lines 2932--2932
+[]\OT1/cmr/m/it/12 Pc1601ar-aea-a-sd\OT1/cmr/m/n/12 , Pow-er-tip Tech-nol-ogy C
+orp. [On-line]. Avail-able: []$\OT1/cmtt/m/n/12 https : / / datasheetspdf .
+ []
+
+
+Overfull \hbox (5.97705pt too wide) in paragraph at lines 2932--2932
+[]\OT1/cmr/m/n/12 (). 32f411ediscovery, ST, [On-line]. Avail-able: []$\OT1/cmtt
+/m/n/12 https : / / www . st . com / en / evaluation -[]
+ []
+
+
+Overfull \hbox (4.01874pt too wide) in paragraph at lines 2932--2932
+[]\OT1/cmr/m/n/12 (). 32f469idiscovery, ST, [On-line]. Avail-able: []$\OT1/cmtt
+/m/n/12 https : / / www . st . com / en / evaluation -[]
+ []
+
+! Misplaced alignment tab character &.
+<to be read again> ...er, stereo dac w/headphone &
+                                                   speaker amps
+l.2932 
+       
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[41] [42]
 Appendix A.
-[9
+
+Underfull \vbox (badness 10000) detected at line 2983
+ []
+
+[43
 
 ]
 Appendix B.
-
-Overfull \hbox (25.19997pt too wide) in alignment at lines 531--535
- [] [] 
- []
-
 Missing character: There is no ¬ in font cmbx12!
 Missing character: There is no † in font cmbx12!
 
-Underfull \hbox (badness 2293) in paragraph at lines 538--538
+Underfull \hbox (badness 2293) in paragraph at lines 2996--2996
 \OT1/cmr/m/n/12 Identify, for-mu-late, anal-yse and
  []
 
@@ -1967,133 +2841,161 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ê in font cmr12!
 
-Underfull \hbox (badness 2846) in paragraph at lines 546--546
+Underfull \hbox (badness 2846) in paragraph at lines 3004--3004
 \OT1/cmr/m/n/12 Demonstrate com-pe-tence to use
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 546--546
+Underfull \hbox (badness 1675) in paragraph at lines 3004--3004
 \OT1/cmr/m/n/12 ap-pro-pri-ate en-gi-neer-ing meth-ods,
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 546--546
+Underfull \hbox (badness 1515) in paragraph at lines 3004--3004
 \OT1/cmr/m/n/12 skills and tools, in-clud-ing those
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 548--548
+Underfull \hbox (badness 2111) in paragraph at lines 3006--3006
 \OT1/cmr/m/n/12 mu-ni-cate ef-fec-tively, both orally
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 552--552
+Underfull \hbox (badness 2126) in paragraph at lines 3010--3010
 \OT1/cmr/m/n/12 in in-de-pen-dent learn-ing through
  []
 
+[44
 
-Overfull \hbox (25.19997pt too wide) in alignment at lines 535--557
- [] [] 
- []
-
-[10
-
-] [11]
+] [45] [46]
 Appendix C.
-
-
-pdfTeX warning: pdflatex.exe (file ../Skripsie/Layout_05042019.pdf): PDF inclus
-ion: found PDF version <1.7>, but at most version <1.5> allowed
-<../Skripsie/Layout_05042019.pdf, id=283, 794.97pt x 614.295pt>
 File: ../Skripsie/Layout_05042019.pdf Graphic file (type pdf)
-
 <use ../Skripsie/Layout_05042019.pdf>
-Package pdftex.def Info: ../Skripsie/Layout_05042019.pdf used on input line 562
-.
+Package pdftex.def Info: ../Skripsie/Layout_05042019.pdf used on input line 302
+0.
 (pdftex.def)             Requested size: 455.24408pt x 351.79211pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../Skripsie/Layout_28022019.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<../Skripsie/Layout_28022019.pdf, id=284, 794.97pt x 614.295pt>
+<../Skripsie/Layout_28022019.pdf, id=1185, 794.97pt x 614.295pt>
 File: ../Skripsie/Layout_28022019.pdf Graphic file (type pdf)
 
 <use ../Skripsie/Layout_28022019.pdf>
-Package pdftex.def Info: ../Skripsie/Layout_28022019.pdf used on input line 568
-.
-(pdftex.def)             Requested size: 455.24408pt x 351.79211pt.
+Package pdftex.def Info: ../Skripsie/Layout_28022019.pdf used on input line 302
+6.
+(pdftex.def)             Requested size: 546.2915pt x 422.14867pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12
+[47
 
- <../Skripsie/Layout_05042019.pdf>] [13 <../Skripsie/Layout_28022019.pdf>]
+] [48 <../Skripsie/Layout_28022019.pdf>]
 Appendix D.
 
 
 pdfTeX warning: pdflatex.exe (file ../Skripsie/PCB_05042019.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<../Skripsie/PCB_05042019.pdf, id=296, 845.07724pt x 597.55246pt>
+<../Skripsie/PCB_05042019.pdf, id=1195, 845.07724pt x 597.55246pt>
 File: ../Skripsie/PCB_05042019.pdf Graphic file (type pdf)
 
 <use ../Skripsie/PCB_05042019.pdf>
-Package pdftex.def Info: ../Skripsie/PCB_05042019.pdf used on input line 576.
+Package pdftex.def Info: ../Skripsie/PCB_05042019.pdf used on input line 3034.
 (pdftex.def)             Requested size: 455.24408pt x 376.6223pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../Skripsie/PCB_05042019.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<../Skripsie/PCB_05042019.pdf, id=298, page=2, 845.07724pt x 597.55246pt>
+<../Skripsie/PCB_05042019.pdf, id=1197, page=2, 845.07724pt x 597.55246pt>
 File: ../Skripsie/PCB_05042019.pdf Graphic file (type pdf)
 
 <use ../Skripsie/PCB_05042019.pdf, page 2>
 Package pdftex.def Info: ../Skripsie/PCB_05042019.pdf, page2 used on input line
- 583.
+ 3041.
 (pdftex.def)             Requested size: 455.24408pt x 376.6223pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14
+[49
 
- <../Skripsie/PCB_05042019.pdf>] [15 <../Skripsie/PCB_05042019.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 593.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 593.
+ <../Skripsie/PCB_05042019.pdf>] [50 <../Skripsie/PCB_05042019.pdf>]
+Appendix E.
+<front_Panel.jpg, id=1213, 1218.05063pt x 1469.49pt>
+File: front_Panel.jpg Graphic file (type jpg)
+ <use front_Panel.jpg>
+Package pdftex.def Info: front_Panel.jpg used on input line 3051.
+(pdftex.def)             Requested size: 364.19664pt x 439.37051pt.
 
-(./SkripsieMain.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 593.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 593.
+<front_noPanel.jpg, id=1214, 1778.645pt x 2176.13pt>
+File: front_noPanel.jpg Graphic file (type jpg)
+ <use front_noPanel.jpg>
+Package pdftex.def Info: front_noPanel.jpg used on input line 3056.
+(pdftex.def)             Requested size: 287.19444pt x 351.39153pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<back_UC.jpg, id=1215, 1689.31125pt x 2042.63126pt>
+File: back_UC.jpg Graphic file (type jpg)
+ <use back_UC.jpg>
+Package pdftex.def Info: back_UC.jpg used on input line 3061.
+(pdftex.def)             Requested size: 290.60742pt x 351.39153pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51
+
+ <./front_Panel.jpg>] [52 <./front_noPanel.jpg> <./back_UC.jpg>]
+Appendix F.
+[53
+
+] [54] [55]
+Appendix G.
+[56
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3281.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3281.
+ (./SkripsieMain.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3281.
+
 Package rerunfilecheck Info: File `SkripsieMain.out' has not changed.
-(rerunfilecheck)             Checksum: 23D63A6F70B18BEF19E840BBBAE4C3BA;1308.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: A7542912053578983F6552871548A122;4926.
 Package logreq Info: Writing requests to 'SkripsieMain.run.xml'.
 \openout1 = `SkripsieMain.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47911 strings out of 493013
- 1083830 string characters out of 6136993
- 1575036 words of memory out of 5000000
- 50744 multiletter control sequences out of 15000+600000
- 13669 words of font info for 50 fonts, out of 8000000 for 9000
+ 51792 strings out of 493013
+ 1157248 string characters out of 6136993
+ 1667224 words of memory out of 5000000
+ 54307 multiletter control sequences out of 15000+600000
+ 16341 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,9n,100p,10425b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
-12.pfb>
-Output written on SkripsieMain.pdf (22 pages, 2901868 bytes).
+ 70i,20n,100p,10425b,2333s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c
+:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-
+super/sfbx1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm
+1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on SkripsieMain.pdf (66 pages, 8703269 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 72 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1364 PDF objects out of 1440 (max. 8388607)
+ 1215 compressed objects within 13 object streams
+ 292 named destinations out of 1000 (max. 500000)
+ 749 words of extra memory for PDF output out of 10000 (max. 10000000)
 

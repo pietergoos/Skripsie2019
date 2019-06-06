@@ -39,8 +39,8 @@
       \strng{fullhash}{f2693e6f78dcf614a3ada3605ec03722}
       \strng{authornamehash}{f2693e6f78dcf614a3ada3605ec03722}
       \strng{authorfullhash}{f2693e6f78dcf614a3ada3605ec03722}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{4}
@@ -74,8 +74,8 @@
       \strng{fullhash}{0719a1957484732453554213d86102be}
       \strng{authornamehash}{0719a1957484732453554213d86102be}
       \strng{authorfullhash}{0719a1957484732453554213d86102be}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{5}
@@ -106,8 +106,8 @@
       \strng{fullhash}{057605831cd61d41c9c5aec82e7abf69}
       \strng{authornamehash}{057605831cd61d41c9c5aec82e7abf69}
       \strng{authorfullhash}{057605831cd61d41c9c5aec82e7abf69}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In the early 1930s, Cowell collaborated with Lev Sergeevi\x{fffd}\x{fffd} Termen (L\x{fffd}\x{fffd}on Th\x{fffd}\x{fffd}r\x{fffd}\x{fffd}min) to build an electronic instrument capable of producing intricate polyrhythms, the rhythmicon, which may be considered a rudimentary example of an integrated music system. The rhythmicon was one of the first electronic instruments to use technology to extend performers' musical capacities, anticipating the interactive computer music movement by several decades.}
@@ -133,8 +133,8 @@
       \strng{fullhash}{4954ab8be479c4a3f1496ddfbc21a605}
       \strng{authornamehash}{4954ab8be479c4a3f1496ddfbc21a605}
       \strng{authorfullhash}{4954ab8be479c4a3f1496ddfbc21a605}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Discusses Joe Mansfield's (abstracted as RILM 2013-19295), an annotated visual history of drum machine technology from 1959 to 1984. A classic coffee table book that focuses on visual aesthetics over sonic utility or sociological insight, it is still deemed groundbreaking as the first book dedicated to the device. Alongside a capsule history of the drum machine and its impact upon popular music, Wang cites seminal uses of electronic rhythms by Sly Stone and Phil Collins, producers of disco and early hip hop; and game-changing machines such as the Maestro Rhythm King, Wurlitzer Side Man, Roland CR-78, Linn LM-1, Oberheim DMX, and Roland TR-808/TR-909.}
@@ -147,8 +147,8 @@
       \field{year}{2014}
     \endentry
     \entry{comprhythImg}{online}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{day}{28}
       \field{month}{7}
@@ -173,8 +173,8 @@
       \list{organization}{1}{%
         {Roland}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{day}{20}
       \field{month}{6}
@@ -199,8 +199,8 @@
       \list{organization}{1}{%
         {Roland}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{day}{15}
       \field{edition}{1}
@@ -220,8 +220,8 @@
       \list{organization}{1}{%
         {Native Instruments}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{title}{Maschine : Production Systems : Maschine : Downloads | Products}
       \field{urlday}{30}
@@ -230,6 +230,992 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://www.native-instruments.com/en/products/maschine/production-systems/maschine/downloads/
+      \endverb
+    \endentry
+    \entry{pcbguidelines}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9a825de02fb4a2168e0826a2eadd71f4}{%
+           family={Eeden},
+           familyi={E\bibinitperiod},
+           given={Wynand},
+           giveni={W\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Stellenbosch University}%
+      }
+      \strng{namehash}{9a825de02fb4a2168e0826a2eadd71f4}
+      \strng{fullhash}{9a825de02fb4a2168e0826a2eadd71f4}
+      \strng{authornamehash}{9a825de02fb4a2168e0826a2eadd71f4}
+      \strng{authorfullhash}{9a825de02fb4a2168e0826a2eadd71f4}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Skripsie PCB's}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://learn.sun.ac.za/pluginfile.php/1505217/mod_folder/content/0/Skripsies_PCB.pdf
+      \endverb
+    \endentry
+    \entry{singleMultiplex}{online}{}
+      \list{organization}{1}{%
+        {Open Music Labs}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{title}{Multiplexing a matrix of buttons or switches}
+      \field{urlday}{21}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.openmusiclabs.com/learning/digital/input-scanning-matrix/single-mux/index.html
+      \endverb
+    \endentry
+    \entry{openMusicLabsAll}{online}{}
+      \list{organization}{1}{%
+        {Open Music Labs}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{title}{Input Matrix Scanning}
+      \field{urlday}{21}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.openmusiclabs.com/learning/digital/input-matrix-scanning/index.html
+      \endverb
+    \endentry
+    \entry{srOpenMusic}{online}{}
+      \list{organization}{1}{%
+        {Open Music Labs}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{title}{Parallel Out Shift Register switch multiplexer}
+      \field{urlday}{21}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.openmusiclabs.com/learning/digital/input-scanning-matrix/shift-out-mux/index.html
+      \endverb
+    \endentry
+    \entry{decoderOpenMusic}{online}{}
+      \list{organization}{1}{%
+        {Open Music Labs}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{title}{3 to 8 decoder used to multiplex a switch matrix}
+      \field{urlday}{21}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.openmusiclabs.com/learning/digital/input-scanning-matrix/3-8-mux/index.html
+      \endverb
+    \endentry
+    \entry{DecoderMuxAoE}{book}{}
+      \name{author}{2}{}{%
+        {{hash=eae852313f1caa761b4d50ecf145958c}{%
+           family={Horowitz},
+           familyi={H\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4b7649fd9463dfa43a32e8ce571338f0}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Winfield},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{fullhash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authornamehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authorfullhash}{9765a7171294b7f07dfa61426a4924f7}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{10.3.3}
+      \field{edition}{3}
+      \field{isbn}{978-0-521-80926-9}
+      \field{title}{The Art of Electronics}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{724\bibrangedash 727}
+      \range{pages}{4}
+    \endentry
+    \entry{extendDecoder}{online}{}
+      \list{organization}{1}{%
+        {Care4You}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{title}{Lecture 17: Multiplexer/Decoders}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.care4you.in/Tutorials/DE%20Lectures/L-17%20Mux-Decoder.html
+      \endverb
+    \endentry
+    \entry{CountersAoE}{book}{}
+      \name{author}{2}{}{%
+        {{hash=eae852313f1caa761b4d50ecf145958c}{%
+           family={Horowitz},
+           familyi={H\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4b7649fd9463dfa43a32e8ce571338f0}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Winfield},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{fullhash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authornamehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authorfullhash}{9765a7171294b7f07dfa61426a4924f7}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{10.5.2}
+      \field{edition}{3}
+      \field{isbn}{978-0-521-80926-9}
+      \field{title}{The Art of Electronics}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{741\bibrangedash 744}
+      \range{pages}{4}
+    \endentry
+    \entry{chainingCounters}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5c88306d8057f7974595f5dbede9dd33}{%
+           family={Baras},
+           familyi={B\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Autodesk TinkerCAD}%
+      }
+      \strng{namehash}{5c88306d8057f7974595f5dbede9dd33}
+      \strng{fullhash}{5c88306d8057f7974595f5dbede9dd33}
+      \strng{authornamehash}{5c88306d8057f7974595f5dbede9dd33}
+      \strng{authorfullhash}{5c88306d8057f7974595f5dbede9dd33}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{month}{7}
+      \field{title}{74HC4017 9 + 8 + 8 leds chained}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.tinkercad.com/things/af3IsXsw9lC
+      \endverb
+    \endentry
+    \entry{PISOsrOpenMusic}{online}{}
+      \list{organization}{1}{%
+        {Open Music Labs}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labeltitlesource}{title}
+      \field{title}{parallel-in shift register multiplexing of switches}
+      \field{urlday}{21}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.openmusiclabs.com/learning/digital/input-scanning-matrix/shift-in-mux/index.html
+      \endverb
+    \endentry
+    \entry{encoderExplan}{online}{}
+      \list{organization}{1}{%
+        {Geeks for Geeks}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital Logic | Encoder}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/digital-logic-encoder/
+      \endverb
+    \endentry
+    \entry{SPIAoE}{book}{}
+      \name{author}{2}{}{%
+        {{hash=eae852313f1caa761b4d50ecf145958c}{%
+           family={Horowitz},
+           familyi={H\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4b7649fd9463dfa43a32e8ce571338f0}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Winfield},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{fullhash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authornamehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authorfullhash}{9765a7171294b7f07dfa61426a4924f7}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{14.7.1}
+      \field{edition}{3}
+      \field{isbn}{978-0-521-80926-9}
+      \field{title}{The Art of Electronics}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{1032\bibrangedash 1034}
+      \range{pages}{3}
+    \endentry
+    \entry{bitbanging}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1063cc2d559a50946cfadf187a1a54cb}{%
+           family={Emmanuel},
+           familyi={E\bibinitperiod},
+           given={Odunlade},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Circuit Digest}%
+      }
+      \strng{namehash}{1063cc2d559a50946cfadf187a1a54cb}
+      \strng{fullhash}{1063cc2d559a50946cfadf187a1a54cb}
+      \strng{authornamehash}{1063cc2d559a50946cfadf187a1a54cb}
+      \strng{authorfullhash}{1063cc2d559a50946cfadf187a1a54cb}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{8}
+      \field{title}{Introduction to Bit Banging: SPI communication via Bit Banging}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://circuitdigest.com/article/introduction-to-bit-banging-spi-communication-in-arduino-via-bit-banging
+      \endverb
+    \endentry
+    \entry{ledsTPICC}{online}{}
+      \name{author}{1}{}{%
+        {{hash=30d97f533e0a8ff8612c25aa3f4a8ec7}{%
+           family={Chirila},
+           familyi={C\bibinitperiod},
+           given={Cezar},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {All about Circuits}%
+      }
+      \strng{namehash}{30d97f533e0a8ff8612c25aa3f4a8ec7}
+      \strng{fullhash}{30d97f533e0a8ff8612c25aa3f4a8ec7}
+      \strng{authornamehash}{30d97f533e0a8ff8612c25aa3f4a8ec7}
+      \strng{authorfullhash}{30d97f533e0a8ff8612c25aa3f4a8ec7}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{7}
+      \field{title}{Driving LED Arrays with an Arduino}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.allaboutcircuits.com/technical-articles/driving-led-arrays-with-an-arduino/
+      \endverb
+    \endentry
+    \entry{f411}{manual}{}
+      \list{organization}{1}{%
+        {ST}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{STM32F411xC STM32F411xE}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.st.com/resource/en/datasheet/stm32f411ve.pdf
+      \endverb
+    \endentry
+    \entry{chainingCountersSelf}{online}{}
+      \name{author}{1}{}{%
+        {{hash=54c68003877b9dbf6fe20ff59b322ea9}{%
+           family={Goos},
+           familyi={G\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Autodesk TinkerCAD}%
+      }
+      \strng{namehash}{54c68003877b9dbf6fe20ff59b322ea9}
+      \strng{fullhash}{54c68003877b9dbf6fe20ff59b322ea9}
+      \strng{authornamehash}{54c68003877b9dbf6fe20ff59b322ea9}
+      \strng{authorfullhash}{54c68003877b9dbf6fe20ff59b322ea9}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Button Driver}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.tinkercad.com/things/hloTDWiLLTd-button-driver
+      \endverb
+    \endentry
+    \entry{4017}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{CMOS Counter/Dividers}
+      \field{title}{CD4017B, CD4022B Types}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://www.ti.com/lit/ds/symlink/cd4022b.pdf
+      \endverb
+    \endentry
+    \entry{7408}{manual}{}
+      \list{organization}{1}{%
+        {Nexperia}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{6}
+      \field{subtitle}{Quad 2-input AND gate}
+      \field{title}{74HC08; 74HCT08}
+      \field{version}{6}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://assets.nexperia.com/documents/data-sheet/74HC_HCT08.pdf
+      \endverb
+    \endentry
+    \entry{Diode}{manual}{}
+      \list{organization}{1}{%
+        {Fairchild}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{subtitle}{Small Signal Diode}
+      \field{title}{1N/FDLL 914/A/B / 916/A/B / 4148 / 4448}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.mouser.co.za/datasheet/2/308/FDLL4148-1119298.pdf
+      \endverb
+    \endentry
+    \entry{tpic}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{TPIC6C596 Power Logic 8-Bit Shift Register}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://www.ti.com/lit/ds/slis093d/slis093d.pdf
+      \endverb
+    \endentry
+    \entry{uln2803}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{ULN2803A Darlington Transistor Arrays}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+      \endverb
+    \endentry
+    \entry{ledsULN}{online}{}
+      \list{organization}{1}{%
+        {Instructables}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{title}{Make a Desktop Tamagotchi}
+      \field{year}{2015}
+      \verb{url}
+      \verb https://www.instructables.com/id/Make-a-Desktop-Tamagotchi/
+      \endverb
+    \endentry
+    \entry{595}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{SNx4HC595 8-Bit Shift Registers With 3-State Output Registers}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+      \endverb
+    \endentry
+    \entry{led}{manual}{}
+      \list{organization}{1}{%
+        {Liteon Optoelectronics}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{11}
+      \field{title}{LTST-C150KFKT}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://optoelectronics.liteon.com/upload/download/DS-22-99-0184/LTST-C150KFKT.pdf
+      \endverb
+    \endentry
+    \entry{rotEnc}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fdff6b39dbc660ff00491589493b9525}{%
+           family={Dejan},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {How To Mechatronics}%
+      }
+      \strng{namehash}{fdff6b39dbc660ff00491589493b9525}
+      \strng{fullhash}{fdff6b39dbc660ff00491589493b9525}
+      \strng{authornamehash}{fdff6b39dbc660ff00491589493b9525}
+      \strng{authorfullhash}{fdff6b39dbc660ff00491589493b9525}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How Rotary Encoder Works and How To Use it with Arduino}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/
+      \endverb
+    \endentry
+    \entry{pot}{manual}{}
+      \list{organization}{1}{%
+        {Bourns}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{PDB18 Series - 17mm Rotary Potentiometer}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf
+      \endverb
+    \endentry
+    \entry{lcd}{manual}{}
+      \list{organization}{1}{%
+        {Powertip Technology Corp.}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labeltitlesource}{title}
+      \field{title}{PC1601AR-AEA-A-SD}
+      \verb{url}
+      \verb https://datasheetspdf.com/pdf-file/1109700/POWERTIP/PC1601AR-AEA-A-SD/1
+      \endverb
+    \endentry
+    \entry{midiUart}{online}{}
+      \name{author}{1}{}{%
+        {{hash=22756c2166b26b9938d27c951b65af23}{%
+           family={Byron},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{22756c2166b26b9938d27c951b65af23}
+      \strng{fullhash}{22756c2166b26b9938d27c951b65af23}
+      \strng{authornamehash}{22756c2166b26b9938d27c951b65af23}
+      \strng{authorfullhash}{22756c2166b26b9938d27c951b65af23}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{2}
+      \field{title}{MIDI Tutorial}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://learn.sparkfun.com/tutorials/midi-tutorial/all
+      \endverb
+    \endentry
+    \entry{ft230x}{manual}{}
+      \list{organization}{1}{%
+        {Future Technology Devices Ltd}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labeltitlesource}{title}
+      \field{title}{FT230X (USB to BASIC UART IC)}
+      \field{version}{1.4}
+      \verb{url}
+      \verb https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
+      \endverb
+    \endentry
+    \entry{renes}{online}{}
+      \list{organization}{1}{%
+        {Renesas}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labeltitlesource}{title}
+      \field{title}{R5F100LEAFB}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rl78/rl78g1x/rl78g13/device/R5F100LEAFB.html
+      \endverb
+    \endentry
+    \entry{f334r8}{manual}{}
+      \list{organization}{1}{%
+        {ST}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{STM32F334x4 STM32F334x6 STM32F334x8}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.st.com/resource/en/datasheet/stm32f334r8.pdf
+      \endverb
+    \endentry
+    \entry{f469}{manual}{}
+      \list{organization}{1}{%
+        {ST}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{STM32F469xx}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.st.com/resource/en/datasheet/stm32f469ni.pdf
+      \endverb
+    \endentry
+    \entry{f767}{manual}{}
+      \list{organization}{1}{%
+        {ST}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{STM32F765xx STM32F767xx STM32F768xx STM32F769xx}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.st.com/resource/en/datasheet/stm32f767zi.pdf
+      \endverb
+    \endentry
+    \entry{cubef4}{online}{}
+      \list{organization}{1}{%
+        {ST}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{title}{STM32CubeF4}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.st.com/en/embedded-software/stm32cubef4.html
+      \endverb
+    \endentry
+    \entry{f411brd}{online}{}
+      \list{organization}{1}{%
+        {ST}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{title}{32F411EDISCOVERY}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.st.com/en/evaluation-tools/32f411ediscovery.html
+      \endverb
+    \endentry
+    \entry{f469brd}{online}{}
+      \list{organization}{1}{%
+        {ST}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{title}{32F469IDISCOVERY}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.st.com/en/evaluation-tools/32f469idiscovery.html
+      \endverb
+    \endentry
+    \entry{dac}{manual}{}
+      \list{organization}{1}{%
+        {Cirrus Logic}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Low Power, Stereo DAC w/Headphone & Speaker Amps}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://statics.cirrus.com/pubs/proDatasheet/CS43L22_F2.pdf
+      \endverb
+    \endentry
+    \entry{pcbprint}{online}{}
+      \list{organization}{1}{%
+        {LPKF}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{ProtoMat S103}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.lpkfusa.com/products/pcb_prototyping/machines/protomat_s103/
+      \endverb
+    \endentry
+    \entry{kicad}{online}{}
+      \list{organization}{1}{%
+        {KiCAD}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{KiCAD EDA}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.kicad-pcb.org/
+      \endverb
+    \endentry
+    \entry{q30}{online}{}
+      \list{organization}{1}{%
+        {Q Products}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{Q30 Super Protective Film}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.mantech.co.za/Datasheets/Products/Q30-400-171104A.pdf
+      \endverb
+    \endentry
+    \entry{fusion360}{online}{}
+      \list{organization}{1}{%
+        {Autodesk}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{Fusion 360 Integrated CAD, CAM, and CAE software}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.autodesk.com/products/fusion-360/overview
+      \endverb
+    \endentry
+    \entry{makerbot}{online}{}
+      \list{organization}{1}{%
+        {Makerbot}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{The Makerbot Replicator Z18}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.makerbot.com/3d-printers/replicator-z18/
+      \endverb
+    \endentry
+    \entry{xor}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1e53e446e8b1cb40512ad825ac4464e1}{%
+           family={Ruten},
+           familyi={R\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Stack Overflow}%
+      }
+      \strng{namehash}{1e53e446e8b1cb40512ad825ac4464e1}
+      \strng{fullhash}{1e53e446e8b1cb40512ad825ac4464e1}
+      \strng{authornamehash}{1e53e446e8b1cb40512ad825ac4464e1}
+      \strng{authorfullhash}{1e53e446e8b1cb40512ad825ac4464e1}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{9}
+      \field{title}{How do you set, clear, and toggle a single bit?}
+      \field{urlday}{25}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://stackoverflow.com/questions/47981/how-do-you-set-clear-and-toggle-a-single-bit
+      \endverb
+    \endentry
+    \entry{wave}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b46489c11cc0cf01e2f987c0237263f9}{%
+           family={Craig},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Stanford University}%
+      }
+      \strng{namehash}{b46489c11cc0cf01e2f987c0237263f9}
+      \strng{fullhash}{b46489c11cc0cf01e2f987c0237263f9}
+      \strng{authornamehash}{b46489c11cc0cf01e2f987c0237263f9}
+      \strng{authorfullhash}{b46489c11cc0cf01e2f987c0237263f9}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{WAVE PCM soundfile format}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://soundfile.sapp.org/doc/WaveFormat/
+      \endverb
+    \endentry
+    \entry{pcm}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3132e35c1d9fb8e6c977b3606c9b7b81}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Salman},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Academy Khi}%
+      }
+      \strng{namehash}{3132e35c1d9fb8e6c977b3606c9b7b81}
+      \strng{fullhash}{3132e35c1d9fb8e6c977b3606c9b7b81}
+      \strng{authornamehash}{3132e35c1d9fb8e6c977b3606c9b7b81}
+      \strng{authorfullhash}{3132e35c1d9fb8e6c977b3606c9b7b81}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{month}{2}
+      \field{title}{PCM Pulse Code Modulation}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://academy-khi.com/pulse-code-modulation/
+      \endverb
+    \endentry
+    \entry{audDrive}{online}{}
+      \name{author}{1}{}{%
+        {{hash=94f9e557a3a98802fbd373f25f9d7d00}{%
+           family={Yaqoob},
+           familyi={Y\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {YouTube}%
+      }
+      \strng{namehash}{94f9e557a3a98802fbd373f25f9d7d00}
+      \strng{fullhash}{94f9e557a3a98802fbd373f25f9d7d00}
+      \strng{authornamehash}{94f9e557a3a98802fbd373f25f9d7d00}
+      \strng{authorfullhash}{94f9e557a3a98802fbd373f25f9d7d00}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{12}
+      \field{title}{STM32F4 Discovery board - Keil 5 IDE with CubeMX: Tutorial 28 - I2S Audio Codec - CS43L22}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=QIPQOnVablY
+      \endverb
+    \endentry
+    \entry{fatfs}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{FatFS - Generic FAT Filesystem Module}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://elm-chan.org/fsw/ff/00index_e.html
+      \endverb
+    \endentry
+    \entry{ascii}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{ASCII Table and Description}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.asciitable.com/
+      \endverb
+    \endentry
+    \entry{i2s}{online}{}
+      \name{author}{1}{}{%
+        {{hash=dad533e93fb5b066698ef5641942d10e}{%
+           family={List},
+           familyi={L\bibinitperiod},
+           given={Jenny},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{dad533e93fb5b066698ef5641942d10e}
+      \strng{fullhash}{dad533e93fb5b066698ef5641942d10e}
+      \strng{authornamehash}{dad533e93fb5b066698ef5641942d10e}
+      \strng{authorfullhash}{dad533e93fb5b066698ef5641942d10e}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{4}
+      \field{title}{All you need to know about I2S}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://hackaday.com/2019/04/18/all-you-need-to-know-about-i2s/
       \endverb
     \endentry
   \endsortlist

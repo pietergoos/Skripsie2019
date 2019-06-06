@@ -2,10 +2,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Input Pin Reduction Techniques using \acap {ic}\relax }}{6}{table.caption.15}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Input Pin Reduction Methods\relax }}{8}{table.caption.18}
+\contentsline {table}{\numberline {3.3}{\ignorespaces \ac {uc} Selection\relax }}{16}{table.caption.25}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces LCD Initialization and Run State Machine\relax }}{23}{table.caption.28}
+\contentsline {table}{\numberline {4.2}{\ignorespaces RIFF Header Format for WAVE files \cite {wave}\relax }}{26}{table.caption.31}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Simplified Project Planning Schedule\relax }}{43}{table.A.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces ECSA ELO Compliance\relax }}{46}{table.B.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{ECSA ELO Compliance}}{11}{table.B.1}
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {F.1}{\ignorespaces Complete STM32F411VE Pinout \cite {f411}\relax }}{55}{table.F.1}
 \addvspace {10\p@ }

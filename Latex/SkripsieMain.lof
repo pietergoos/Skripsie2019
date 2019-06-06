@@ -1,17 +1,49 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces An Eko Compute Rhythm in Use \cite {comprhythImg}}}{3}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Native Instruments Maschine Mk3 \cite {maschine}}}{3}{figure.2.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces An Eko Compute Rhythm in Use \cite {comprhythImg}\relax }}{3}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Native Instruments Maschine Mk3 \cite {maschine}\relax }}{3}{figure.caption.12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Beat Matrix Example\relax }}{4}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Complete System Diagram}}{5}{figure.3.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A Basic System Diagram\relax }}{5}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Extending Decoder \acap {ic} Schematics \cite {extendDecoder}\relax }}{7}{figure.caption.16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Extending Decade Counter \acap {ic} Schematic \cite {chainingCounters}\relax }}{7}{figure.caption.17}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textnumero \ of connections to the \ac {uc} for Input Pin Reduction\relax }}{9}{figure.caption.19}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Basic button and \ac {led} Diagrams\relax }}{10}{figure.caption.20}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Circuit Designs for driving the \acap {led}\relax }}{12}{figure.caption.21}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Rotary Encoder Outputs \cite {rotEnc}\relax }}{13}{figure.caption.22}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Circuit Diagram for Serial Communication \cite {ft230x}\relax }}{15}{figure.caption.23}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Pinout of FT230-XS breakout board\relax }}{15}{figure.caption.24}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Complete System Diagram\relax }}{19}{figure.caption.26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Full System Software Flow Diagram\relax }}{20}{figure.caption.27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The data format of the LCD\relax }}{24}{figure.caption.29}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces DMA Buffer Example\relax }}{25}{figure.caption.30}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Serial Data and Clock Signal to LED Driver Circuit\relax }}{30}{figure.caption.32}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Output Signals from LED Driver\relax }}{31}{figure.caption.33}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Serial Data to Button Matrix Driver\relax }}{31}{figure.caption.34}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Button Driver Output and Selected Rows\relax }}{32}{figure.caption.35}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Timing for Button Driver between Column 15 and 0\relax }}{32}{figure.caption.36}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Initialization Sequence of the LCD \relax }}{33}{figure.caption.37}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Data being sent to the LCD\relax }}{33}{figure.caption.38}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Receiving UART Data from the FT230XS \cite {ft230x}\relax }}{34}{figure.caption.39}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces \ac {i2s} Data being sent to the \ac {dac}\relax }}{34}{figure.caption.40}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The Audio Signal Produced by the \ac {dac}\relax }}{35}{figure.caption.41}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces The Audio Signal Visualized on a PC\relax }}{35}{figure.caption.42}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Completed Drum Machine Running\relax }}{36}{figure.caption.43}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces The Final Revision (Rev. B.1) of the Circuit Diagram\relax }}{47}{figure.caption.45}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Revision A of the Circuit Design\relax }}{48}{figure.caption.46}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces The Final Revision (Rev. B.1) of the Circuit Diagram}}{12}{figure.C.1}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Revision A of the Circuit Design}}{13}{figure.C.2}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Front Copper Layer of Revision C.1 of the \ac {pcb}\relax }}{49}{figure.caption.47}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Back Copper Layer of Revision C.1 of the \ac {pcb}\relax }}{50}{figure.caption.48}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Front Copper Layer of Revision C.1 of the \ac {pcb}}}{14}{figure.D.1}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Back Copper Layer of Revision C.1 of the \ac {pcb}}}{15}{figure.D.2}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces The top of the completed Drum Machine with 3D Printed Cover\relax }}{51}{figure.caption.49}
+\contentsline {figure}{\numberline {E.2}{\ignorespaces The top of the completed Drum Machine without the Cover\relax }}{52}{figure.caption.50}
+\contentsline {figure}{\numberline {E.3}{\ignorespaces The botton of the completed Drum Machine\relax }}{52}{figure.caption.51}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
